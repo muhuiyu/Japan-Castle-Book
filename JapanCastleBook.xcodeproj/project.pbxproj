@@ -28,6 +28,13 @@
 		E4973A382B4F57EB00620075 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4973A372B4F57EB00620075 /* SnapKit */; };
 		E4973A3A2B4F57FD00620075 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A392B4F57FD00620075 /* Base.swift */; };
 		E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A3C2B4F581B00620075 /* Coordinator.swift */; };
+		E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A3E2B4F585C00620075 /* AppCoordinator.swift */; };
+		E4973A432B4F587E00620075 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A422B4F587E00620075 /* CoordinatorFactory.swift */; };
+		E4973A452B4F589000620075 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A442B4F589000620075 /* TabCoordinator.swift */; };
+		E4973A482B4F58DB00620075 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A472B4F58DB00620075 /* Icon.swift */; };
+		E4973A4B2B4F58FC00620075 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A4A2B4F58FC00620075 /* Text.swift */; };
+		E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */; };
+		E4973A4F2B4F593600620075 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E4973A4E2B4F593600620075 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		E4973A342B4F57D000620075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4973A392B4F57FD00620075 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		E4973A3C2B4F581B00620075 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E4973A3E2B4F585C00620075 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E4973A422B4F587E00620075 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		E4973A442B4F589000620075 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		E4973A472B4F58DB00620075 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		E4973A4A2B4F58FC00620075 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+TabCoordinator.swift"; sourceTree = "<group>"; };
+		E4973A4E2B4F593600620075 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +241,8 @@
 			isa = PBXGroup;
 			children = (
 				E4973A332B4F57CA00620075 /* Core */,
+				E4973A462B4F58D100620075 /* Theme */,
+				E4973A492B4F58EE00620075 /* Localization */,
 			);
 			path = "Shared UI Helpers";
 			sourceTree = "<group>";
@@ -243,9 +259,38 @@
 		E4973A3B2B4F580800620075 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A402B4F586C00620075 /* Helpers */,
 				E4973A3C2B4F581B00620075 /* Coordinator.swift */,
+				E4973A3E2B4F585C00620075 /* AppCoordinator.swift */,
+				E4973A442B4F589000620075 /* TabCoordinator.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E4973A402B4F586C00620075 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A422B4F587E00620075 /* CoordinatorFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4973A462B4F58D100620075 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A472B4F58DB00620075 /* Icon.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E4973A492B4F58EE00620075 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A4A2B4F58FC00620075 /* Text.swift */,
+				E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */,
+				E4973A4E2B4F593600620075 /* Localizable.xcstrings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +455,7 @@
 			files = (
 				E4973A102B4F56AE00620075 /* LaunchScreen.storyboard in Resources */,
 				E4973A0D2B4F56AE00620075 /* Assets.xcassets in Resources */,
+				E4973A4F2B4F593600620075 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,11 +495,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
+				E4973A452B4F589000620075 /* TabCoordinator.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
 				E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */,
+				E4973A432B4F587E00620075 /* CoordinatorFactory.swift in Sources */,
 				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
 				E4973A352B4F57D000620075 /* ViewController.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
+				E4973A482B4F58DB00620075 /* Icon.swift in Sources */,
+				E4973A4B2B4F58FC00620075 /* Text.swift in Sources */,
+				E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */,
+				E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
