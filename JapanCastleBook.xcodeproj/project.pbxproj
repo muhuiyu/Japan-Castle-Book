@@ -20,8 +20,6 @@
 		E49739F72B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */; };
 		E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A002B4F56AD00620075 /* AppDelegate.swift */; };
 		E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A022B4F56AD00620075 /* SceneDelegate.swift */; };
-		E4973A052B4F56AD00620075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A042B4F56AD00620075 /* ViewController.swift */; };
-		E4973A082B4F56AD00620075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4973A062B4F56AD00620075 /* Main.storyboard */; };
 		E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4973A092B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld */; };
 		E4973A0D2B4F56AE00620075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4973A0C2B4F56AE00620075 /* Assets.xcassets */; };
 		E4973A102B4F56AE00620075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */; };
@@ -60,8 +58,6 @@
 		E49739FE2B4F56AD00620075 /* JapanCastleBookiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanCastleBookiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4973A002B4F56AD00620075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4973A022B4F56AD00620075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4973A042B4F56AD00620075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4973A072B4F56AD00620075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4973A0A2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JapanCastleBookiOS.xcdatamodel; sourceTree = "<group>"; };
 		E4973A0C2B4F56AE00620075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4973A0F2B4F56AE00620075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -193,8 +189,6 @@
 			children = (
 				E4973A002B4F56AD00620075 /* AppDelegate.swift */,
 				E4973A022B4F56AD00620075 /* SceneDelegate.swift */,
-				E4973A042B4F56AD00620075 /* ViewController.swift */,
-				E4973A062B4F56AD00620075 /* Main.storyboard */,
 				E4973A0C2B4F56AE00620075 /* Assets.xcassets */,
 				E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */,
 				E4973A112B4F56AE00620075 /* Info.plist */,
@@ -367,7 +361,6 @@
 			files = (
 				E4973A102B4F56AE00620075 /* LaunchScreen.storyboard in Resources */,
 				E4973A0D2B4F56AE00620075 /* Assets.xcassets in Resources */,
-				E4973A082B4F56AD00620075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4973A052B4F56AD00620075 /* ViewController.swift in Sources */,
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
@@ -437,14 +429,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4973A062B4F56AD00620075 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4973A072B4F56AD00620075 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -712,7 +696,6 @@
 				INFOPLIST_FILE = JapanCastleBookiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -742,7 +725,6 @@
 				INFOPLIST_FILE = JapanCastleBookiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
