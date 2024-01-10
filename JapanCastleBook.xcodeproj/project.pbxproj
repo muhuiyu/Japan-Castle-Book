@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E4079E612B4EF16C0035578C /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
-		E4079E662B4EF16C0035578C /* JapanCastleBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4079E652B4EF16C0035578C /* JapanCastleBookTests.swift */; };
 		E4079E672B4EF16C0035578C /* JapanCastleBook.h in Headers */ = {isa = PBXBuildFile; fileRef = E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */; };
+		E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */; };
+		E49739EA2B4F4F0D00620075 /* castles.json in Sources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
+		E49739ED2B4F4F6000620075 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EC2B4F4F6000620075 /* Castle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +29,10 @@
 		E4079E582B4EF16C0035578C /* JapanCastleBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapanCastleBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanCastleBook.h; sourceTree = "<group>"; };
 		E4079E602B4EF16C0035578C /* JapanCastleBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanCastleBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4079E652B4EF16C0035578C /* JapanCastleBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanCastleBookTests.swift; sourceTree = "<group>"; };
+		E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleItemMapperTests.swift; sourceTree = "<group>"; };
+		E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleItemMapper.swift; sourceTree = "<group>"; };
+		E49739E92B4F4F0D00620075 /* castles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = castles.json; sourceTree = "<group>"; };
+		E49739EC2B4F4F6000620075 /* Castle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 		E4079E5A2B4EF16C0035578C /* JapanCastleBook */ = {
 			isa = PBXGroup;
 			children = (
+				E49739EB2B4F4F4B00620075 /* Castle Feature */,
+				E49739E52B4F4DBF00620075 /* Castle Loader */,
 				E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */,
 			);
 			path = JapanCastleBook;
@@ -77,9 +85,34 @@
 		E4079E642B4EF16C0035578C /* JapanCastleBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				E4079E652B4EF16C0035578C /* JapanCastleBookTests.swift */,
+				E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */,
 			);
 			path = JapanCastleBookTests;
+			sourceTree = "<group>";
+		};
+		E49739E52B4F4DBF00620075 /* Castle Loader */ = {
+			isa = PBXGroup;
+			children = (
+				E49739E82B4F4F0600620075 /* Data */,
+				E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */,
+			);
+			path = "Castle Loader";
+			sourceTree = "<group>";
+		};
+		E49739E82B4F4F0600620075 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E49739E92B4F4F0D00620075 /* castles.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E49739EB2B4F4F4B00620075 /* Castle Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E49739EC2B4F4F6000620075 /* Castle.swift */,
+			);
+			path = "Castle Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +177,11 @@
 				TargetAttributes = {
 					E4079E572B4EF16C0035578C = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					E4079E5F2B4EF16C0035578C = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -191,6 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
+				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
+				E49739EA2B4F4F0D00620075 /* castles.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4079E662B4EF16C0035578C /* JapanCastleBookTests.swift in Sources */,
+				E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +374,7 @@
 		E4079E6B2B4EF16C0035578C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -366,6 +405,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -374,6 +414,7 @@
 		E4079E6C2B4EF16C0035578C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -412,6 +453,8 @@
 		E4079E6E2B4EF16C0035578C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q83M63VYW4;
@@ -424,6 +467,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +476,8 @@
 		E4079E6F2B4EF16C0035578C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q83M63VYW4;
