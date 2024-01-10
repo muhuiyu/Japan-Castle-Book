@@ -38,6 +38,9 @@
 		E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A502B4F5A6500620075 /* CastleListCoordinator.swift */; };
 		E4973A592B4F5B6200620075 /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
 		E4973A5A2B4F5B6200620075 /* JapanCastleBook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */; };
+		E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A622B4F5C1F00620075 /* CastleListViewController.swift */; };
+		E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +113,9 @@
 		E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+TabCoordinator.swift"; sourceTree = "<group>"; };
 		E4973A4E2B4F593600620075 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E4973A502B4F5A6500620075 /* CastleListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListCoordinator.swift; sourceTree = "<group>"; };
+		E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleUIComposer.swift; sourceTree = "<group>"; };
+		E4973A622B4F5C1F00620075 /* CastleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewController.swift; sourceTree = "<group>"; };
+		E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +331,7 @@
 		E4973A522B4F5A9000620075 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A5E2B4F5BDD00620075 /* Shared Helpers */,
 				E4973A572B4F5AE100620075 /* Castle List */,
 			);
 			path = Features;
@@ -333,6 +340,8 @@
 		E4973A572B4F5AE100620075 /* Castle List */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A642B4F5C2200620075 /* View Models */,
+				E4973A612B4F5C1500620075 /* View Controllers */,
 			);
 			path = "Castle List";
 			sourceTree = "<group>";
@@ -342,6 +351,30 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4973A5E2B4F5BDD00620075 /* Shared Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */,
+			);
+			path = "Shared Helpers";
+			sourceTree = "<group>";
+		};
+		E4973A612B4F5C1500620075 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A622B4F5C1F00620075 /* CastleListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E4973A642B4F5C2200620075 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,11 +581,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
+				E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */,
 				E4973A452B4F589000620075 /* TabCoordinator.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
 				E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */,
 				E4973A432B4F587E00620075 /* CoordinatorFactory.swift in Sources */,
+				E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */,
 				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
+				E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */,
 				E4973A352B4F57D000620075 /* ViewController.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
 				E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */,

@@ -37,10 +37,11 @@ class CastleListCoordinator: CastleListCoordinatorProtocol {
     }
     
     func showCastleListViewController() {
-        let viewController = ViewController()
+        let viewController = CastleUIComposer.castleListComposedWith(
+            coordinator: self,
+            didTapCastle: showCastleDetailViewController(for:)
+        )
         viewController.tabBarItem = tabBarItem
-        viewController.view.backgroundColor = .orange
-        viewController.title = "Castle List"
         navigationController.pushViewController(viewController, animated: true)
     }
     
