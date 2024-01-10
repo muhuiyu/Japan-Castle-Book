@@ -12,6 +12,11 @@
 		E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */; };
 		E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */; };
 		E49739ED2B4F4F6000620075 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EC2B4F4F6000620075 /* Castle.swift */; };
+		E49739EF2B4F543900620075 /* CastleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EE2B4F543900620075 /* CastleService.swift */; };
+		E49739F12B4F544C00620075 /* LocalCastleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739F02B4F544C00620075 /* LocalCastleService.swift */; };
+		E49739F32B4F547100620075 /* LocalCastleServiceIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */; };
+		E49739F42B4F54C300620075 /* castles.json in Resources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
+		E49739F52B4F54C400620075 /* castles.json in Resources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,9 @@
 		E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleItemMapper.swift; sourceTree = "<group>"; };
 		E49739E92B4F4F0D00620075 /* castles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = castles.json; sourceTree = "<group>"; };
 		E49739EC2B4F4F6000620075 /* Castle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Castle.swift; sourceTree = "<group>"; };
+		E49739EE2B4F543900620075 /* CastleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleService.swift; sourceTree = "<group>"; };
+		E49739F02B4F544C00620075 /* LocalCastleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCastleService.swift; sourceTree = "<group>"; };
+		E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCastleServiceIntegrationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */,
+				E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */,
 			);
 			path = JapanCastleBookTests;
 			sourceTree = "<group>";
@@ -94,6 +103,8 @@
 			children = (
 				E49739E82B4F4F0600620075 /* Data */,
 				E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */,
+				E49739EE2B4F543900620075 /* CastleService.swift */,
+				E49739F02B4F544C00620075 /* LocalCastleService.swift */,
 			);
 			path = "Castle Loader";
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49739F52B4F54C400620075 /* castles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49739F42B4F54C300620075 /* castles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +240,8 @@
 			files = (
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
+				E49739EF2B4F543900620075 /* CastleService.swift in Sources */,
+				E49739F12B4F544C00620075 /* LocalCastleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49739F32B4F547100620075 /* LocalCastleServiceIntegrationTests.swift in Sources */,
 				E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
