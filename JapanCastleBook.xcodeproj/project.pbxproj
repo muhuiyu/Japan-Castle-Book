@@ -11,7 +11,6 @@
 		E4079E672B4EF16C0035578C /* JapanCastleBook.h in Headers */ = {isa = PBXBuildFile; fileRef = E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */; };
 		E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */; };
-		E49739EA2B4F4F0D00620075 /* castles.json in Sources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
 		E49739ED2B4F4F6000620075 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EC2B4F4F6000620075 /* Castle.swift */; };
 /* End PBXBuildFile section */
 
@@ -228,7 +227,6 @@
 			files = (
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
-				E49739EA2B4F4F0D00620075 /* castles.json in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
