@@ -94,9 +94,8 @@
 		E4079E642B4EF16C0035578C /* JapanCastleBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */,
-				E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */,
-				E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */,
+				E49739F92B4F568200620075 /* Shared Helpers */,
+				E49739F82B4F566E00620075 /* Castle Loader */,
 			);
 			path = JapanCastleBookTests;
 			sourceTree = "<group>";
@@ -126,6 +125,23 @@
 				E49739EC2B4F4F6000620075 /* Castle.swift */,
 			);
 			path = "Castle Feature";
+			sourceTree = "<group>";
+		};
+		E49739F82B4F566E00620075 /* Castle Loader */ = {
+			isa = PBXGroup;
+			children = (
+				E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */,
+				E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */,
+			);
+			path = "Castle Loader";
+			sourceTree = "<group>";
+		};
+		E49739F92B4F568200620075 /* Shared Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = "Shared Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
