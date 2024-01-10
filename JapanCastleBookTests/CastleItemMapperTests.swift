@@ -18,4 +18,17 @@ final class CastleItemMapperTests: XCTestCase {
         )
     }
     
+    func test_map_deliversEmptyListOnEmptyJSONList() {
+        let emptyListJSON = makeItemsJSON([])
+        
+        XCTAssertEqual(try CastleItemMapper.map(emptyListJSON), [])
+    }
+    
+}
+
+// MARK: - Helpers
+extension CastleItemMapperTests {
+    private func makeItemsJSON(_ items: [[String: Any]]) -> Data {
+        return try! JSONSerialization.data(withJSONObject: items)
+    }
 }
