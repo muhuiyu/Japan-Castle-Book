@@ -46,10 +46,12 @@ extension TabCoordinator {
     private func makeViewController(for tab: TabBarPage) -> UIViewController {
         switch tab {
         case .castleList:
-            let viewController = UIViewController()
-            viewController.view.backgroundColor = .yellow
-            viewController.tabBarItem = tab.tabBarItem
-            return viewController
+            let navigationController = UINavigationController()
+            let coordinator = CastleListCoordinator(navigationController, tabBarItem: tab.tabBarItem)
+            coordinator.finishDelegate = self
+            childCoordinators.append(coordinator)
+            coordinator.start()
+            return navigationController
         case .map:
             let viewController = UIViewController()
             viewController.view.backgroundColor = .green

@@ -35,6 +35,9 @@
 		E4973A4B2B4F58FC00620075 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A4A2B4F58FC00620075 /* Text.swift */; };
 		E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */; };
 		E4973A4F2B4F593600620075 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E4973A4E2B4F593600620075 /* Localizable.xcstrings */; };
+		E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A502B4F5A6500620075 /* CastleListCoordinator.swift */; };
+		E4973A592B4F5B6200620075 /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
+		E4973A5A2B4F5B6200620075 /* JapanCastleBook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,28 @@
 			remoteGlobalIDString = E49739FD2B4F56AD00620075;
 			remoteInfo = JapanCastleBookiOS;
 		};
+		E4973A5B2B4F5B6300620075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4079E572B4EF16C0035578C;
+			remoteInfo = JapanCastleBook;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4973A5D2B4F5B6300620075 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4973A5A2B4F5B6200620075 /* JapanCastleBook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E4079E582B4EF16C0035578C /* JapanCastleBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JapanCastleBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +109,7 @@
 		E4973A4A2B4F58FC00620075 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		E4973A4C2B4F590600620075 /* Text+TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+TabCoordinator.swift"; sourceTree = "<group>"; };
 		E4973A4E2B4F593600620075 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		E4973A502B4F5A6500620075 /* CastleListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4973A592B4F5B6200620075 /* JapanCastleBook.framework in Frameworks */,
 				E4973A382B4F57EB00620075 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +155,7 @@
 				E49739FF2B4F56AD00620075 /* JapanCastleBookiOS */,
 				E4973A192B4F56AE00620075 /* JapanCastleBookiOSTests */,
 				E4079E592B4EF16C0035578C /* Products */,
+				E4973A582B4F5B6200620075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				E4973A3B2B4F580800620075 /* Navigation */,
+				E4973A522B4F5A9000620075 /* Features */,
 				E4973A322B4F57BB00620075 /* Shared UI Helpers */,
 				E4973A312B4F575200620075 /* Supporting Files */,
 				E4973A112B4F56AE00620075 /* Info.plist */,
@@ -263,6 +291,7 @@
 				E4973A3C2B4F581B00620075 /* Coordinator.swift */,
 				E4973A3E2B4F585C00620075 /* AppCoordinator.swift */,
 				E4973A442B4F589000620075 /* TabCoordinator.swift */,
+				E4973A502B4F5A6500620075 /* CastleListCoordinator.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -291,6 +320,28 @@
 				E4973A4E2B4F593600620075 /* Localizable.xcstrings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		E4973A522B4F5A9000620075 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A572B4F5AE100620075 /* Castle List */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E4973A572B4F5AE100620075 /* Castle List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Castle List";
+			sourceTree = "<group>";
+		};
+		E4973A582B4F5B6200620075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +401,12 @@
 				E49739FA2B4F56AD00620075 /* Sources */,
 				E49739FB2B4F56AD00620075 /* Frameworks */,
 				E49739FC2B4F56AD00620075 /* Resources */,
+				E4973A5D2B4F5B6300620075 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4973A5C2B4F5B6300620075 /* PBXTargetDependency */,
 			);
 			name = JapanCastleBookiOS;
 			packageProductDependencies = (
@@ -502,6 +555,7 @@
 				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
 				E4973A352B4F57D000620075 /* ViewController.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
+				E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */,
 				E4973A482B4F58DB00620075 /* Icon.swift in Sources */,
 				E4973A4B2B4F58FC00620075 /* Text.swift in Sources */,
 				E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */,
@@ -529,6 +583,11 @@
 			isa = PBXTargetDependency;
 			target = E49739FD2B4F56AD00620075 /* JapanCastleBookiOS */;
 			targetProxy = E4973A172B4F56AE00620075 /* PBXContainerItemProxy */;
+		};
+		E4973A5C2B4F5B6300620075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4079E572B4EF16C0035578C /* JapanCastleBook */;
+			targetProxy = E4973A5B2B4F5B6300620075 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
