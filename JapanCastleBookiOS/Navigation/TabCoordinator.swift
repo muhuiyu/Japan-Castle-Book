@@ -38,14 +38,14 @@ extension TabCoordinator {
     private func configureTabBarController() {
         let pages: [TabBarPage] = TabBarPage.allCases
         tabBarController.viewControllers = pages.map { makeViewController(for: $0) }
-        tabBarController.selectedIndex = TabBarPage.collection.order
+        tabBarController.selectedIndex = TabBarPage.castleList.order
         navigationController.viewControllers = [ tabBarController ]
         configureTabBarStyle()
     }
     
     private func makeViewController(for tab: TabBarPage) -> UIViewController {
         switch tab {
-        case .collection:
+        case .castleList:
             let viewController = UIViewController()
             viewController.view.backgroundColor = .yellow
             viewController.tabBarItem = tab.tabBarItem
@@ -76,7 +76,7 @@ extension TabCoordinator: CoordinatorFinishDelegate {
 }
 
 enum TabBarPage: Int, CaseIterable {
-    case collection = 0
+    case castleList = 0
     case map
     case settings
     
@@ -86,7 +86,7 @@ enum TabBarPage: Int, CaseIterable {
     
     var title: String {
         switch self {
-        case .collection: return Text.tabCollection
+        case .castleList: return Text.tabCollection
         case .map: return Text.tabMap
         case .settings: return Text.tabSettings
         }
@@ -94,7 +94,7 @@ enum TabBarPage: Int, CaseIterable {
     
     var image: UIImage? {
         let imageName = switch self {
-        case .collection: Icon.CollectionTab.inactive
+        case .castleList: Icon.CollectionTab.inactive
         case .map: Icon.MapTab.inactive
         case .settings: Icon.SettingsTab.inactive
         }
@@ -103,7 +103,7 @@ enum TabBarPage: Int, CaseIterable {
     
     var selectedImage: UIImage? {
         let imageName = switch self {
-        case .collection: Icon.CollectionTab.active
+        case .castleList: Icon.CollectionTab.active
         case .map: Icon.MapTab.active
         case .settings: Icon.SettingsTab.active
         }
