@@ -24,6 +24,10 @@
 		E4973A0D2B4F56AE00620075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4973A0C2B4F56AE00620075 /* Assets.xcassets */; };
 		E4973A102B4F56AE00620075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */; };
 		E4973A1B2B4F56AE00620075 /* JapanCastleBookiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A1A2B4F56AE00620075 /* JapanCastleBookiOSTests.swift */; };
+		E4973A352B4F57D000620075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A342B4F57D000620075 /* ViewController.swift */; };
+		E4973A382B4F57EB00620075 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4973A372B4F57EB00620075 /* SnapKit */; };
+		E4973A3A2B4F57FD00620075 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A392B4F57FD00620075 /* Base.swift */; };
+		E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A3C2B4F581B00620075 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +68,9 @@
 		E4973A112B4F56AE00620075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4973A162B4F56AE00620075 /* JapanCastleBookiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanCastleBookiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4973A1A2B4F56AE00620075 /* JapanCastleBookiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanCastleBookiOSTests.swift; sourceTree = "<group>"; };
+		E4973A342B4F57D000620075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4973A392B4F57FD00620075 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		E4973A3C2B4F581B00620075 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4973A382B4F57EB00620075 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +195,8 @@
 		E49739FF2B4F56AD00620075 /* JapanCastleBookiOS */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A3B2B4F580800620075 /* Navigation */,
+				E4973A322B4F57BB00620075 /* Shared UI Helpers */,
 				E4973A312B4F575200620075 /* Supporting Files */,
 				E4973A112B4F56AE00620075 /* Info.plist */,
 			);
@@ -211,6 +221,31 @@
 				E4973A092B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4973A322B4F57BB00620075 /* Shared UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A332B4F57CA00620075 /* Core */,
+			);
+			path = "Shared UI Helpers";
+			sourceTree = "<group>";
+		};
+		E4973A332B4F57CA00620075 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A392B4F57FD00620075 /* Base.swift */,
+				E4973A342B4F57D000620075 /* ViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E4973A3B2B4F580800620075 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A3C2B4F581B00620075 /* Coordinator.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +311,9 @@
 			dependencies = (
 			);
 			name = JapanCastleBookiOS;
+			packageProductDependencies = (
+				E4973A372B4F57EB00620075 /* SnapKit */,
+			);
 			productName = JapanCastleBookiOS;
 			productReference = E49739FE2B4F56AD00620075 /* JapanCastleBookiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -334,6 +372,9 @@
 				Base,
 			);
 			mainGroup = E4079E4E2B4EF16C0035578C;
+			packageReferences = (
+				E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E4079E592B4EF16C0035578C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -409,6 +450,9 @@
 			files = (
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
+				E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */,
+				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
+				E4973A352B4F57D000620075 /* ViewController.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,6 +887,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4973A372B4F57EB00620075 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E4973A092B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld */ = {
