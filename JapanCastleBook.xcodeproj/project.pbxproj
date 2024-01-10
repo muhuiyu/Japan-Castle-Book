@@ -17,6 +17,7 @@
 		E49739F32B4F547100620075 /* LocalCastleServiceIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */; };
 		E49739F42B4F54C300620075 /* castles.json in Resources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
 		E49739F52B4F54C400620075 /* castles.json in Resources */ = {isa = PBXBuildFile; fileRef = E49739E92B4F4F0D00620075 /* castles.json */; };
+		E49739F72B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E49739EE2B4F543900620075 /* CastleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleService.swift; sourceTree = "<group>"; };
 		E49739F02B4F544C00620075 /* LocalCastleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCastleService.swift; sourceTree = "<group>"; };
 		E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCastleServiceIntegrationTests.swift; sourceTree = "<group>"; };
+		E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */,
 				E49739F22B4F547100620075 /* LocalCastleServiceIntegrationTests.swift */,
+				E49739F62B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			path = JapanCastleBookTests;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				E49739F32B4F547100620075 /* LocalCastleServiceIntegrationTests.swift in Sources */,
 				E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */,
+				E49739F72B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
