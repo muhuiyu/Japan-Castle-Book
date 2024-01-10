@@ -13,10 +13,13 @@ final class CastleUIComposer {
     
     static func castleListComposedWith(coordinator: Coordinator,
                                        didTapCastle: @escaping ((Castle) -> Void)) -> CastleListViewController {
-        let viewModel = CastleListViewModel(coordinator: coordinator)
+        let castleService = LocalCastleService()
+        let visitHistoryService = CoreDataCastleVisitHistoryService()
+        let viewModel = CastleListViewModel(coordinator: coordinator,
+                                            castleService: castleService,
+                                            visitHistoryService: visitHistoryService,
+                                            didTapCastle: didTapCastle)
         let viewController = CastleListViewController(viewModel: viewModel)
-        viewController.view.backgroundColor = .purple
-        viewController.title = "Castle List"
         return viewController
     }
 }

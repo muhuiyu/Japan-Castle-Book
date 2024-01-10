@@ -41,6 +41,8 @@
 		E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */; };
 		E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A622B4F5C1F00620075 /* CastleListViewController.swift */; };
 		E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */; };
+		E4973A6A2B4F5D4600620075 /* CastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */; };
+		E4973A6E2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,8 @@
 		E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleUIComposer.swift; sourceTree = "<group>"; };
 		E4973A622B4F5C1F00620075 /* CastleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewController.swift; sourceTree = "<group>"; };
 		E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewModel.swift; sourceTree = "<group>"; };
+		E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryService.swift; sourceTree = "<group>"; };
+		E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCastleVisitHistoryService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				E49739EB2B4F4F4B00620075 /* Castle Feature */,
+				E4973A682B4F5D2A00620075 /* Castle Visit History */,
 				E49739E52B4F4DBF00620075 /* Castle Loader */,
 				E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */,
 			);
@@ -242,6 +247,7 @@
 		E49739FF2B4F56AD00620075 /* JapanCastleBookiOS */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A6B2B4F5D6F00620075 /* Services */,
 				E4973A3B2B4F580800620075 /* Navigation */,
 				E4973A522B4F5A9000620075 /* Features */,
 				E4973A322B4F57BB00620075 /* Shared UI Helpers */,
@@ -375,6 +381,30 @@
 				E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E4973A682B4F5D2A00620075 /* Castle Visit History */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */,
+			);
+			path = "Castle Visit History";
+			sourceTree = "<group>";
+		};
+		E4973A6B2B4F5D6F00620075 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A6C2B4F5D7400620075 /* Castle Visit History */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E4973A6C2B4F5D7400620075 /* Castle Visit History */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */,
+			);
+			path = "Castle Visit History";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,6 +592,7 @@
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
 				E49739EF2B4F543900620075 /* CastleService.swift in Sources */,
+				E4973A6A2B4F5D4600620075 /* CastleVisitHistoryService.swift in Sources */,
 				E49739F12B4F544C00620075 /* LocalCastleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
+				E4973A6E2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift in Sources */,
 				E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */,
 				E4973A452B4F589000620075 /* TabCoordinator.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
