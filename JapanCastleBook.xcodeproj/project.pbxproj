@@ -187,12 +187,8 @@
 		E49739FF2B4F56AD00620075 /* JapanCastleBookiOS */ = {
 			isa = PBXGroup;
 			children = (
-				E4973A002B4F56AD00620075 /* AppDelegate.swift */,
-				E4973A022B4F56AD00620075 /* SceneDelegate.swift */,
-				E4973A0C2B4F56AE00620075 /* Assets.xcassets */,
-				E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */,
+				E4973A312B4F575200620075 /* Supporting Files */,
 				E4973A112B4F56AE00620075 /* Info.plist */,
-				E4973A092B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld */,
 			);
 			path = JapanCastleBookiOS;
 			sourceTree = "<group>";
@@ -203,6 +199,18 @@
 				E4973A1A2B4F56AE00620075 /* JapanCastleBookiOSTests.swift */,
 			);
 			path = JapanCastleBookiOSTests;
+			sourceTree = "<group>";
+		};
+		E4973A312B4F575200620075 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A002B4F56AD00620075 /* AppDelegate.swift */,
+				E4973A022B4F56AD00620075 /* SceneDelegate.swift */,
+				E4973A0C2B4F56AE00620075 /* Assets.xcassets */,
+				E4973A0E2B4F56AE00620075 /* LaunchScreen.storyboard */,
+				E4973A092B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
