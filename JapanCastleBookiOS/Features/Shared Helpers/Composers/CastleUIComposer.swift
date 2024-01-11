@@ -22,4 +22,39 @@ final class CastleUIComposer {
         let viewController = CastleListViewController(viewModel: viewModel)
         return viewController
     }
+    
+    static func adaptCastlesToCastlesCollectionViewSectionData(
+        _ castles: [Castle],
+        visitHistoryService: CastleVisitHistoryService,
+        didTapCastle: @escaping ((Castle) -> Void)
+    ) -> [CastleListViewController.SectionData] {
+        return castles
+            .reduce(into: [CastleArea: [Castle]](), { $0[$1.area, default: []].append($1) })
+            .sorted(by: { $0.key.rawValue < $1.key.rawValue })
+            .map { (area, castles) in
+                
+                let viewModels = castles.map { castle in
+                    let viewModel = CastleListCellViewModel(castle: castle, visitHistoryService: visitHistoryService)
+                    viewModel.didTapCell = { [castle] in didTapCastle(castle) }
+                    return viewModel
+                }
+                return CastleListViewController.SectionData(
+                    items: viewModels,
+                    title: area.title,
+                    backgroundColor: area.backgroundColor)
+            }
+    }
+}
+
+extension CastleArea {
+    var backgroundColor: UIColor {
+        switch self {
+        case .hokkaidoTohoku: return .systemCyan
+        case .kantoKoshinetsu: return .systemYellow
+        case .hokurikuTokai: return .systemPink
+        case .kinki: return .systemTeal
+        case .chugokuShikoku: return .systemBrown
+        case .kyusyuOkinawa: return .systemBrown
+        }
+    }
 }

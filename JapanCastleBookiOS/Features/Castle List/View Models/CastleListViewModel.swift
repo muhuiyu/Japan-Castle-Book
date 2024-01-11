@@ -49,6 +49,14 @@ extension CastleListViewModel {
         CastleArea.allCases.map({ $0.title })[section]
     }
     
+    func getCollectionViewSectionData() -> [CastleListViewController.SectionData] {
+        return CastleUIComposer.adaptCastlesToCastlesCollectionViewSectionData(
+            castles,
+            visitHistoryService: visitHistoryService,
+            didTapCastle: didTapCastle
+        )
+    }
+    
     private func configureErrorMessage(for error: CastleServiceError) {
         switch error {
         case .missingFile:

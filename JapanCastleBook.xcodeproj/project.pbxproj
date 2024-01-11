@@ -47,6 +47,8 @@
 		E4973A742B4F5ED600620075 /* CastleListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A732B4F5ED600620075 /* CastleListCellViewModel.swift */; };
 		E4973A762B4F6CF400620075 /* Text+CastleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A752B4F6CF400620075 /* Text+CastleList.swift */; };
 		E4973A782B4F6D9400620075 /* Text+Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A772B4F6D9400620075 /* Text+Castle.swift */; };
+		E4973A7B2B4F6E1000620075 /* CastleCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */; };
+		E4973A7D2B4F6E2600620075 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A7C2B4F6E2600620075 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +361,7 @@
 		E4973A572B4F5AE100620075 /* Castle List */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A792B4F6E0700620075 /* Views */,
 				E4973A642B4F5C2200620075 /* View Models */,
 				E4973A612B4F5C1500620075 /* View Controllers */,
 			);
@@ -436,6 +439,14 @@
 				E4973A712B4F5E8B00620075 /* CastleArea+Title.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E4973A792B4F6E0700620075 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -651,6 +662,7 @@
 				E4973A782B4F6D9400620075 /* Text+Castle.swift in Sources */,
 				E4973A3D2B4F581B00620075 /* Coordinator.swift in Sources */,
 				E4973A432B4F587E00620075 /* CoordinatorFactory.swift in Sources */,
+				E4973A7B2B4F6E1000620075 /* CastleCollectionCell.swift in Sources */,
 				E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */,
 				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
 				E4973A722B4F5E8B00620075 /* CastleArea+Title.swift in Sources */,

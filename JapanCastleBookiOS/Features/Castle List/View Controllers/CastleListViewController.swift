@@ -43,6 +43,7 @@ extension CastleListViewController {
         collectionView.backgroundColor = .clear
         collectionView.delegate = self
         collectionView.dataSource = self
+        collectionView.register(CastleCollectionCell.self, forCellWithReuseIdentifier: CastleCollectionCell.reuseID)
         view.addSubview(collectionView)
         
         spinnerView.startAnimating()
@@ -88,7 +89,9 @@ extension CastleListViewController {
             .store(in: &subscriptions)
     }
     
-    private func reconfigureCells() {}
+    private func reconfigureCells() {
+        collectionSections = viewModel.getCollectionViewSectionData()
+    }
     
     private func reconfigureSpinnerView() {
         spinnerView.stopAnimating()
@@ -107,7 +110,9 @@ extension CastleListViewController: UICollectionViewDataSource, UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return UICollectionViewCell()
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CastleCollectionCell.reuseID, for: indexPath) as? CastleCollectionCell else { return UICollectionViewCell() }
+        cell.viewModel = getCellViewModel(at: indexPath)
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
