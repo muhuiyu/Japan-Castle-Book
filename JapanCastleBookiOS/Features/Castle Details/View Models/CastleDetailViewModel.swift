@@ -30,6 +30,13 @@ class CastleDetailViewModel: BaseViewModel {
         case infoIconValue(icon: String, value: String)
     }
     
+    struct CastleDetailVisitHistoryRowData {
+        let date: String
+        let title: String
+        let preview: String
+        let photoURL: URL
+    }
+    
     struct Constants {
         static var stampCellIndexPath: IndexPath { IndexPath(row: 0, section: 0) }
     }
@@ -37,6 +44,7 @@ class CastleDetailViewModel: BaseViewModel {
     let title: String
     
     private(set) var infoData: [CastleDetailRowData] = []
+    private(set) var visitHistoryData: [CastleDetailVisitHistoryRowData] = []
     
     init(coordinator: Coordinator, castle: Castle) {
         self.title = castle.name
@@ -49,8 +57,11 @@ class CastleDetailViewModel: BaseViewModel {
         infoData.append(.metadata(data: castleDetailMetadata(for: castle)))
         infoData.append(.info(key: Text.castleDetailViewControllerAccessGuideLLabel, value: castle.accessGuide))
         infoData.append(.info(key: Text.castleDetailViewControllerURLLabel, value: "not yet"))
+        
+//        dateLabel.text = DateFormatter().string(from: log.date)
+//        titleLabel.text = log.title
+//        previewLabel.text = String(log.content?.prefix(30) ?? "")
     }
-    
 }
 
 extension CastleDetailViewModel {
