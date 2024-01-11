@@ -46,7 +46,8 @@ class CastleListCoordinator: CastleListCoordinatorProtocol {
     }
     
     func showCastleDetailViewController(for castle: Castle) {
-        
+        let viewController = CastleUIComposer.castleDetailComposedWith(coordinator: self, castle: castle)
+        navigationController.pushViewController(viewController, animated: true)
     }
 }
 

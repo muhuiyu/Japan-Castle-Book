@@ -44,6 +44,22 @@ final class CastleUIComposer {
                     backgroundColor: area.backgroundColor)
             }
     }
+    
+    static func castleDetailComposedWith(coordinator: Coordinator, castle: Castle) -> CastleDetailViewController {
+        let viewModel = CastleDetailViewModel(coordinator: coordinator, castle: castle)
+        
+        let tableViewController = UIViewController()
+        tableViewController.view.backgroundColor = .yellow
+        
+        let logViewController = UIViewController()
+        logViewController.view.backgroundColor = .systemPink
+        
+        let subViewControllers = [ tableViewController, logViewController ]
+        
+        let pageViewController = CastleDetailPageViewController(subViewControllers: subViewControllers)
+        let viewController = CastleDetailViewController(viewModel: viewModel, pageViewController: pageViewController)
+        return viewController
+    }
 }
 
 extension CastleArea {
