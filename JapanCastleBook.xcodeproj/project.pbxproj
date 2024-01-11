@@ -128,6 +128,8 @@
 		E4973A732B4F5ED600620075 /* CastleListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListCellViewModel.swift; sourceTree = "<group>"; };
 		E4973A752B4F6CF400620075 /* Text+CastleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CastleList.swift"; sourceTree = "<group>"; };
 		E4973A772B4F6D9400620075 /* Text+Castle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Castle.swift"; sourceTree = "<group>"; };
+		E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleCollectionCell.swift; sourceTree = "<group>"; };
+		E4973A7C2B4F6E2600620075 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				E4973A472B4F58DB00620075 /* Icon.swift */,
+				E4973A7C2B4F6E2600620075 /* Images.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -653,6 +656,7 @@
 				E4973A722B4F5E8B00620075 /* CastleArea+Title.swift in Sources */,
 				E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */,
 				E4973A352B4F57D000620075 /* ViewController.swift in Sources */,
+				E4973A7D2B4F6E2600620075 /* Images.swift in Sources */,
 				E4973A742B4F5ED600620075 /* CastleListCellViewModel.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
 				E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */,
