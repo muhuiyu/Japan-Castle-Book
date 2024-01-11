@@ -91,8 +91,8 @@ extension CastleListViewController {
     private func reconfigureCells() {}
     
     private func reconfigureSpinnerView() {
-        self.spinnerView.stopAnimating()
-        self.spinnerView.isHidden = true
+        spinnerView.stopAnimating()
+        spinnerView.isHidden = true
     }
 }
 
