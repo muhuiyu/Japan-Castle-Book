@@ -13,15 +13,13 @@ class CastleDetailViewController: BaseViewController<CastleDetailViewModel> {
         Text.castleDetailViewControllerSegmentedControlInfo,
         Text.castleDetailViewControllerSegmentedControlVisitLog,
     ])
-    
     private let pageViewController: CastleDetailPageViewController
+    private let completeButton = UIButton()
     
     init(viewModel: CastleDetailViewModel, pageViewController: CastleDetailPageViewController) {
         self.pageViewController = pageViewController
         super.init(viewModel: viewModel)
     }
-    
-    private let completeButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
