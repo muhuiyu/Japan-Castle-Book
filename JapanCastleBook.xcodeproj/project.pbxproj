@@ -55,6 +55,11 @@
 		E4973A882B4F71DB00620075 /* Text+CastleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A872B4F71DB00620075 /* Text+CastleDetails.swift */; };
 		E4973A8A2B4F726E00620075 /* CastleAlertComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A892B4F726E00620075 /* CastleAlertComposer.swift */; };
 		E4973A8C2B4F72A400620075 /* CastleDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A8B2B4F72A400620075 /* CastleDetailPageViewController.swift */; };
+		E4973A8E2B4F73C100620075 /* CastleDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A8D2B4F73C100620075 /* CastleDetailTableViewController.swift */; };
+		E4973A912B4F740800620075 /* CastleDetailHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A902B4F740800620075 /* CastleDetailHeaderCell.swift */; };
+		E4973A932B4F744300620075 /* CastleDetailHeaderCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A922B4F744300620075 /* CastleDetailHeaderCarouselCell.swift */; };
+		E4973A952B4F750B00620075 /* CastleDetailMetadataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A942B4F750B00620075 /* CastleDetailMetadataCell.swift */; };
+		E4973A992B4F755500620075 /* CastleDetailInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A982B4F755500620075 /* CastleDetailInfoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +149,11 @@
 		E4973A872B4F71DB00620075 /* Text+CastleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+CastleDetails.swift"; sourceTree = "<group>"; };
 		E4973A892B4F726E00620075 /* CastleAlertComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleAlertComposer.swift; sourceTree = "<group>"; };
 		E4973A8B2B4F72A400620075 /* CastleDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailPageViewController.swift; sourceTree = "<group>"; };
+		E4973A8D2B4F73C100620075 /* CastleDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailTableViewController.swift; sourceTree = "<group>"; };
+		E4973A902B4F740800620075 /* CastleDetailHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailHeaderCell.swift; sourceTree = "<group>"; };
+		E4973A922B4F744300620075 /* CastleDetailHeaderCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailHeaderCarouselCell.swift; sourceTree = "<group>"; };
+		E4973A942B4F750B00620075 /* CastleDetailMetadataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailMetadataCell.swift; sourceTree = "<group>"; };
+		E4973A982B4F755500620075 /* CastleDetailInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailInfoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -468,6 +478,7 @@
 		E4973A802B4F718100620075 /* Castle Details */ = {
 			isa = PBXGroup;
 			children = (
+				E4973A8F2B4F73D500620075 /* Views */,
 				E4973A822B4F719100620075 /* View Models */,
 				E4973A812B4F718B00620075 /* View Controllers */,
 			);
@@ -479,6 +490,7 @@
 			children = (
 				E4973A832B4F719C00620075 /* CastleDetailViewController.swift */,
 				E4973A8B2B4F72A400620075 /* CastleDetailPageViewController.swift */,
+				E4973A8D2B4F73C100620075 /* CastleDetailTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -489,6 +501,17 @@
 				E4973A852B4F71AB00620075 /* CastleDetailViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		E4973A8F2B4F73D500620075 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4973A902B4F740800620075 /* CastleDetailHeaderCell.swift */,
+				E4973A922B4F744300620075 /* CastleDetailHeaderCarouselCell.swift */,
+				E4973A942B4F750B00620075 /* CastleDetailMetadataCell.swift */,
+				E4973A982B4F755500620075 /* CastleDetailInfoCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -700,6 +723,7 @@
 				E4973A012B4F56AD00620075 /* AppDelegate.swift in Sources */,
 				E4973A6E2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift in Sources */,
 				E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */,
+				E4973A932B4F744300620075 /* CastleDetailHeaderCarouselCell.swift in Sources */,
 				E4973A452B4F589000620075 /* TabCoordinator.swift in Sources */,
 				E4973A032B4F56AD00620075 /* SceneDelegate.swift in Sources */,
 				E4973A782B4F6D9400620075 /* Text+Castle.swift in Sources */,
@@ -710,6 +734,7 @@
 				E4973A7B2B4F6E1000620075 /* CastleCollectionCell.swift in Sources */,
 				E4973A8A2B4F726E00620075 /* CastleAlertComposer.swift in Sources */,
 				E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */,
+				E4973A992B4F755500620075 /* CastleDetailInfoCell.swift in Sources */,
 				E4973A3A2B4F57FD00620075 /* Base.swift in Sources */,
 				E4973A722B4F5E8B00620075 /* CastleArea+Title.swift in Sources */,
 				E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */,
@@ -717,12 +742,15 @@
 				E4973A7D2B4F6E2600620075 /* Images.swift in Sources */,
 				E4973A742B4F5ED600620075 /* CastleListCellViewModel.swift in Sources */,
 				E4973A0B2B4F56AD00620075 /* JapanCastleBookiOS.xcdatamodeld in Sources */,
+				E4973A8E2B4F73C100620075 /* CastleDetailTableViewController.swift in Sources */,
+				E4973A912B4F740800620075 /* CastleDetailHeaderCell.swift in Sources */,
 				E4973A512B4F5A6500620075 /* CastleListCoordinator.swift in Sources */,
 				E4973A482B4F58DB00620075 /* Icon.swift in Sources */,
 				E4973A842B4F719C00620075 /* CastleDetailViewController.swift in Sources */,
 				E4973A4B2B4F58FC00620075 /* Text.swift in Sources */,
 				E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */,
 				E4973A7F2B4F703700620075 /* CastleCollectionHeaderView.swift in Sources */,
+				E4973A952B4F750B00620075 /* CastleDetailMetadataCell.swift in Sources */,
 				E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

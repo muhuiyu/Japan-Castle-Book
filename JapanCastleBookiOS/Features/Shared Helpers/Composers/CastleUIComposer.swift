@@ -48,10 +48,9 @@ final class CastleUIComposer {
     static func castleDetailComposedWith(coordinator: Coordinator, castle: Castle) -> CastleDetailViewController {
         let viewModel = CastleDetailViewModel(coordinator: coordinator, castle: castle)
         
-        let tableViewController = UIViewController()
-        tableViewController.view.backgroundColor = .yellow
+        let tableViewController = CastleDetailTableViewController(viewModel: viewModel)
         
-        let logViewController = UIViewController()
+        let logViewController = ViewController()
         logViewController.view.backgroundColor = .systemPink
         
         let subViewControllers = [ tableViewController, logViewController ]
