@@ -9,9 +9,9 @@ import JapanCastleBook
 
 class CastleListCellViewModel {
     private let castle: Castle
-    private let visitHistoryService: CastleVisitHistoryService
+    private let visitHistoryService: CastleVisitHistoryStoreService
     
-    init(castle: Castle, visitHistoryService: CastleVisitHistoryService) {
+    init(castle: Castle, visitHistoryService: CastleVisitHistoryStoreService) {
         self.castle = castle
         self.visitHistoryService = visitHistoryService
     }
@@ -23,6 +23,6 @@ class CastleListCellViewModel {
     var didTapCell: (() -> Void)?
     
     func hasVisited() -> Bool {
-        return visitHistoryService.hasVisitedCastle(castle.id)
+        return visitHistoryService.hasVisitedCastle(for: castle.id)
     }
 }
