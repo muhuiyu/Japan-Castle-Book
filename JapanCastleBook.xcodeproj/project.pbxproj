@@ -63,6 +63,8 @@
 		E4973A9B2B4F7C5200620075 /* CastleDetailLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A9A2B4F7C5200620075 /* CastleDetailLogViewController.swift */; };
 		E4973A9D2B4F7C5D00620075 /* CastleDetailLogStampCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A9C2B4F7C5D00620075 /* CastleDetailLogStampCell.swift */; };
 		E4973A9F2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A9E2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift */; };
+		E4973AA12B4F820600620075 /* CastleVisitHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA02B4F820600620075 /* CastleVisitHistory.swift */; };
+		E4973AA42B4F85B300620075 /* ManagedCastleVisitHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA32B4F85B300620075 /* ManagedCastleVisitHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +162,8 @@
 		E4973A9A2B4F7C5200620075 /* CastleDetailLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailLogViewController.swift; sourceTree = "<group>"; };
 		E4973A9C2B4F7C5D00620075 /* CastleDetailLogStampCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailLogStampCell.swift; sourceTree = "<group>"; };
 		E4973A9E2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailLogPreviewCell.swift; sourceTree = "<group>"; };
+		E4973AA02B4F820600620075 /* CastleVisitHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistory.swift; sourceTree = "<group>"; };
+		E4973AA32B4F85B300620075 /* ManagedCastleVisitHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedCastleVisitHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				E49739EC2B4F4F6000620075 /* Castle.swift */,
+				E4973AA02B4F820600620075 /* CastleVisitHistory.swift */,
 			);
 			path = "Castle Feature";
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 		E4973A6C2B4F5D7400620075 /* Castle Visit History */ = {
 			isa = PBXGroup;
 			children = (
+				E4973AA22B4F85A100620075 /* CoreData Models */,
 				E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */,
 			);
 			path = "Castle Visit History";
@@ -521,6 +527,14 @@
 				E4973A9E2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E4973AA22B4F85A100620075 /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4973AA32B4F85B300620075 /* ManagedCastleVisitHistory.swift */,
+			);
+			path = "CoreData Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -705,6 +719,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4973AA12B4F820600620075 /* CastleVisitHistory.swift in Sources */,
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
 				E49739EF2B4F543900620075 /* CastleService.swift in Sources */,
@@ -762,6 +777,7 @@
 				E4973A4B2B4F58FC00620075 /* Text.swift in Sources */,
 				E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */,
 				E4973A7F2B4F703700620075 /* CastleCollectionHeaderView.swift in Sources */,
+				E4973AA42B4F85B300620075 /* ManagedCastleVisitHistory.swift in Sources */,
 				E4973A952B4F750B00620075 /* CastleDetailMetadataCell.swift in Sources */,
 				E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */,
 			);
