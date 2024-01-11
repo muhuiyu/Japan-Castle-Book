@@ -49,6 +49,7 @@
 		E4973A782B4F6D9400620075 /* Text+Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A772B4F6D9400620075 /* Text+Castle.swift */; };
 		E4973A7B2B4F6E1000620075 /* CastleCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */; };
 		E4973A7D2B4F6E2600620075 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A7C2B4F6E2600620075 /* Images.swift */; };
+		E4973A7F2B4F703700620075 /* CastleCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A7E2B4F703700620075 /* CastleCollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		E4973A772B4F6D9400620075 /* Text+Castle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Castle.swift"; sourceTree = "<group>"; };
 		E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleCollectionCell.swift; sourceTree = "<group>"; };
 		E4973A7C2B4F6E2600620075 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		E4973A7E2B4F703700620075 /* CastleCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleCollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +447,7 @@
 			isa = PBXGroup;
 			children = (
 				E4973A7A2B4F6E1000620075 /* CastleCollectionCell.swift */,
+				E4973A7E2B4F703700620075 /* CastleCollectionHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				E4973A482B4F58DB00620075 /* Icon.swift in Sources */,
 				E4973A4B2B4F58FC00620075 /* Text.swift in Sources */,
 				E4973A3F2B4F585C00620075 /* AppCoordinator.swift in Sources */,
+				E4973A7F2B4F703700620075 /* CastleCollectionHeaderView.swift in Sources */,
 				E4973A4D2B4F590600620075 /* Text+TabCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

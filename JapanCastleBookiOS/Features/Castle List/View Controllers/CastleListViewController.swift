@@ -44,6 +44,7 @@ extension CastleListViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(CastleCollectionCell.self, forCellWithReuseIdentifier: CastleCollectionCell.reuseID)
+        collectionView.register(CastleCollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: CastleCollectionHeaderView.reuseID)
         view.addSubview(collectionView)
         
         spinnerView.startAnimating()
@@ -124,6 +125,22 @@ extension CastleListViewController: UICollectionViewDataSource, UICollectionView
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         getCellViewModel(at: indexPath).didTapCell?()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        if kind == UICollectionView.elementKindSectionHeader {
+            guard let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: CastleCollectionHeaderView.reuseID, for: indexPath) as? CastleCollectionHeaderView else {
+                return UICollectionReusableView()
+            }
+            headerView.title = collectionSections[indexPath.section].title
+            headerView.color = collectionSections[indexPath.section].backgroundColor
+            return headerView
+        }
+        return UICollectionReusableView()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        return CGSize(width: collectionView.bounds.width, height: 72)
     }
 }
 
