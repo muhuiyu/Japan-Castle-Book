@@ -39,15 +39,15 @@ class CastleDetailPageViewController: NSObject {
 extension CastleDetailPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let currentIndex = subViewControllers.firstIndex(of: viewController), currentIndex > 0 else {
-               return nil
-           }
-           return subViewControllers[currentIndex - 1]
-       }
+            return nil
+        }
+        return subViewControllers[currentIndex - 1]
+    }
        
-       func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-           guard let currentIndex = subViewControllers.firstIndex(of: viewController), currentIndex < subViewControllers.count - 1 else {
-               return nil
-           }
-           return subViewControllers[currentIndex + 1]
-       }
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        guard let currentIndex = subViewControllers.firstIndex(of: viewController), currentIndex < subViewControllers.count - 1 else {
+            return nil
+        }
+        return subViewControllers[currentIndex + 1]
+    }
 }
