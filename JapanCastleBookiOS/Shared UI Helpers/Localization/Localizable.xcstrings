@@ -103,23 +103,6 @@
         }
       }
     },
-    "castleCollectionViewController_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Collection"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "コレクション"
-          }
-        }
-      }
-    },
     "castleDetailLogViewController_addStamp_button" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -200,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
           }
         }
       }
@@ -392,6 +381,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "サイト"
+          }
+        }
+      }
+    },
+    "castleListViewController_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collection"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コレクション"
           }
         }
       }

@@ -30,3 +30,33 @@ class CastleListViewModel: BaseViewModel {
         super.init(coordinator: coordinator)
     }
 }
+
+extension CastleListViewModel {
+    func loadCastles() {
+        castleService.load()
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] completion in
+                if case let .failure(error) = completion {
+                    self?.configureErrorMessage(for: error)
+                }
+            } receiveValue: { [weak self] items in
+                self?.castles = items
+            }
+            .store(in: &subscriptions)
+    }
+    
+    func title(at section: Int) -> String {
+        CastleArea.allCases.map({ $0.title })[section]
+    }
+    
+    private func configureErrorMessage(for error: CastleServiceError) {
+        switch error {
+        case .missingFile:
+            errorMessage = "Missing file"
+        case .invalidData:
+            errorMessage = "Invalid data"
+        case .connectivity:
+            errorMessage = "Cannot connect to server"
+        }
+    }
+}
