@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4079E612B4EF16C0035578C /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
 		E4079E672B4EF16C0035578C /* JapanCastleBook.h in Headers */ = {isa = PBXBuildFile; fileRef = E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4267FA02B52B65700F17B14 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E4267F9F2B52B65700F17B14 /* Kingfisher */; };
 		E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */; };
 		E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */; };
 		E49739ED2B4F4F6000620075 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EC2B4F4F6000620075 /* Castle.swift */; };
@@ -65,6 +66,8 @@
 		E4973A9F2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A9E2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift */; };
 		E4973AA12B4F820600620075 /* CastleVisitHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA02B4F820600620075 /* CastleVisitHistory.swift */; };
 		E4973AA42B4F85B300620075 /* ManagedCastleVisitHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA32B4F85B300620075 /* ManagedCastleVisitHistory.swift */; };
+		E4973AA72B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */; };
+		E4973AA92B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +167,8 @@
 		E4973A9E2B4F7C6F00620075 /* CastleDetailLogPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleDetailLogPreviewCell.swift; sourceTree = "<group>"; };
 		E4973AA02B4F820600620075 /* CastleVisitHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistory.swift; sourceTree = "<group>"; };
 		E4973AA32B4F85B300620075 /* ManagedCastleVisitHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedCastleVisitHistory.swift; sourceTree = "<group>"; };
+		E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryStoreTests.swift; sourceTree = "<group>"; };
+		E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+CastleVisitHistoryStoreHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4267FA02B52B65700F17B14 /* Kingfisher in Frameworks */,
 				E4973A592B4F5B6200620075 /* JapanCastleBook.framework in Frameworks */,
 				E4973A382B4F57EB00620075 /* SnapKit in Frameworks */,
 			);
@@ -240,6 +246,7 @@
 			children = (
 				E49739F92B4F568200620075 /* Shared Helpers */,
 				E49739F82B4F566E00620075 /* Castle Loader */,
+				E4973AA52B4F8A6E00620075 /* Castle Visit History Store */,
 			);
 			path = JapanCastleBookTests;
 			sourceTree = "<group>";
@@ -537,6 +544,15 @@
 			path = "CoreData Models";
 			sourceTree = "<group>";
 		};
+		E4973AA52B4F8A6E00620075 /* Castle Visit History Store */ = {
+			isa = PBXGroup;
+			children = (
+				E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */,
+				E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */,
+			);
+			path = "Castle Visit History Store";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -604,6 +620,7 @@
 			name = JapanCastleBookiOS;
 			packageProductDependencies = (
 				E4973A372B4F57EB00620075 /* SnapKit */,
+				E4267F9F2B52B65700F17B14 /* Kingfisher */,
 			);
 			productName = JapanCastleBookiOS;
 			productReference = E49739FE2B4F56AD00620075 /* JapanCastleBookiOS.app */;
@@ -665,6 +682,7 @@
 			mainGroup = E4079E4E2B4EF16C0035578C;
 			packageReferences = (
 				E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E4267F9E2B52B65700F17B14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = E4079E592B4EF16C0035578C /* Products */;
 			projectDirPath = "";
@@ -733,7 +751,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49739F32B4F547100620075 /* LocalCastleServiceIntegrationTests.swift in Sources */,
+				E4973AA92B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift in Sources */,
 				E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */,
+				E4973AA72B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift in Sources */,
 				E49739F72B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1220,6 +1240,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E4267F9E2B52B65700F17B14 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 		E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -1231,6 +1259,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E4267F9F2B52B65700F17B14 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4267F9E2B52B65700F17B14 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		E4973A372B4F57EB00620075 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */;

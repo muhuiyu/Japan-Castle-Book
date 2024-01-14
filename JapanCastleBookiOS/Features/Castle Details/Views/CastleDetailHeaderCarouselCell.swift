@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CastleDetailHeaderCarouselCell: CollectionViewCell {
     
@@ -13,7 +14,7 @@ class CastleDetailHeaderCarouselCell: CollectionViewCell {
     
     var imageURL: URL? {
         didSet {
-            photoView.image = UIImage(named: "test-castle-photo")
+            photoView.kf.setImage(with: imageURL)
         }
     }
     
