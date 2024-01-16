@@ -69,6 +69,7 @@
 		E4973AA72B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */; };
 		E4973AA92B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */; };
 		E4E895952B5543300093EDF1 /* FakeCastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E895942B5543300093EDF1 /* FakeCastleVisitHistoryService.swift */; };
+		E4E895992B56CAC40093EDF1 /* CastleVisitHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E895982B56CAC40093EDF1 /* CastleVisitHistoryStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +173,7 @@
 		E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryStoreTests.swift; sourceTree = "<group>"; };
 		E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+CastleVisitHistoryStoreHelpers.swift"; sourceTree = "<group>"; };
 		E4E895942B5543300093EDF1 /* FakeCastleVisitHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeCastleVisitHistoryService.swift; sourceTree = "<group>"; };
+		E4E895982B56CAC40093EDF1 /* CastleVisitHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */,
+				E4E895982B56CAC40093EDF1 /* CastleVisitHistoryStore.swift */,
 			);
 			path = "Castle Visit History";
 			sourceTree = "<group>";
@@ -743,6 +746,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4973AA12B4F820600620075 /* CastleVisitHistory.swift in Sources */,
+				E4E895992B56CAC40093EDF1 /* CastleVisitHistoryStore.swift in Sources */,
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
 				E49739EF2B4F543900620075 /* CastleService.swift in Sources */,
