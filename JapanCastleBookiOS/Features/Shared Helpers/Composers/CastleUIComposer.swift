@@ -25,7 +25,7 @@ final class CastleUIComposer {
     
     static func adaptCastlesToCastlesCollectionViewSectionData(
         _ castles: [Castle],
-        visitHistoryService: CastleVisitHistoryStoreService,
+        visitHistoryService: CastleVisitHistoryService,
         didTapCastle: @escaping ((Castle) -> Void)
     ) -> [CastleListViewController.SectionData] {
         return castles

@@ -42,7 +42,7 @@
 		E4973A602B4F5BE300620075 /* CastleUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */; };
 		E4973A632B4F5C1F00620075 /* CastleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A622B4F5C1F00620075 /* CastleListViewController.swift */; };
 		E4973A662B4F5C3A00620075 /* CastleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */; };
-		E4973A6A2B4F5D4600620075 /* CastleVisitHistoryStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A692B4F5D4600620075 /* CastleVisitHistoryStoreService.swift */; };
+		E4973A6A2B4F5D4600620075 /* CastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */; };
 		E4973A6E2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */; };
 		E4973A722B4F5E8B00620075 /* CastleArea+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A712B4F5E8B00620075 /* CastleArea+Title.swift */; };
 		E4973A742B4F5ED600620075 /* CastleListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973A732B4F5ED600620075 /* CastleListCellViewModel.swift */; };
@@ -145,7 +145,7 @@
 		E4973A5F2B4F5BE300620075 /* CastleUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleUIComposer.swift; sourceTree = "<group>"; };
 		E4973A622B4F5C1F00620075 /* CastleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewController.swift; sourceTree = "<group>"; };
 		E4973A652B4F5C3A00620075 /* CastleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListViewModel.swift; sourceTree = "<group>"; };
-		E4973A692B4F5D4600620075 /* CastleVisitHistoryStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryStoreService.swift; sourceTree = "<group>"; };
+		E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleVisitHistoryService.swift; sourceTree = "<group>"; };
 		E4973A6D2B4F5D9300620075 /* CoreDataCastleVisitHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCastleVisitHistoryService.swift; sourceTree = "<group>"; };
 		E4973A712B4F5E8B00620075 /* CastleArea+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CastleArea+Title.swift"; sourceTree = "<group>"; };
 		E4973A732B4F5ED600620075 /* CastleListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleListCellViewModel.swift; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 			children = (
 				E49739F92B4F568200620075 /* Shared Helpers */,
 				E49739F82B4F566E00620075 /* Castle Loader */,
-				E4973AA52B4F8A6E00620075 /* Castle Visit History Store */,
+				E4973AA52B4F8A6E00620075 /* Castle Visit History */,
 			);
 			path = JapanCastleBookTests;
 			sourceTree = "<group>";
@@ -450,7 +450,7 @@
 		E4973A682B4F5D2A00620075 /* Castle Visit History */ = {
 			isa = PBXGroup;
 			children = (
-				E4973A692B4F5D4600620075 /* CastleVisitHistoryStoreService.swift */,
+				E4973A692B4F5D4600620075 /* CastleVisitHistoryService.swift */,
 			);
 			path = "Castle Visit History";
 			sourceTree = "<group>";
@@ -549,13 +549,13 @@
 			path = "CoreData Models";
 			sourceTree = "<group>";
 		};
-		E4973AA52B4F8A6E00620075 /* Castle Visit History Store */ = {
+		E4973AA52B4F8A6E00620075 /* Castle Visit History */ = {
 			isa = PBXGroup;
 			children = (
 				E4973AA62B4F8A9800620075 /* CastleVisitHistoryStoreTests.swift */,
 				E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */,
 			);
-			path = "Castle Visit History Store";
+			path = "Castle Visit History";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -746,7 +746,7 @@
 				E49739ED2B4F4F6000620075 /* Castle.swift in Sources */,
 				E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */,
 				E49739EF2B4F543900620075 /* CastleService.swift in Sources */,
-				E4973A6A2B4F5D4600620075 /* CastleVisitHistoryStoreService.swift in Sources */,
+				E4973A6A2B4F5D4600620075 /* CastleVisitHistoryService.swift in Sources */,
 				E49739F12B4F544C00620075 /* LocalCastleService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

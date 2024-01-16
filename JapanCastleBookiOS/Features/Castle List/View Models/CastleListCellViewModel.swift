@@ -9,9 +9,9 @@ import JapanCastleBook
 
 class CastleListCellViewModel {
     private let castle: Castle
-    private let visitHistoryService: CastleVisitHistoryStoreService
+    private let visitHistoryService: CastleVisitHistoryService
     
-    init(castle: Castle, visitHistoryService: CastleVisitHistoryStoreService) {
+    init(castle: Castle, visitHistoryService: CastleVisitHistoryService) {
         self.castle = castle
         self.visitHistoryService = visitHistoryService
     }

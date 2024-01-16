@@ -16,12 +16,12 @@ class CastleListViewModel: BaseViewModel {
     @Published private(set) var errorMessage: String?
     
     private let castleService: CastleService
-    private let visitHistoryService: CastleVisitHistoryStoreService
+    private let visitHistoryService: CastleVisitHistoryService
     
     init(
         coordinator: Coordinator? = nil,
         castleService: CastleService,
-        visitHistoryService: CastleVisitHistoryStoreService,
+        visitHistoryService: CastleVisitHistoryService,
         didTapCastle: @escaping ((Castle) -> Void)
     ) {
         self.castleService = castleService

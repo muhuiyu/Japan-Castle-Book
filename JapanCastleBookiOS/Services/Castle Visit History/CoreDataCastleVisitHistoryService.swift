@@ -10,7 +10,7 @@ import CoreData
 import JapanCastleBook
 import Combine
 
-class CoreDataCastleVisitHistoryService: CastleVisitHistoryStoreService {
+class CoreDataCastleVisitHistoryService: CastleVisitHistoryService {
     
     func hasVisitedCastle(for castleID: Int) -> Bool {
         fatalError("Not implemented")

@@ -8,7 +8,7 @@
 import Foundation
 import JapanCastleBook
 
-class FakeCastleVisitHistoryService: CastleVisitHistoryStoreService {
+class FakeCastleVisitHistoryService: CastleVisitHistoryService {
     func hasVisitedCastle(for castleID: Int) -> Bool {
         return false
     }
