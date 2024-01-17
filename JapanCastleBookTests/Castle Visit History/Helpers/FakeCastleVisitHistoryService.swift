@@ -9,6 +9,7 @@ import Foundation
 import JapanCastleBook
 
 class FakeCastleVisitHistoryService: CastleVisitHistoryService {
+    
     func hasVisitedCastle(for castleID: Int) -> Bool {
         return false
     }
@@ -17,7 +18,7 @@ class FakeCastleVisitHistoryService: CastleVisitHistoryService {
         fatalError("Not implemented")
     }
     
-    func insert(_ visitHistory: JapanCastleBook.CastleVisitHistory) -> InsertionResult {
+    func insert(_ visitHistory: [CastleVisitHistory]) -> InsertionResult {
         fatalError("Not implemented")
     }
     

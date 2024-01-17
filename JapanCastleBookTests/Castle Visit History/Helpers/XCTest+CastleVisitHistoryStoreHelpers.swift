@@ -10,7 +10,12 @@ import Combine
 import JapanCastleBook
 
 extension XCTestCase {
-    func expect(_ sut: CastleVisitHistoryService, toRetrieve expectedHistories: [CastleVisitHistory]?, withError expectedError: Error?, file: StaticString = #filePath, line: UInt = #line) {
+    
+    func assertThatRetrieveDeliversEmptyOnEmptyCache(on sut: CastleVisitHistoryStore, file: StaticString = #filePath, line: UInt = #line) {
+        expect(sut, toRetrieve: [], withError: nil, file: file, line: line)
+    }
+    
+    func expect(_ sut: CastleVisitHistoryStore, toRetrieve expectedHistories: [CastleVisitHistory]?, withError expectedError: Error?, file: StaticString = #filePath, line: UInt = #line) {
         let exp = expectation(description: "Wait for cache retrieval")
         
         var retrievedHistories: [CastleVisitHistory]?

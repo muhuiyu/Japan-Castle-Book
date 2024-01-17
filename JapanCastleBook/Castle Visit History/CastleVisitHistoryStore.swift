@@ -9,7 +9,12 @@ import Foundation
 import Combine
 
 public protocol CastleVisitHistoryStore {
-    func deleteVisitHistory() -> AnyPublisher<Void, Error>
-    func insert(_ historyList: [CastleVisitHistory]) -> AnyPublisher<Void, Error>
-    func retrieve() -> AnyPublisher<[CastleVisitHistory], Error>
+    typealias RetrievalResult = AnyPublisher<[CastleVisitHistory], Error>
+    typealias InsertionResult = AnyPublisher<Void, Error>
+    typealias DeletionResult = AnyPublisher<Void, Error>
+    
+    func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult
+    func retrieve() -> RetrievalResult
+    func delete(_ visitHistoryID: UUID) -> DeletionResult
+    func deleteAllVisitHistories() -> DeletionResult
 }
