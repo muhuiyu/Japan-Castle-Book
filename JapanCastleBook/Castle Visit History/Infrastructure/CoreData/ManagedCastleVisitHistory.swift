@@ -6,7 +6,6 @@
 //
 
 import CoreData
-import JapanCastleBook
 
 @objc(ManagedCastleVisitHistory)
 final class ManagedCastleVisitHistory: NSManagedObject {
