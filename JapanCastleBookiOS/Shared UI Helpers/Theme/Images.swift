@@ -10,4 +10,6 @@ import UIKit
 final class Images {
     static let castlePlaceholder = UIImage(named: "castle")
     static let castleDoneStamp = UIImage(named: "done-stamp")
+    
+    static let castleImagePlaceholder = UIImage(named: "castle-image-placeholder")
 }

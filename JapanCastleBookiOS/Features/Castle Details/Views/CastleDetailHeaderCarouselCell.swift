@@ -14,7 +14,8 @@ class CastleDetailHeaderCarouselCell: CollectionViewCell {
     
     var imageURL: URL? {
         didSet {
-            photoView.kf.setImage(with: imageURL)
+            let placeholderImage = Images.castleImagePlaceholder
+            photoView.kf.setImage(with: imageURL, placeholder: placeholderImage)
         }
     }
     
