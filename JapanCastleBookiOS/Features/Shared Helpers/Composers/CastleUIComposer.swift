@@ -13,8 +13,13 @@ final class CastleUIComposer {
     
     static func castleListComposedWith(coordinator: Coordinator,
                                        didTapCastle: @escaping ((Castle) -> Void)) -> CastleListViewController {
+        
+        guard let castleVisitHistoryStore = coreDataCastleVisitHistoryStore() else {
+            fatalError("Unable to locate Documents directory")
+        }
+
         let castleService = LocalCastleService()
-        let visitHistoryService = FakeCastleVisitHistoryService()
+        let visitHistoryService = LocalCastleVisitHistoryService(store: castleVisitHistoryStore)
         let viewModel = CastleListViewModel(coordinator: coordinator,
                                             castleService: castleService,
                                             visitHistoryService: visitHistoryService,
@@ -56,6 +61,16 @@ final class CastleUIComposer {
         let pageViewController = CastleDetailPageViewController(subViewControllers: subViewControllers)
         let viewController = CastleDetailViewController(viewModel: viewModel, pageViewController: pageViewController)
         return viewController
+    }
+}
+
+extension CastleUIComposer {
+    private static func coreDataCastleVisitHistoryStore() -> CoreDataCastleVisitHistoryStore? {
+        guard let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
+            return nil
+        }
+        let storeURL = documentsDirectory.appendingPathComponent("castleVisitHistoryStore.sqlite")
+        return try? CoreDataCastleVisitHistoryStore(storeURL: storeURL)
     }
 }
 
