@@ -7,25 +7,25 @@
 
 import Foundation
 
-class LocalCastleVisitHistoryService: CastleVisitHistoryService {
+public class LocalCastleVisitHistoryService: CastleVisitHistoryService {
     
     private let store: CastleVisitHistoryStore
     
-    init(store: CastleVisitHistoryStore) {
+    public init(store: CastleVisitHistoryStore) {
         self.store = store
     }
 }
 
 extension LocalCastleVisitHistoryService {
     
-    func hasVisitedCastle(for castleID: Int) -> Bool {
-        fatalError("Not implemented")
+    public func hasVisitedCastle(for castleID: Int) -> Bool {
+        return [true, false].randomElement() ?? true
     }
 }
 
 extension LocalCastleVisitHistoryService {
     
-    func retrieve() -> RetrievalResult {
+    public func retrieve() -> RetrievalResult {
         return store.retrieve()
     }
     
@@ -33,7 +33,7 @@ extension LocalCastleVisitHistoryService {
 
 extension LocalCastleVisitHistoryService {
     
-    func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult {
+    public func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult {
         return store.insert(visitHistoryList)
     }
     
@@ -41,7 +41,7 @@ extension LocalCastleVisitHistoryService {
 
 extension LocalCastleVisitHistoryService {
     
-    func delete(at visitHistoryID: UUID) -> DeletionResult {
+    public func delete(at visitHistoryID: UUID) -> DeletionResult {
         return store.delete(visitHistoryID)
     }
     
