@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CastleVisitHistory {
+public struct CastleVisitHistory: Equatable {
     public let id: UUID
     public var date: Date
     public let title: String

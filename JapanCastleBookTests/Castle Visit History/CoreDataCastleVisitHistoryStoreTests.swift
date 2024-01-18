@@ -1,5 +1,5 @@
 //
-//  CastleVisitHistoryStoreTests.swift
+//  CoreDataCastleVisitHistoryStoreTests.swift
 //  JapanCastleBookTests
 //
 //  Created by Mu Yu on 1/11/24.
@@ -8,7 +8,7 @@
 import XCTest
 import JapanCastleBook
 
-final class CastleVisitHistoryStoreTests: XCTestCase {
+final class CoreDataCastleVisitHistoryStoreTests: XCTestCase {
     
     func test_retrieve_deliversEmptyOnEmptyCache() {
         let sut = makeSUT()
@@ -17,7 +17,7 @@ final class CastleVisitHistoryStoreTests: XCTestCase {
     }
 }
 
-extension CastleVisitHistoryStoreTests {
+extension CoreDataCastleVisitHistoryStoreTests {
     private func makeSUT(file: StaticString = #filePath, line: UInt = #line) -> CastleVisitHistoryStore  {
         
         let storeURL = URL(fileURLWithPath: "/dev/null")

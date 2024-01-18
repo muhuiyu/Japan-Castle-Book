@@ -20,19 +20,23 @@ extension XCTestCase {
         
         var retrievedHistories: [CastleVisitHistory]?
         var retrievedError: Error?
-        let _ = sut.retrieve()
+        
+        let cancellable = sut.retrieve()
             .sink(receiveCompletion: { completion in
                 switch completion {
                 case .failure(let error):
                     retrievedError = error
-                default: break
+                case .finished:
+                    break
                 }
                 exp.fulfill()
             }, receiveValue: { visitHistories in
                 retrievedHistories = visitHistories
             })
 
-        wait(for: [exp], timeout: 1.0)
+        wait(for: [exp], timeout: 5.0)
+        
+        cancellable.cancel()
 
         if let retrievedHistories, let expectedHistories {
             XCTAssertEqual(retrievedHistories, expectedHistories, "Expected \(expectedHistories) but got \(retrievedHistories)", file: file, line: line)

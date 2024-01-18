@@ -1,5 +1,5 @@
 //
-//  CoreDataCastleVisitHistoryService.swift
+//  CoreDataCastleVisitHistoryStore.swift
 //  JapanCastleBookiOS
 //
 //  Created by Mu Yu on 1/11/24.
@@ -65,18 +65,11 @@ public class CoreDataCastleVisitHistoryStore: CastleVisitHistoryStore {
 
 extension CoreDataCastleVisitHistoryStore {
     private func fetchCastleVisitHistory() -> Future<[CastleVisitHistory], Error> {
-        let context = self.context
-        
-        return Future { promise in
+        return Future { [context] promise in
             context.perform {
                 do {
-                    if let result = try ManagedCastleVisitHistory.find(in: context) {
-                        let results = result.compactMap { $0.model }
-                        promise(.success(results))
-                    } else {
-                        // Handle the case where no results are found
-                        promise(.success([]))
-                    }
+                    let result = try ManagedCastleVisitHistory.find(in: context).map { $0.model }
+                    promise(.success(result))
                 } catch {
                     promise(.failure(error))
                 }
