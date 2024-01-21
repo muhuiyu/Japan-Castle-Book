@@ -17,7 +17,7 @@
             "url": "https://www.nemuro-kankou.com/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-1-nemurohantochashiatogun",
         "area": 0,
         "id": {
           "value": 1
@@ -64,7 +64,7 @@
             "url": "http://www.city.hakodate.hokkaido.jp/docs/2014011601161/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-2-goryoukaku",
         "area": 0,
         "id": {
           "value": 2
@@ -111,7 +111,7 @@
             "url": "http://www.town.matsumae.hokkaido.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-3-matsumae",
         "area": 0,
         "id": {
           "value": 3
@@ -155,7 +155,7 @@
             "url": "http://www.city.hirosaki.aomori.jp/ishigaki/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-4-hirosaki",
         "area": 0,
         "id": {
           "value": 4
@@ -203,7 +203,7 @@
             "url": "https://hachinohe-city-museum.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-5-ne",
         "area": 0,
         "id": {
           "value": 5
@@ -250,7 +250,7 @@
           },
           { "name": "もりおか歴史文化館", "url": "https://www.morireki.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-6-morioka",
         "area": 0,
         "id": {
           "value": 6
@@ -291,7 +291,7 @@
         "related_websites": [
           { "name": "多賀城市観光協会", "url": "http://tagakan.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-7-taga",
         "area": 0,
         "id": {
           "value": 7
@@ -336,7 +336,7 @@
             "url": "http://www.city.sendai.jp/shisekichosa/kurashi/manabu/kyoiku/inkai/bunkazai/bunkazai/joseki/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-8-sendai",
         "area": 0,
         "id": {
           "value": 8
@@ -380,7 +380,7 @@
             "url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1002685/1009873/1009870/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-9-kubota",
         "area": 0,
         "id": {
           "value": 9
@@ -429,7 +429,7 @@
             "url": "https://www.city.yamagata-yamagata.lg.jp/bunkasports/bunkazai/1006708/1003674.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-10-yamagata",
         "area": 0,
         "id": {
           "value": 10
@@ -473,7 +473,7 @@
             "url": "https://www.city.nihonmatsu.lg.jp/johokan/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-11-nihonmatu",
         "area": 0,
         "id": {
           "value": 11
@@ -519,7 +519,7 @@
             "url": "http://www.tsurugajo.com/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-12-aizuwakamatu",
         "area": 0,
         "id": {
           "value": 12
@@ -562,7 +562,7 @@
             "url": "http://www.city.shirakawa.fukushima.jp/page/page001390.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-13-sirakawakomine",
         "area": 0,
         "id": {
           "value": 13
@@ -606,7 +606,7 @@
             "url": "https://www.ibarakiguide.jp/kodokan.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-14-mito",
         "area": 1,
         "id": {
           "value": 14
@@ -648,7 +648,7 @@
         "related_websites": [
           { "name": "足利市観光協会", "url": "http://www.ashikaga-kankou.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-15-asikaga",
         "area": 1,
         "id": {
           "value": 15
@@ -694,7 +694,7 @@
             "url": "http://www.city.takasaki.gunma.jp/kankou/history/minowazyoushi.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-16-minowa",
         "area": 1,
         "id": {
           "value": 16
@@ -740,7 +740,7 @@
             "url": "https://www.city.ota.gunma.jp/page/4140.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-17-kanayama",
         "area": 1,
         "id": {
           "value": 17
@@ -786,7 +786,7 @@
             "url": "http://www.town.yorii.saitama.jp/site/rekishikan/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-18-hatigata",
         "area": 1,
         "id": {
           "value": 18
@@ -840,7 +840,7 @@
             "url": "https://www.city.kawagoe.saitama.jp/smph/kurashi/sports_koen/sports_reku/kawagoebudokan.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-19-kawagoe",
         "area": 1,
         "id": {
           "value": 19
@@ -890,7 +890,7 @@
             "url": "https://www.city.sakura.lg.jp/soshiki/koenryokuchika/3/13/3042.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-20-sakura",
         "area": 1,
         "id": {
           "value": 20
@@ -939,7 +939,7 @@
             "url": "https://www.kunaicho.go.jp/event/higashigyoen/higashigyoen.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-21-edo",
         "area": 1,
         "id": {
           "value": 21
@@ -985,7 +985,7 @@
             "url": "https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/005/bunkazaikanrenshisetsu/p005201.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-22-hachioji",
         "area": 1,
         "id": {
           "value": 22
@@ -1028,7 +1028,7 @@
         "related_websites": [
           { "name": "小田原市（小田原城）", "url": "https://odawaracastle.com/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-23-odawara",
         "area": 1,
         "id": {
           "value": 23
@@ -1074,7 +1074,7 @@
             "url": "http://www.takedajinja.or.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-24-takedasiyakata",
         "area": 1,
         "id": {
           "value": 24
@@ -1120,7 +1120,7 @@
             "url": "http://www.city.kofu.yamanashi.jp/welcome/rekishi/kofujyou.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-25-kofu",
         "area": 1,
         "id": {
           "value": 25
@@ -1167,7 +1167,7 @@
             "url": "https://www.sanadahoumotsukan.com/facility_detail.php?n=2"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-26-matusiro",
         "area": 1,
         "id": {
           "value": 26
@@ -1221,7 +1221,7 @@
             "url": "https://www.city.ueda.nagano.jp/site/kankojoho/14383.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-27-ueda",
         "area": 1,
         "id": {
           "value": 27
@@ -1271,7 +1271,7 @@
             "url": "https://www.komoro-tour.jp/spot/castle/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-28-komoro",
         "area": 1,
         "id": {
           "value": 28
@@ -1314,7 +1314,7 @@
         "related_websites": [
           { "name": "松本城公式サイト", "url": "https://www.matsumoto-castle.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-29-matsumoto",
         "area": 1,
         "id": {
           "value": 29
@@ -1364,7 +1364,7 @@
             "url": "http://www.inacity.jp/shisetsu/library_museum/rekishihakubutsukan/riyoannai/hakubutsukan_annai.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-30-takato",
         "area": 1,
         "id": {
           "value": 30
@@ -1410,7 +1410,7 @@
             "url": "https://shibata-info.jp/archives/sightseeing/%e6%96%b0%e7%99%ba%e7%94%b0%e5%9f%8e%ef%bc%88%e5%9b%bd%e6%8c%87%e5%ae%9a%e9%87%8d%e8%a6%81%e6%96%87%e5%8c%96%e8%b2%a1%ef%bc%89"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-31-sibata",
         "area": 1,
         "id": {
           "value": 31
@@ -1456,7 +1456,7 @@
             "url": "http://www.city.joetsu.niigata.jp/soshiki/bunkagyousei/sisetu-monogatari.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-32-kasugayama",
         "area": 1,
         "id": {
           "value": 32
@@ -1503,7 +1503,7 @@
             "url": "http://www.kojyo.sakura.ne.jp/index.shtml"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-33-takaoka",
         "area": 2,
         "id": {
           "value": 33
@@ -1551,7 +1551,7 @@
             "url": "https://www.city.nanao.lg.jp/soumu/shisetsu/01.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-34-nanao",
         "area": 2,
         "id": {
           "value": 34
@@ -1597,7 +1597,7 @@
             "url": "https://www.pref.ishikawa.jp/siro-niwa/kanazawajou/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-35-kanazawa",
         "area": 2,
         "id": {
           "value": 35
@@ -1643,7 +1643,7 @@
             "url": "http://www.city.fukui-sakai.lg.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-36-maruoka",
         "area": 2,
         "id": {
           "value": 36
@@ -1692,7 +1692,7 @@
             "url": "https://asakura-museum.pref.fukui.lg.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-37-itijyoudani",
         "area": 2,
         "id": {
           "value": 37
@@ -1743,7 +1743,7 @@
             "url": "https://www.city.ena.lg.jp/soshikiichiran/kyoikuiinkai/shogaigakushuka/8/1/2027.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-38-iwamura",
         "area": 2,
         "id": {
           "value": 38
@@ -1784,7 +1784,7 @@
           { "name": "金華山ロープウェー", "url": "http://www.kinkazan.co.jp/" },
           { "name": "岐阜市公式サイト", "url": "https://www.city.gifu.lg.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-39-gifu",
         "area": 2,
         "id": {
           "value": 39
@@ -1828,7 +1828,7 @@
             "url": "https://www.city.mishima.shizuoka.jp/ipn033080.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-40-yamanaka",
         "area": 2,
         "id": {
           "value": 40
@@ -1878,7 +1878,7 @@
             "url": "https://www.city.shizuoka.lg.jp/000_002441.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-41-sumpu",
         "area": 2,
         "id": {
           "value": 41
@@ -1923,7 +1923,7 @@
             "url": "https://www.city.kakegawa.shizuoka.jp/kanko/spot-list/kakegawajyo.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-42-kakegawa",
         "area": 2,
         "id": {
           "value": 42
@@ -1964,7 +1964,7 @@
         "related_websites": [
           { "name": "国宝犬山城", "url": "http://inuyama-castle.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-43-inuyama",
         "area": 2,
         "id": {
           "value": 43
@@ -2009,7 +2009,7 @@
             "url": "http://www.nagoyajo.city.nagoya.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-44-nagoya",
         "area": 2,
         "id": {
           "value": 44
@@ -2055,7 +2055,7 @@
             "url": "http://okazakipark.com/museum/ka171.htm"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-45-okazaki",
         "area": 2,
         "id": {
           "value": 45
@@ -2099,7 +2099,7 @@
             "url": "https://www.city.shinshiro.lg.jp/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-46-nagashino",
         "area": 2,
         "id": {
           "value": 46
@@ -2143,7 +2143,7 @@
             "url": "http://igaueno-castle.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-47-igaueno",
         "area": 2,
         "id": {
           "value": 47
@@ -2198,7 +2198,7 @@
           }
         ],
 
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-48-matsuzaka",
         "area": 2,
         "id": {
           "value": 48
@@ -2248,7 +2248,7 @@
             "url": "http://www.eonet.ne.jp/~odanijou-s/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-49-odani",
         "area": 3,
         "id": {
           "value": 49
@@ -2295,7 +2295,7 @@
             "url": "https://www.city.hikone.lg.jp/kanko/rekishi/6/3/7605.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-50-hikone",
         "area": 3,
         "id": {
           "value": 50
@@ -2349,7 +2349,7 @@
             "url": "https://www.biwako-visitors.jp/spot/detail/1001/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-51-aduchi",
         "area": 3,
         "id": {
           "value": 51
@@ -2403,7 +2403,7 @@
             "url": "https://www.biwako-visitors.jp/spot/detail/533/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-52-kannonji",
         "area": 3,
         "id": {
           "value": 52
@@ -2444,7 +2444,7 @@
             "url": "https://nijo-jocastle.city.kyoto.lg.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-53-nijo",
         "area": 3,
         "id": {
           "value": 53
@@ -2489,7 +2489,7 @@
             "url": "https://www.100finecastles.com/castles/osakajo/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-54-osaka",
         "area": 3,
         "id": {
           "value": 54
@@ -2540,7 +2540,7 @@
           },
           { "name": "金剛山 山の豆腐", "url": "http://tofu.matsumasa.org/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-55-chihaya",
         "area": 3,
         "id": {
           "value": 55
@@ -2583,7 +2583,7 @@
         "related_websites": [
           { "name": "朝来市", "url": "http://www.city.asago.hyogo.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-56-takeda",
         "area": 3,
         "id": {
           "value": 56
@@ -2629,7 +2629,7 @@
             "url": "http://www.withsasayama.jp/REKIBUN/osyoin_top.htm"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-57-sasayama",
         "area": 3,
         "id": {
           "value": 57
@@ -2675,7 +2675,7 @@
             "url": "http://www.hyogo-park.or.jp/akashi/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-58-akashi",
         "area": 3,
         "id": {
           "value": 58
@@ -2720,7 +2720,7 @@
             "url": "http://www.city.himeji.lg.jp/guide/castle.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-59-himeji",
         "area": 3,
         "id": {
           "value": 59
@@ -2764,7 +2764,7 @@
             "url": "http://www.ako-hyg.ed.jp/bunkazai/akojo/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-60-akou",
         "area": 3,
         "id": {
           "value": 60
@@ -2809,7 +2809,7 @@
             "url": "http://sightseeing.takatori.info/sightseeingspot/siroato.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-61-takatori",
         "area": 3,
         "id": {
           "value": 61
@@ -2855,7 +2855,7 @@
             "url": "http://www.wakayamakanko.com/sightseeing/history1.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-62-wakayama",
         "area": 3,
         "id": {
           "value": 62
@@ -2901,7 +2901,7 @@
             "url": "http://www.torican.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-63-tottori",
         "area": 4,
         "id": {
           "value": 63
@@ -2947,7 +2947,7 @@
             "url": "http://www.matsue-tourism.or.jp/m_castle/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-64-matsue",
         "area": 4,
         "id": {
           "value": 64
@@ -2993,7 +2993,7 @@
             "url": "http://www.yasugi-kankou.com/index.php?view=5228"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-65-gassantoda",
         "area": 4,
         "id": {
           "value": 65
@@ -3035,7 +3035,7 @@
         "related_websites": [
           { "name": "津和野観光協会", "url": "http://tsuwano-kanko.net/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-66-tsuwano",
         "area": 4,
         "id": {
           "value": 66
@@ -3081,7 +3081,7 @@
             "url": "https://www.city.tsuyama.lg.jp/city/index2.php?id=3449"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-67-tsuyama",
         "area": 4,
         "id": {
           "value": 67
@@ -3127,7 +3127,7 @@
             "url": "http://www.takahasikanko.or.jp/modules/spot/index.php?content_id=1"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-68-bittyuumatsuyama",
         "area": 4,
         "id": {
           "value": 68
@@ -3172,7 +3172,7 @@
             "url": "http://www.city.soja.okayama.jp/kanko_project/kanko/kannkou_bunnka/kankouti/kinojyo/kinojo.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-69-kino",
         "area": 4,
         "id": {
           "value": 69
@@ -3217,7 +3217,7 @@
             "url": "http://www.city.okayama.jp/kankou/midokoro/shisetsu/okayamajo/ujo/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-70-okayama",
         "area": 4,
         "id": {
           "value": 70
@@ -3260,7 +3260,7 @@
         "related_websites": [
           { "name": "福山城博物館", "url": "https://fukuyamajo.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-71-hukuyama",
         "area": 4,
         "id": {
           "value": 71
@@ -3306,7 +3306,7 @@
             "url": "http://www.akitakata.jp/ja/hakubutsukan/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-72-kooriyama",
         "area": 4,
         "id": {
           "value": 72
@@ -3352,7 +3352,7 @@
             "url": "http://www.rijo-castle.jp/rijo/main.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-73-hiroshima",
         "area": 4,
         "id": {
           "value": 73
@@ -3398,7 +3398,7 @@
             "url": "http://kankou.iwakuni-city.net/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-74-iwakuni",
         "area": 4,
         "id": {
           "value": 74
@@ -3444,7 +3444,7 @@
             "url": "http://www.hagishi.com/miru/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-75-hagi",
         "area": 4,
         "id": {
           "value": 75
@@ -3490,7 +3490,7 @@
             "url": "http://www.city.tokushima.tokushima.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-76-tokushima",
         "area": 4,
         "id": {
           "value": 76
@@ -3536,7 +3536,7 @@
             "url": "http://www.city.takamatsu.kagawa.jp/kurashi/kurashi/shisetsu/park/tamamo/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-77-takamatsu",
         "area": 4,
         "id": {
           "value": 77
@@ -3580,7 +3580,7 @@
         "related_websites": [
           { "name": "丸亀市HP", "url": "http://www.city.marugame.lg.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-78-marugame",
         "area": 4,
         "id": {
           "value": 78
@@ -3626,7 +3626,7 @@
             "url": "http://museum.city.imabari.ehime.jp/imabarijo/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-79-imabari",
         "area": 4,
         "id": {
           "value": 79
@@ -3669,7 +3669,7 @@
         "related_websites": [
           { "name": "道後公園「湯築城跡」", "url": "http://dogokouen.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-80-yuduki",
         "area": 4,
         "id": {
           "value": 80
@@ -3712,7 +3712,7 @@
         "related_websites": [
           { "name": "松山城総合案内", "url": "http://www.matsuyamajo.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-81-matsuyama",
         "area": 4,
         "id": {
           "value": 81
@@ -3758,7 +3758,7 @@
             "url": "http://www.city.ozu.ehime.jp/site/kanko/list3-16.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-82-oozu",
         "area": 4,
         "id": {
           "value": 82
@@ -3804,7 +3804,7 @@
             "url": "http://www.uwajima.org/spot/index7.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-83-uwajima",
         "area": 4,
         "id": {
           "value": 83
@@ -3847,7 +3847,7 @@
         "related_websites": [
           { "name": "高知城管理事務所HP", "url": "http://kochipark.jp/kochijyo/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-84-kochi",
         "area": 4,
         "id": {
           "value": 84
@@ -3890,7 +3890,7 @@
         "related_websites": [
           { "name": "福岡市の文化財", "url": "http://bunkazai.city.fukuoka.lg.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-85-fukuoka",
         "area": 5,
         "id": {
           "value": 85
@@ -3936,7 +3936,7 @@
             "url": "http://www.city.onojo.fukuoka.jp/s077/030/010/040/050/20181119164336.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-86-oono",
         "area": 5,
         "id": {
           "value": 86
@@ -3982,7 +3982,7 @@
             "url": "http://saga-museum.jp/nagoya/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-87-nagoya",
         "area": 5,
         "id": {
           "value": 87
@@ -4025,7 +4025,7 @@
         "related_websites": [
           { "name": "吉野ヶ里歴史公園", "url": "http://www.yoshinogari.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-88-yoshinogari",
         "area": 5,
         "id": {
           "value": 88
@@ -4068,7 +4068,7 @@
         "related_websites": [
           { "name": "佐賀城本丸歴史館", "url": "http://saga-museum.jp/sagajou/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-89-saga",
         "area": 5,
         "id": {
           "value": 89
@@ -4114,7 +4114,7 @@
             "url": "http://www.hira-shin.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-90-hirado",
         "area": 5,
         "id": {
           "value": 90
@@ -4157,7 +4157,7 @@
         "related_websites": [
           { "name": "島原城ポータルサイト", "url": "http://www.shimabarajou.com/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-91-simabara",
         "area": 5,
         "id": {
           "value": 91
@@ -4200,7 +4200,7 @@
         "related_websites": [
           { "name": "熊本城総合事務所", "url": "https://castle.kumamoto-guide.jp/" }
         ],
-        "stamp_image_name": "kumamoto",
+        "stamp_image_name": "stamp-92-kumamoto",
         "area": 5,
         "id": {
           "value": 92
@@ -4246,7 +4246,7 @@
             "url": "https://www.city.hitoyoshi.lg.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-93-hitoyosi",
         "area": 5,
         "id": {
           "value": 93
@@ -4292,7 +4292,7 @@
             "url": "http://www.city.oita.oita.jp/bunkasports/rekishi/shiryokan/index.html"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-94-oitafunai",
         "area": 5,
         "id": {
           "value": 94
@@ -4338,7 +4338,7 @@
             "url": "http://www.city.taketa.oita.jp/okajou/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-95-oka",
         "area": 5,
         "id": {
           "value": 95
@@ -4388,7 +4388,7 @@
             "url": "https://www.kankou-nichinan.jp/tourisms/300/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-96-obi",
         "area": 5,
         "id": {
           "value": 96
@@ -4434,7 +4434,7 @@
             "url": "http://www.pref.kagoshima.jp/reimeikan/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-97-kagoshima",
         "area": 5,
         "id": {
           "value": 97
@@ -4477,7 +4477,7 @@
         "related_websites": [
           { "name": "今帰仁城跡管理事務所", "url": "http://nakijinjoseki.jp/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-98-nakijin",
         "area": 5,
         "id": {
           "value": 98
@@ -4523,7 +4523,7 @@
             "url": "http://www.nakagusuku-jo.jp/"
           }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-99-nakagusuku",
         "area": 5,
         "id": {
           "value": 99
@@ -4566,7 +4566,7 @@
         "related_websites": [
           { "name": "首里城公園", "url": "http://oki-park.jp/shurijo-park/" }
         ],
-        "stamp_image_name": "",
+        "stamp_image_name": "stamp-100-syuri",
         "area": 5,
         "id": {
           "value": 100
