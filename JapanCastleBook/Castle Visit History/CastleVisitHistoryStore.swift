@@ -13,7 +13,7 @@ public protocol CastleVisitHistoryStore {
     typealias InsertionResult = AnyPublisher<Void, Error>
     typealias DeletionResult = AnyPublisher<Void, Error>
     
-    func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult
+    func insert(_ visitHistory: CastleVisitHistory) -> InsertionResult
     func retrieve() -> RetrievalResult
     func delete(_ visitHistoryID: UUID) -> DeletionResult
     func deleteAllVisitHistories() -> DeletionResult

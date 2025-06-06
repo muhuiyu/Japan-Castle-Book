@@ -46,8 +46,21 @@ public class CoreDataCastleVisitHistoryStore: CastleVisitHistoryStore {
         cleanUpReferencesToPersistentStores()
     }
     
-    public func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult {
-        fatalError("Not implemented")
+    public func insert(_ visitHistory: CastleVisitHistory) -> InsertionResult {
+        do {
+            let managedCastleHistory = try ManagedCastleVisitHistory.newUniqueInstance(in: context)
+            managedCastleHistory.id = visitHistory.id
+            managedCastleHistory.date = visitHistory.date
+            managedCastleHistory.title = visitHistory.title
+            managedCastleHistory.content = visitHistory.content
+            managedCastleHistory.photoURLs = visitHistory.photoURLs
+            try context.save()
+
+            return Future { $0(.success(())) }.eraseToAnyPublisher()
+            
+        } catch {
+            return Fail(error: error).eraseToAnyPublisher()
+        }
     }
     
     public func retrieve() -> RetrievalResult {
@@ -59,7 +72,12 @@ public class CoreDataCastleVisitHistoryStore: CastleVisitHistoryStore {
     }
     
     public func deleteAllVisitHistories() -> DeletionResult {
-        fatalError("Not implemented")
+        do {
+            try ManagedCastleVisitHistory.deleteCache(in: context)
+            return Future { $0(.success(())) }.eraseToAnyPublisher()
+        } catch {
+            return Fail(error: error).eraseToAnyPublisher()
+        }
     }
 }
 

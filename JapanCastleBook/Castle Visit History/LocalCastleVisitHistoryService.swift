@@ -33,7 +33,7 @@ extension LocalCastleVisitHistoryService {
 
 extension LocalCastleVisitHistoryService {
     
-    public func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult {
+    public func insert(_ visitHistoryList: CastleVisitHistory) -> InsertionResult {
         return store.insert(visitHistoryList)
     }
     

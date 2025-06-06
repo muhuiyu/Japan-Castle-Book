@@ -15,6 +15,6 @@ public protocol CastleVisitHistoryService {
     
     func hasVisitedCastle(for castleID: Int) -> Bool
     func retrieve() -> RetrievalResult
-    func insert(_ visitHistoryList: [CastleVisitHistory]) -> InsertionResult
+    func insert(_ visitHistory: CastleVisitHistory) -> InsertionResult
     func delete(at visitHistoryID: UUID) -> DeletionResult
 }

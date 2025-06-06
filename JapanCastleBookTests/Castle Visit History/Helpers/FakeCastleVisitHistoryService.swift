@@ -18,7 +18,7 @@ class FakeCastleVisitHistoryService: CastleVisitHistoryService {
         fatalError("Not implemented")
     }
     
-    func insert(_ visitHistory: [CastleVisitHistory]) -> InsertionResult {
+    func insert(_ visitHistory: CastleVisitHistory) -> InsertionResult {
         fatalError("Not implemented")
     }
     

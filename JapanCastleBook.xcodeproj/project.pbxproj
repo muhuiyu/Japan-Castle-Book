@@ -82,6 +82,20 @@
 			remoteGlobalIDString = E4079E572B4EF16C0035578C;
 			remoteInfo = JapanCastleBook;
 		};
+		E47442862D29F2000020C4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47442732D29F1FF0020C4A0;
+			remoteInfo = JapanCastleBookSwiftUI;
+		};
+		E47442902D29F2000020C4A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47442732D29F1FF0020C4A0;
+			remoteInfo = JapanCastleBookSwiftUI;
+		};
 		E4973A172B4F56AE00620075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
@@ -117,6 +131,9 @@
 		E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JapanCastleBook.h; sourceTree = "<group>"; };
 		E4079E602B4EF16C0035578C /* JapanCastleBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanCastleBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4267FA12B53E57700F17B14 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E47442742D29F1FF0020C4A0 /* JapanCastleBookSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanCastleBookSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47442852D29F2000020C4A0 /* JapanCastleBookSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanCastleBookSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E474428F2D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapanCastleBookSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleItemMapperTests.swift; sourceTree = "<group>"; };
 		E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleItemMapper.swift; sourceTree = "<group>"; };
 		E49739E92B4F4F0D00620075 /* castles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = castles.json; sourceTree = "<group>"; };
@@ -180,6 +197,12 @@
 		E4E895A62B5776090093EDF1 /* CastleVisitHistoryStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CastleVisitHistoryStore.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E47442752D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JapanCastleBookSwiftUI; sourceTree = "<group>"; };
+		E47442882D29F2000020C4A0 /* JapanCastleBookSwiftUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JapanCastleBookSwiftUITests; sourceTree = "<group>"; };
+		E47442922D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = JapanCastleBookSwiftUIUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		E4079E552B4EF16C0035578C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -193,6 +216,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4079E612B4EF16C0035578C /* JapanCastleBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442712D29F1FF0020C4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442822D29F2000020C4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E474428C2D29F2000020C4A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +268,9 @@
 				E4079E642B4EF16C0035578C /* JapanCastleBookTests */,
 				E49739FF2B4F56AD00620075 /* JapanCastleBookiOS */,
 				E4973A192B4F56AE00620075 /* JapanCastleBookiOSTests */,
+				E47442752D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */,
+				E47442882D29F2000020C4A0 /* JapanCastleBookSwiftUITests */,
+				E47442922D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests */,
 				E4079E592B4EF16C0035578C /* Products */,
 				E4973A582B4F5B6200620075 /* Frameworks */,
 			);
@@ -236,6 +283,9 @@
 				E4079E602B4EF16C0035578C /* JapanCastleBookTests.xctest */,
 				E49739FE2B4F56AD00620075 /* JapanCastleBookiOS.app */,
 				E4973A162B4F56AE00620075 /* JapanCastleBookiOSTests.xctest */,
+				E47442742D29F1FF0020C4A0 /* JapanCastleBookSwiftUI.app */,
+				E47442852D29F2000020C4A0 /* JapanCastleBookSwiftUITests.xctest */,
+				E474428F2D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -617,6 +667,74 @@
 			productReference = E4079E602B4EF16C0035578C /* JapanCastleBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E47442732D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47442972D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUI" */;
+			buildPhases = (
+				E47442702D29F1FF0020C4A0 /* Sources */,
+				E47442712D29F1FF0020C4A0 /* Frameworks */,
+				E47442722D29F1FF0020C4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E47442752D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */,
+			);
+			name = JapanCastleBookSwiftUI;
+			packageProductDependencies = (
+			);
+			productName = JapanCastleBookSwiftUI;
+			productReference = E47442742D29F1FF0020C4A0 /* JapanCastleBookSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E47442842D29F2000020C4A0 /* JapanCastleBookSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E474429A2D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUITests" */;
+			buildPhases = (
+				E47442812D29F2000020C4A0 /* Sources */,
+				E47442822D29F2000020C4A0 /* Frameworks */,
+				E47442832D29F2000020C4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47442872D29F2000020C4A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E47442882D29F2000020C4A0 /* JapanCastleBookSwiftUITests */,
+			);
+			name = JapanCastleBookSwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = JapanCastleBookSwiftUITests;
+			productReference = E47442852D29F2000020C4A0 /* JapanCastleBookSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E474428E2D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E474429D2D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUIUITests" */;
+			buildPhases = (
+				E474428B2D29F2000020C4A0 /* Sources */,
+				E474428C2D29F2000020C4A0 /* Frameworks */,
+				E474428D2D29F2000020C4A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47442912D29F2000020C4A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E47442922D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests */,
+			);
+			name = JapanCastleBookSwiftUIUITests;
+			packageProductDependencies = (
+			);
+			productName = JapanCastleBookSwiftUIUITests;
+			productReference = E474428F2D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E49739FD2B4F56AD00620075 /* JapanCastleBookiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4973A282B4F56AF00620075 /* Build configuration list for PBXNativeTarget "JapanCastleBookiOS" */;
@@ -665,7 +783,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E4079E572B4EF16C0035578C = {
@@ -675,6 +793,17 @@
 					E4079E5F2B4EF16C0035578C = {
 						CreatedOnToolsVersion = 15.0.1;
 						LastSwiftMigration = 1500;
+					};
+					E47442732D29F1FF0020C4A0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E47442842D29F2000020C4A0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E47442732D29F1FF0020C4A0;
+					};
+					E474428E2D29F2000020C4A0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E47442732D29F1FF0020C4A0;
 					};
 					E49739FD2B4F56AD00620075 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -706,6 +835,9 @@
 				E4079E5F2B4EF16C0035578C /* JapanCastleBookTests */,
 				E49739FD2B4F56AD00620075 /* JapanCastleBookiOS */,
 				E4973A152B4F56AE00620075 /* JapanCastleBookiOSTests */,
+				E47442732D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */,
+				E47442842D29F2000020C4A0 /* JapanCastleBookSwiftUITests */,
+				E474428E2D29F2000020C4A0 /* JapanCastleBookSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -724,6 +856,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49739F42B4F54C300620075 /* castles.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442722D29F1FF0020C4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442832D29F2000020C4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E474428D2D29F2000020C4A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +929,27 @@
 				E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */,
 				E4973AA72B4F8A9800620075 /* CoreDataCastleVisitHistoryStoreTests.swift in Sources */,
 				E49739F72B4F563C00620075 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442702D29F1FF0020C4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47442812D29F2000020C4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E474428B2D29F2000020C4A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +1010,16 @@
 			isa = PBXTargetDependency;
 			target = E4079E572B4EF16C0035578C /* JapanCastleBook */;
 			targetProxy = E4079E622B4EF16C0035578C /* PBXContainerItemProxy */;
+		};
+		E47442872D29F2000020C4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47442732D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */;
+			targetProxy = E47442862D29F2000020C4A0 /* PBXContainerItemProxy */;
+		};
+		E47442912D29F2000020C4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47442732D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */;
+			targetProxy = E47442902D29F2000020C4A0 /* PBXContainerItemProxy */;
 		};
 		E4973A182B4F56AE00620075 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1105,6 +1289,149 @@
 			};
 			name = Release;
 		};
+		E47442982D29F2000020C4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JapanCastleBookSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E47442992D29F2000020C4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JapanCastleBookSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E474429B2D29F2000020C4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanCastleBookSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapanCastleBookSwiftUI";
+			};
+			name = Debug;
+		};
+		E474429C2D29F2000020C4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapanCastleBookSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapanCastleBookSwiftUI";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E474429E2D29F2000020C4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapanCastleBookSwiftUI;
+			};
+			name = Debug;
+		};
+		E474429F2D29F2000020C4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q83M63VYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhuiyu.JapanCastleBookSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapanCastleBookSwiftUI;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		E4973A292B4F56AF00620075 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1233,6 +1560,33 @@
 			buildConfigurations = (
 				E4079E6E2B4EF16C0035578C /* Debug */,
 				E4079E6F2B4EF16C0035578C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47442972D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47442982D29F2000020C4A0 /* Debug */,
+				E47442992D29F2000020C4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E474429A2D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E474429B2D29F2000020C4A0 /* Debug */,
+				E474429C2D29F2000020C4A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E474429D2D29F2000020C4A0 /* Build configuration list for PBXNativeTarget "JapanCastleBookSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E474429E2D29F2000020C4A0 /* Debug */,
+				E474429F2D29F2000020C4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
