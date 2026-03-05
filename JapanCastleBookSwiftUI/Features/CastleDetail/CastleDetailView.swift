@@ -390,7 +390,7 @@ private struct CastleDetailInfoView: View {
             VStack(alignment: .leading, spacing: 16) {
                 ZStack(alignment: .bottomTrailing) {
                     TabView {
-                        ForEach(imageURLs, id: \.self) { url in
+                        ForEach(Array(imageURLs.enumerated()), id: \.offset) { _, url in
                             AsyncImage(url: url) { phase in
                                 switch phase {
                                 case .success(let image):
