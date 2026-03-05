@@ -4,6 +4,9 @@ import JapanCastleBook
 import SwiftUI
 
 struct CastleListView: View {
+    // Keep sequel data hidden until content QA/enrichment is complete.
+    private let sequelSeriesEnabled = false
+
     private enum CastleSeries: String, CaseIterable {
         case top100
         case sequel100
@@ -142,7 +145,10 @@ struct CastleListView: View {
     }
 
     private var filteredCastles: [Castle] {
-        viewModel.castles.filter { selectedSeries.idRange.contains($0.id) }
+        if selectedSeries == .sequel100 && !sequelSeriesEnabled {
+            return []
+        }
+        return viewModel.castles.filter { selectedSeries.idRange.contains($0.id) }
     }
 
     private var filteredSections: [CastleListViewModel.Section] {
