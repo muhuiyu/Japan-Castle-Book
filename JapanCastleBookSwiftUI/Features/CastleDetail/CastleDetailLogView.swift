@@ -144,7 +144,7 @@ private struct VisitLogPreviewCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text(log.date.formatted(date: .abbreviated, time: .omitted))
+            Text(log.date.formatted(date: .long, time: .omitted))
                 .font(.caption)
                 .foregroundStyle(.secondary)
 
