@@ -25,6 +25,7 @@ struct CastleListView: View {
                 CastleDetailView(castle: route.castle)
             }
         }
+        .environment(\.castleStampAssetService, stampAssetService)
         .task {
             guard viewModel.castles.isEmpty else { return }
             viewModel.loadCastles()
@@ -39,7 +40,6 @@ struct CastleListView: View {
                         CastleListCellRowView(castles: section.rows[index]) { castle in
                             route = CastleRoute(castle: castle)
                         }
-                        .environment(\.castleStampAssetService, stampAssetService)
                             .listRowSeparator(.hidden)
                             .listRowInsets(EdgeInsets(top: 2, leading: 16, bottom: 2, trailing: 16))
                     }

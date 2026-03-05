@@ -429,6 +429,7 @@ private struct CastleDetailInfoView: View {
 
 private struct CastleDetailLogView: View {
     @EnvironmentObject private var experienceStore: CastleExperienceStore
+    @Environment(\.castleStampAssetService) private var stampAssetService
 
     let castle: Castle
     let didTapAddStamp: () -> Void
@@ -436,6 +437,10 @@ private struct CastleDetailLogView: View {
 
     private var logs: [CastleVisitLogEntry] {
         experienceStore.visitLogs(for: castle.id)
+    }
+
+    private var castleStampAssetName: String {
+        stampAssetService.stampAssetName(for: castle.id) ?? AssetImage.doneStamp
     }
 
     var body: some View {
@@ -475,7 +480,7 @@ private struct CastleDetailLogView: View {
                             .frame(width: 72, height: 72)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                     } else if experienceStore.hasStamp(castle.id) {
-                        Image(AssetImage.doneStamp)
+                        Image(castleStampAssetName)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 72, height: 72)
@@ -503,12 +508,6 @@ private struct CastleDetailLogView: View {
 
     private var emptyLogsCard: some View {
         VStack(spacing: 12) {
-            Image(AssetImage.doneStamp)
-                .resizable()
-                .scaledToFit()
-                .frame(height: 80)
-                .opacity(0.15)
-
             Text(L10n.logEmptyTitle)
                 .font(.headline)
             Text(L10n.logEmptyMessage)
