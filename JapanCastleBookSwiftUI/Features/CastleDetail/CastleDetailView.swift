@@ -4,6 +4,11 @@ import SwiftUI
 import UIKit
 
 struct CastleDetailView: View {
+    private enum DialogAnchor {
+        case root
+        case completeButton
+    }
+
     private enum Segment: String, CaseIterable {
         case info
         case visitLog
@@ -49,10 +54,15 @@ struct CastleDetailView: View {
     @State private var showingImageSourceActions = false
     @State private var showingVisitLogForm = false
 
+    @State private var stampDialogAnchor: DialogAnchor = .root
+    @State private var imageSourceDialogAnchor: DialogAnchor = .root
+
     @State private var imageSourcePurpose: PickerPurpose = .quickLog
     @State private var activePicker: ActivePicker?
 
     @State private var visitLogDraft = VisitLogDraft()
+    @State private var toastMessage: String?
+    @State private var toastID = UUID()
 
     var body: some View {
         VStack(spacing: 12) {
@@ -90,32 +100,33 @@ struct CastleDetailView: View {
             }
             .padding(.horizontal)
             .padding(.bottom, 8)
+            .confirmationDialog(L10n.completeChooseAction, isPresented: $showingCompleteActions) {
+                Button(L10n.actionTakePhoto) {
+                    imageSourcePurpose = .quickLog
+                    imageSourceDialogAnchor = .completeButton
+                    showingImageSourceActions = true
+                }
+                Button(L10n.actionAddStamp) {
+                    stampDialogAnchor = .completeButton
+                    showingStampActions = true
+                }
+                Button(L10n.actionAddVisitLog) {
+                    visitLogDraft = VisitLogDraft()
+                    showingVisitLogForm = true
+                }
+                Button(L10n.cancel, role: .cancel) {}
+            }
+            .confirmationDialog(L10n.stampChooseAction, isPresented: showingStampActionsFromComplete) {
+                stampActionsButtons
+            }
+            .confirmationDialog(L10n.sourceChooseAction, isPresented: showingImageSourceActionsFromComplete) {
+                imageSourceButtons
+            }
         }
         .navigationTitle(castle.name)
         .navigationBarTitleDisplayMode(.inline)
-        .confirmationDialog(L10n.completeChooseAction, isPresented: $showingCompleteActions) {
-            Button(L10n.actionTakePhoto) {
-                imageSourcePurpose = .quickLog
-                showingImageSourceActions = true
-            }
-            Button(L10n.actionAddStamp) {
-                showingStampActions = true
-            }
-            Button(L10n.actionAddVisitLog) {
-                visitLogDraft = VisitLogDraft()
-                showingVisitLogForm = true
-            }
-            Button(L10n.cancel, role: .cancel) {}
-        }
-        .confirmationDialog(L10n.stampChooseAction, isPresented: $showingStampActions) {
-            Button(L10n.stampAddDigital) {
-                experienceStore.addDigitalStamp(for: castle.id)
-            }
-            Button(L10n.stampTakePhoto) {
-                imageSourcePurpose = .stamp
-                showingImageSourceActions = true
-            }
-            Button(L10n.cancel, role: .cancel) {}
+        .confirmationDialog(L10n.stampChooseAction, isPresented: showingStampActionsFromRoot) {
+            stampActionsButtons
         }
         .confirmationDialog(L10n.stampEdit, isPresented: $showingStampEditActions) {
             Button(L10n.stampRemove, role: .destructive) {
@@ -123,20 +134,13 @@ struct CastleDetailView: View {
             }
             Button(L10n.stampTakePhoto) {
                 imageSourcePurpose = .stamp
+                imageSourceDialogAnchor = .root
                 showingImageSourceActions = true
             }
             Button(L10n.cancel, role: .cancel) {}
         }
-        .confirmationDialog(L10n.sourceChooseAction, isPresented: $showingImageSourceActions) {
-            if UIImagePickerController.isSourceTypeAvailable(.camera) {
-                Button(L10n.sourceCamera) {
-                    activePicker = ActivePicker(purpose: imageSourcePurpose, sourceType: .camera)
-                }
-            }
-            Button(L10n.sourceLibrary) {
-                activePicker = ActivePicker(purpose: imageSourcePurpose, sourceType: .photoLibrary)
-            }
-            Button(L10n.cancel, role: .cancel) {}
+        .confirmationDialog(L10n.sourceChooseAction, isPresented: showingImageSourceActionsFromRoot) {
+            imageSourceButtons
         }
         .sheet(item: $activePicker) { picker in
             ImagePicker(sourceType: picker.sourceType) { image in
@@ -148,6 +152,7 @@ struct CastleDetailView: View {
                 draft: $visitLogDraft,
                 onAttachPhoto: {
                     imageSourcePurpose = .visitLog
+                    imageSourceDialogAnchor = .root
                     showingImageSourceActions = true
                 },
                 onSave: {
@@ -162,10 +167,24 @@ struct CastleDetailView: View {
                         content: content,
                         photo: visitLogDraft.photo
                     )
+                    showToast(L10n.toastVisitLogAdded)
                     showingVisitLogForm = false
                     selectedSegment = .visitLog
                 }
             )
+        }
+        .overlay(alignment: .bottom) {
+            if let toastMessage {
+                Text(toastMessage)
+                    .font(.subheadline.weight(.semibold))
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 10)
+                    .foregroundStyle(.white)
+                    .background(.black.opacity(0.85))
+                    .clipShape(Capsule())
+                    .padding(.bottom, 80)
+                    .transition(.opacity)
+            }
         }
     }
 
@@ -173,6 +192,7 @@ struct CastleDetailView: View {
         if experienceStore.hasStamp(castle.id) {
             showingStampEditActions = true
         } else {
+            stampDialogAnchor = .root
             showingStampActions = true
         }
     }
@@ -192,12 +212,104 @@ struct CastleDetailView: View {
                 content: "",
                 photo: image
             )
+            showToast(L10n.toastPhotoAdded)
             selectedSegment = .visitLog
         case .stamp:
             experienceStore.setStampPhoto(for: castle.id, image: image)
+            showToast(L10n.toastStampPhotoAdded)
         case .visitLog:
             visitLogDraft.photo = image
             showingVisitLogForm = true
+        }
+    }
+
+    private var showingStampActionsFromComplete: Binding<Bool> {
+        Binding(
+            get: { showingStampActions && stampDialogAnchor == .completeButton },
+            set: { isPresented in
+                if !isPresented && stampDialogAnchor == .completeButton {
+                    showingStampActions = false
+                }
+            }
+        )
+    }
+
+    private var showingStampActionsFromRoot: Binding<Bool> {
+        Binding(
+            get: { showingStampActions && stampDialogAnchor == .root },
+            set: { isPresented in
+                if !isPresented && stampDialogAnchor == .root {
+                    showingStampActions = false
+                }
+            }
+        )
+    }
+
+    private var showingImageSourceActionsFromComplete: Binding<Bool> {
+        Binding(
+            get: { showingImageSourceActions && imageSourceDialogAnchor == .completeButton },
+            set: { isPresented in
+                if !isPresented && imageSourceDialogAnchor == .completeButton {
+                    showingImageSourceActions = false
+                }
+            }
+        )
+    }
+
+    private var showingImageSourceActionsFromRoot: Binding<Bool> {
+        Binding(
+            get: { showingImageSourceActions && imageSourceDialogAnchor == .root },
+            set: { isPresented in
+                if !isPresented && imageSourceDialogAnchor == .root {
+                    showingImageSourceActions = false
+                }
+            }
+        )
+    }
+
+    @ViewBuilder
+    private var stampActionsButtons: some View {
+        Button(L10n.stampAddDigital) {
+            experienceStore.addDigitalStamp(for: castle.id)
+            showToast(L10n.toastStampAdded)
+        }
+        Button(L10n.stampTakePhoto) {
+            imageSourcePurpose = .stamp
+            imageSourceDialogAnchor = stampDialogAnchor
+            showingImageSourceActions = true
+        }
+        Button(L10n.cancel, role: .cancel) {}
+    }
+
+    @ViewBuilder
+    private var imageSourceButtons: some View {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            Button(L10n.sourceCamera) {
+                activePicker = ActivePicker(purpose: imageSourcePurpose, sourceType: .camera)
+            }
+        }
+        Button(L10n.sourceLibrary) {
+            activePicker = ActivePicker(purpose: imageSourcePurpose, sourceType: .photoLibrary)
+        }
+        Button(L10n.cancel, role: .cancel) {}
+    }
+
+    private func showToast(_ message: String) {
+        let currentID = UUID()
+        toastID = currentID
+
+        withAnimation(.easeInOut(duration: 0.2)) {
+            toastMessage = message
+        }
+
+        Task {
+            try? await Task.sleep(nanoseconds: 1_000_000_000)
+            await MainActor.run {
+                guard toastID == currentID else { return }
+                withAnimation(.easeInOut(duration: 0.2)) {
+                    toastMessage = nil
+                }
+            }
         }
     }
 }
@@ -235,7 +347,7 @@ private struct CastleDetailInfoView: View {
                                 case .success(let image):
                                     image.resizable().scaledToFill()
                                 default:
-                                    Image("castle-image-placeholder")
+                                    Image(AssetImage.castleImagePlaceholder)
                                         .resizable()
                                         .scaledToFill()
                                 }
@@ -250,7 +362,7 @@ private struct CastleDetailInfoView: View {
                     .tabViewStyle(.page(indexDisplayMode: .automatic))
 
                     if experienceStore.hasVisited(castle.id) {
-                        Image("done-stamp")
+                        Image(AssetImage.doneStamp)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 64, height: 64)
@@ -363,7 +475,7 @@ private struct CastleDetailLogView: View {
                             .frame(width: 72, height: 72)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                     } else if experienceStore.hasStamp(castle.id) {
-                        Image("done-stamp")
+                        Image(AssetImage.doneStamp)
                             .resizable()
                             .scaledToFit()
                             .frame(width: 72, height: 72)
@@ -391,7 +503,7 @@ private struct CastleDetailLogView: View {
 
     private var emptyLogsCard: some View {
         VStack(spacing: 12) {
-            Image("done-stamp")
+            Image(AssetImage.doneStamp)
                 .resizable()
                 .scaledToFit()
                 .frame(height: 80)

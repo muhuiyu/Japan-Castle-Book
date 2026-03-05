@@ -1,0 +1,55 @@
+"tab_castles" = "お城";
+
+"castle_list_title" = "城一覧";
+"common_retry" = "再試行";
+"castle_list_error_missing_file" = "ファイルが見つかりません";
+"castle_list_error_invalid_data" = "データが不正です";
+"castle_list_error_connectivity" = "サーバーに接続できません";
+
+"castle_area_hokkaido_tohoku" = "北海道・東北";
+"castle_area_kanto_koshinetsu" = "関東・甲信越";
+"castle_area_hokuriku_tokai" = "北陸・東海";
+"castle_area_kinki" = "近畿";
+"castle_area_chugoku_shikoku" = "中国・四国";
+"castle_area_kyushu_okinawa" = "九州・沖縄";
+
+"castle_detail_segment_info" = "情報";
+"castle_detail_segment_visit_log" = "訪問ログ";
+"castle_detail_complete" = "訪問を記録";
+"castle_detail_access_guide" = "アクセス";
+"castle_detail_overview" = "概要";
+"castle_detail_stamp_location" = "スタンプ設置場所";
+
+"castle_detail_complete_choose_action" = "操作を選択";
+"castle_detail_action_take_photo" = "写真を撮る";
+"castle_detail_action_add_stamp" = "スタンプを追加";
+"castle_detail_action_add_visit_log" = "訪問ログを追加";
+
+"castle_detail_stamp_choose_action" = "スタンプ操作";
+"castle_detail_stamp_add_digital" = "デジタルスタンプを追加";
+"castle_detail_stamp_take_photo" = "スタンプ写真を追加";
+"castle_detail_stamp_edit" = "スタンプを編集";
+"castle_detail_stamp_remove" = "スタンプを削除";
+
+"castle_detail_source_choose_action" = "ソースを選択";
+"castle_detail_source_camera" = "カメラ";
+"castle_detail_source_library" = "フォトライブラリ";
+
+"castle_log_empty_title" = "訪問ログはまだありません";
+"castle_log_empty_message" = "この城を訪れたら、スタンプ・写真・メモを追加しましょう。";
+"castle_log_stamp_title" = "城スタンプ";
+"castle_log_add_stamp" = "スタンプを追加";
+
+"castle_log_form_title" = "新しい訪問ログ";
+"castle_log_form_date" = "日付";
+"castle_log_form_visit_title" = "タイトル";
+"castle_log_form_visit_content" = "メモ";
+"castle_log_form_attach_photo" = "写真を添付";
+
+"common_save" = "保存";
+"common_cancel" = "キャンセル";
+
+"toast_stamp_added" = "スタンプを追加しました";
+"toast_stamp_photo_added" = "スタンプ写真を追加しました";
+"toast_visit_log_added" = "訪問ログを保存しました";
+"toast_photo_added" = "写真を保存しました";

@@ -6,6 +6,7 @@ import SwiftUI
 struct CastleListView: View {
     @EnvironmentObject private var experienceStore: CastleExperienceStore
     @StateObject var viewModel: CastleListViewModel
+    let stampAssetService: CastleStampAssetService
     @State private var route: CastleRoute?
 
     var body: some View {
@@ -38,6 +39,7 @@ struct CastleListView: View {
                         CastleListCellRowView(castles: section.rows[index]) { castle in
                             route = CastleRoute(castle: castle)
                         }
+                        .environment(\.castleStampAssetService, stampAssetService)
                             .listRowSeparator(.hidden)
                             .listRowInsets(EdgeInsets(top: 2, leading: 16, bottom: 2, trailing: 16))
                     }
@@ -177,6 +179,8 @@ private struct CastleListCellRowView: View {
 }
 
 private struct CastleListCellView: View {
+    @Environment(\.castleStampAssetService) private var stampAssetService
+
     let castle: Castle
     let hasVisited: Bool
 
@@ -190,14 +194,14 @@ private struct CastleListCellView: View {
                             .stroke(Color(.tertiarySystemFill), lineWidth: 2)
                     )
 
-                Image("castle")
+                Image(AssetImage.castle)
                     .resizable()
                     .scaledToFit()
                     .opacity(0.25)
                     .padding(14)
 
                 if hasVisited {
-                    Image("done-stamp")
+                    Image(stampAssetService.stampAssetName(for: castle.id) ?? AssetImage.doneStamp)
                         .resizable()
                         .scaledToFit()
                         .padding(8)
@@ -219,7 +223,8 @@ private struct CastleListCellView: View {
 
 #Preview {
     CastleListView(
-        viewModel: CastleListViewModel(castleService: CastleAppEnvironment.live.castleService)
+        viewModel: CastleListViewModel(castleService: CastleAppEnvironment.live.castleService),
+        stampAssetService: CastleAppEnvironment.live.castleStampAssetService
     )
     .environmentObject(CastleExperienceStore())
 }

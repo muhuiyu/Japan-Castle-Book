@@ -51,4 +51,9 @@ enum L10n {
     static let logFormAttachPhoto = String(localized: "castle_log_form_attach_photo")
     static let logFormSave = String(localized: "common_save")
     static let cancel = String(localized: "common_cancel")
+
+    static let toastStampAdded = String(localized: "toast_stamp_added")
+    static let toastStampPhotoAdded = String(localized: "toast_stamp_photo_added")
+    static let toastVisitLogAdded = String(localized: "toast_visit_log_added")
+    static let toastPhotoAdded = String(localized: "toast_photo_added")
 }

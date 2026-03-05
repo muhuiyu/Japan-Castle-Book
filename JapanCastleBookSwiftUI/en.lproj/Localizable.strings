@@ -15,7 +15,7 @@
 
 "castle_detail_segment_info" = "Info";
 "castle_detail_segment_visit_log" = "Visit Log";
-"castle_detail_complete" = "Complete";
+"castle_detail_complete" = "Log Visit";
 "castle_detail_access_guide" = "Access Guide";
 "castle_detail_overview" = "Overview";
 "castle_detail_stamp_location" = "Stamp Location";
@@ -48,3 +48,8 @@
 
 "common_save" = "Save";
 "common_cancel" = "Cancel";
+
+"toast_stamp_added" = "Stamp added";
+"toast_stamp_photo_added" = "Stamp photo added";
+"toast_visit_log_added" = "Visit log saved";
+"toast_photo_added" = "Photo saved";
