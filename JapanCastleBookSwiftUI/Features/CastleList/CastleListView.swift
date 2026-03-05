@@ -58,6 +58,7 @@ struct CastleListView: View {
             }
         }
         .listStyle(.plain)
+        .scrollIndicators(.hidden)
     }
 
     private func errorContent(message: String) -> some View {

@@ -462,6 +462,7 @@ private struct CastleDetailInfoView: View {
             }
             .padding(.bottom, 12)
         }
+        .scrollIndicators(.hidden)
     }
 
     private func detailBlock(title: String, value: String) -> some View {
@@ -532,6 +533,7 @@ private struct CastleDetailLogView: View {
         }
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
+        .scrollIndicators(.hidden)
     }
 
     private var stampCard: some View {
