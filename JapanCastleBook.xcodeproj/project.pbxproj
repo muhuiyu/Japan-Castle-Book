@@ -1333,6 +1333,8 @@
 				DEVELOPMENT_TEAM = Q83M63VYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use the camera to capture castle stamps and visit log photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use your photo library to attach stamp and visit log photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1363,6 +1365,8 @@
 				DEVELOPMENT_TEAM = Q83M63VYW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use the camera to capture castle stamps and visit log photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Use your photo library to attach stamp and visit log photos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
