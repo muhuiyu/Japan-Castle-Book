@@ -27,6 +27,7 @@
 "castle_detail_overview" = "概要";
 "castle_detail_stamp_location" = "スタンプ設置場所";
 "castle_detail_related_websites" = "関連サイト";
+"castle_detail_no_image_provided" = "画像は登録されていません";
 
 "castle_detail_complete_choose_action" = "操作を選択";
 "castle_detail_action_take_photo" = "写真を撮る";

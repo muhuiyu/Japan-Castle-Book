@@ -30,6 +30,7 @@ enum L10n {
     static let detailOverview = String(localized: "castle_detail_overview")
     static let detailStampLocation = String(localized: "castle_detail_stamp_location")
     static let detailRelatedWebsites = String(localized: "castle_detail_related_websites")
+    static let detailNoImageProvided = String(localized: "castle_detail_no_image_provided")
 
     static let completeChooseAction = String(localized: "castle_detail_complete_choose_action")
     static let actionTakePhoto = String(localized: "castle_detail_action_take_photo")

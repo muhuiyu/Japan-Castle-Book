@@ -27,6 +27,7 @@
 "castle_detail_overview" = "Overview";
 "castle_detail_stamp_location" = "Stamp Location";
 "castle_detail_related_websites" = "Related Websites";
+"castle_detail_no_image_provided" = "No image provided";
 
 "castle_detail_complete_choose_action" = "Choose an action";
 "castle_detail_action_take_photo" = "Take Photo";
