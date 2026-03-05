@@ -26,9 +26,19 @@ public final class CastleItemMapper {
         let stampLocation: String
         let overview: String
         let imageURLs: [URL]
-        
+        let relatedWebsites: [RemoteRelatedWebsite]
+
         struct RemoteCastleItemID: Decodable {
             let value: Int
+        }
+
+        struct RemoteRelatedWebsite: Decodable {
+            let name: String
+            let url: URL
+
+            var website: Castle.RelatedWebsite {
+                Castle.RelatedWebsite(name: name, url: url)
+            }
         }
         
         enum CodingKeys: String, CodingKey {
@@ -44,6 +54,7 @@ public final class CastleItemMapper {
             case stampLocation = "stamp_location"
             case overview
             case imageURLs = "image_urls"
+            case relatedWebsites = "related_websites"
         }
         
         var castle: Castle {
@@ -59,7 +70,8 @@ public final class CastleItemMapper {
                 parkingInfo: parkingInfo,
                 stampLocation: stampLocation,
                 overview: overview,
-                imageURLs: imageURLs
+                imageURLs: imageURLs,
+                relatedWebsites: relatedWebsites.map(\.website)
             )
         }
         

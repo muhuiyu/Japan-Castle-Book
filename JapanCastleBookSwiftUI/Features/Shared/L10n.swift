@@ -2,6 +2,7 @@ import Foundation
 
 enum L10n {
     static let tabCastles = String(localized: "tab_castles")
+    static let tabSettings = String(localized: "tab_settings")
 
     static let castleListTitle = String(localized: "castle_list_title")
     static let castleListProgressTitle = String(localized: "castle_list_progress_title")
@@ -28,6 +29,7 @@ enum L10n {
     static let detailAccessGuide = String(localized: "castle_detail_access_guide")
     static let detailOverview = String(localized: "castle_detail_overview")
     static let detailStampLocation = String(localized: "castle_detail_stamp_location")
+    static let detailRelatedWebsites = String(localized: "castle_detail_related_websites")
 
     static let completeChooseAction = String(localized: "castle_detail_complete_choose_action")
     static let actionTakePhoto = String(localized: "castle_detail_action_take_photo")
@@ -61,6 +63,15 @@ enum L10n {
     static let toastStampPhotoAdded = String(localized: "toast_stamp_photo_added")
     static let toastVisitLogAdded = String(localized: "toast_visit_log_added")
     static let toastPhotoAdded = String(localized: "toast_photo_added")
+
+    static let settingsTitle = String(localized: "settings_title")
+    static let settingsAppearance = String(localized: "settings_appearance")
+    static let settingsAppearanceSystem = String(localized: "settings_appearance_system")
+    static let settingsAppearanceLight = String(localized: "settings_appearance_light")
+    static let settingsAppearanceDark = String(localized: "settings_appearance_dark")
+    static let settingsReferences = String(localized: "settings_references")
+    static let referencesTitle = String(localized: "references_title")
+    static let referencesSpecialThanks = String(localized: "references_special_thanks")
 
     static func castleListVisitProgress(_ visited: Int, _ total: Int) -> String {
         let format = NSLocalizedString("castle_list_visit_progress", comment: "Visited progress summary")

@@ -10,6 +10,16 @@ import Foundation
 public typealias CastleID = Int
 
 public struct Castle: Equatable {
+    public struct RelatedWebsite: Equatable {
+        public let name: String
+        public let url: URL
+
+        public init(name: String, url: URL) {
+            self.name = name
+            self.url = url
+        }
+    }
+
     public let id: Int
     public let name: String
     public let reading: String
@@ -22,6 +32,7 @@ public struct Castle: Equatable {
     public let stampLocation: String
     public let overview: String
     public let imageURLs: [URL]
+    public let relatedWebsites: [RelatedWebsite]
     
     public init(
         id: Int,
@@ -35,7 +46,8 @@ public struct Castle: Equatable {
         parkingInfo: String,
         stampLocation: String,
         overview: String,
-        imageURLs: [URL]
+        imageURLs: [URL],
+        relatedWebsites: [RelatedWebsite] = []
     ) {
         self.id = id
         self.name = name
@@ -49,6 +61,7 @@ public struct Castle: Equatable {
         self.stampLocation = stampLocation
         self.overview = overview
         self.imageURLs = imageURLs
+        self.relatedWebsites = relatedWebsites
     }
 }
 

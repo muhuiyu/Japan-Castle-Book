@@ -1,4 +1,5 @@
 "tab_castles" = "Castles";
+"tab_settings" = "Settings";
 
 "castle_list_title" = "Castle List";
 "castle_list_progress_title" = "Your Progress";
@@ -25,6 +26,7 @@
 "castle_detail_access_guide" = "Access Guide";
 "castle_detail_overview" = "Overview";
 "castle_detail_stamp_location" = "Stamp Location";
+"castle_detail_related_websites" = "Related Websites";
 
 "castle_detail_complete_choose_action" = "Choose an action";
 "castle_detail_action_take_photo" = "Take Photo";
@@ -59,3 +61,12 @@
 "toast_stamp_photo_added" = "Stamp photo added";
 "toast_visit_log_added" = "Visit log saved";
 "toast_photo_added" = "Photo saved";
+
+"settings_title" = "Settings";
+"settings_appearance" = "Appearance";
+"settings_appearance_system" = "System";
+"settings_appearance_light" = "Light";
+"settings_appearance_dark" = "Dark";
+"settings_references" = "References";
+"references_title" = "References";
+"references_special_thanks" = "Special Thanks";

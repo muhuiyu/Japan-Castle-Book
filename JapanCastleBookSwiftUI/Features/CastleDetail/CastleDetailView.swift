@@ -460,6 +460,10 @@ private struct CastleDetailInfoView: View {
 
                 detailBlock(title: L10n.detailAccessGuide, value: castle.accessGuide)
                 detailBlock(title: L10n.detailOverview, value: castle.overview)
+
+                if !castle.relatedWebsites.isEmpty {
+                    relatedWebsitesBlock
+                }
             }
             .padding(.bottom, 12)
         }
@@ -473,6 +477,28 @@ private struct CastleDetailInfoView: View {
                 .foregroundStyle(.secondary)
             Text(value)
                 .font(.body)
+        }
+        .padding(.horizontal)
+    }
+
+    private var relatedWebsitesBlock: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(L10n.detailRelatedWebsites)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+
+            ForEach(castle.relatedWebsites, id: \.url.absoluteString) { site in
+                Link(destination: site.url) {
+                    HStack(spacing: 6) {
+                        Text(site.name)
+                            .font(.body)
+                            .foregroundStyle(.mint)
+                        Image(systemName: "arrow.up.right.square")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+            }
         }
         .padding(.horizontal)
     }
