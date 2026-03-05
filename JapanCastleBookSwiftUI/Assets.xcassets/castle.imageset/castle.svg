@@ -7,10 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    id="svg46"
    version="1.1"
-   style="overflow:visible"
-   viewBox="-240 -126 480 252"
-   height="1008px"
-   width="1920px">
+   viewBox="-130 -140 260 260"
+   height="1024px"
+   width="1024px">
   <metadata
      id="metadata52">
     <rdf:RDF>
@@ -24,23 +23,6 @@
   </metadata>
   <defs
      id="defs50" />
-  <rect
-     id="rect2"
-     fill-opacity="0"
-     fill="rgb(0,0,0)"
-     height="252"
-     width="480"
-     y="-126"
-     x="-240" />
-  <svg
-     id="svg44"
-     version="1.1"
-     y="-232"
-     x="-250"
-     viewBox="-250 -250 500 500"
-     height="500"
-     width="500"
-     style="overflow:visible">
     <g
        style="fill:#ffffff;stroke-linejoin:round"
        id="g42">
@@ -121,5 +103,4 @@
          id="path40"
          d="m 0,-47.713381 c -18.593718,19.163232 -27.080592,29.185002 -35.932512,28.934664 -7.531459,-0.213042 -3.36872,10.678932 4.612271,10.42965 4.008945,-0.125196 10.231782,-2.505215 31.320234,-24.239622 21.088452,21.734394 27.311262,24.11442 31.320234,24.239622 7.980984,0.249235 12.14235,-10.642698 4.610905,-10.42965 C 27.079211,-18.52834 18.593724,-28.550083 6e-6,-47.713381 Z" />
     </g>
-  </svg>
 </svg>
