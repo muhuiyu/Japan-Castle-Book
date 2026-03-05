@@ -7,6 +7,8 @@
 
 import Foundation
 
+public typealias CastleID = Int
+
 public struct Castle: Equatable {
     public let id: Int
     public let name: String

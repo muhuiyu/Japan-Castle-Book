@@ -1,0 +1,50 @@
+"tab_castles" = "Castles";
+
+"castle_list_title" = "Castle List";
+"common_retry" = "Retry";
+"castle_list_error_missing_file" = "Missing file";
+"castle_list_error_invalid_data" = "Invalid data";
+"castle_list_error_connectivity" = "Cannot connect to server";
+
+"castle_area_hokkaido_tohoku" = "Hokkaido / Tohoku";
+"castle_area_kanto_koshinetsu" = "Kanto / Koshinetsu";
+"castle_area_hokuriku_tokai" = "Hokuriku / Tokai";
+"castle_area_kinki" = "Kinki";
+"castle_area_chugoku_shikoku" = "Chugoku / Shikoku";
+"castle_area_kyushu_okinawa" = "Kyushu / Okinawa";
+
+"castle_detail_segment_info" = "Info";
+"castle_detail_segment_visit_log" = "Visit Log";
+"castle_detail_complete" = "Complete";
+"castle_detail_access_guide" = "Access Guide";
+"castle_detail_overview" = "Overview";
+"castle_detail_stamp_location" = "Stamp Location";
+
+"castle_detail_complete_choose_action" = "Choose an action";
+"castle_detail_action_take_photo" = "Take Photo";
+"castle_detail_action_add_stamp" = "Add Stamp";
+"castle_detail_action_add_visit_log" = "Add Visit Log";
+
+"castle_detail_stamp_choose_action" = "Stamp actions";
+"castle_detail_stamp_add_digital" = "Add Digital Stamp";
+"castle_detail_stamp_take_photo" = "Add Stamp Photo";
+"castle_detail_stamp_edit" = "Edit Stamp";
+"castle_detail_stamp_remove" = "Remove Stamp";
+
+"castle_detail_source_choose_action" = "Select a source";
+"castle_detail_source_camera" = "Camera";
+"castle_detail_source_library" = "Photo Library";
+
+"castle_log_empty_title" = "No visit logs yet";
+"castle_log_empty_message" = "Add a stamp, photo, or note after visiting this castle.";
+"castle_log_stamp_title" = "Castle Stamp";
+"castle_log_add_stamp" = "Add Stamp";
+
+"castle_log_form_title" = "New Visit Log";
+"castle_log_form_date" = "Date";
+"castle_log_form_visit_title" = "Title";
+"castle_log_form_visit_content" = "Notes";
+"castle_log_form_attach_photo" = "Attach Photo";
+
+"common_save" = "Save";
+"common_cancel" = "Cancel";

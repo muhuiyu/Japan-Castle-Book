@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E4079E612B4EF16C0035578C /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
 		E4079E672B4EF16C0035578C /* JapanCastleBook.h in Headers */ = {isa = PBXBuildFile; fileRef = E4079E5B2B4EF16C0035578C /* JapanCastleBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4267FA02B52B65700F17B14 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E4267F9F2B52B65700F17B14 /* Kingfisher */; };
+		E427BB4F2DF336340073E4CB /* JapanCastleBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; };
+		E427BB502DF336340073E4CB /* JapanCastleBook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4079E582B4EF16C0035578C /* JapanCastleBook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E49739E42B4F4D8E00620075 /* CastleItemMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E32B4F4D8E00620075 /* CastleItemMapperTests.swift */; };
 		E49739E72B4F4DCA00620075 /* CastleItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739E62B4F4DCA00620075 /* CastleItemMapper.swift */; };
 		E49739ED2B4F4F6000620075 /* Castle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49739EC2B4F4F6000620075 /* Castle.swift */; };
@@ -65,6 +67,7 @@
 		E4973AA12B4F820600620075 /* CastleVisitHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA02B4F820600620075 /* CastleVisitHistory.swift */; };
 		E4973AA72B4F8A9800620075 /* CoreDataCastleVisitHistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA62B4F8A9800620075 /* CoreDataCastleVisitHistoryStoreTests.swift */; };
 		E4973AA92B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4973AA82B4F8B4600620075 /* XCTest+CastleVisitHistoryStoreHelpers.swift */; };
+		E4B435D82F2A759A00A4CEC6 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = E4B435D72F2A759A00A4CEC6 /* Algorithms */; };
 		E4E895992B56CAC40093EDF1 /* CastleVisitHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E895982B56CAC40093EDF1 /* CastleVisitHistoryStore.swift */; };
 		E4E8959D2B56CCC10093EDF1 /* LocalCastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8959C2B56CCC10093EDF1 /* LocalCastleVisitHistoryService.swift */; };
 		E4E8959E2B56CE0A0093EDF1 /* FakeCastleVisitHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E895942B5543300093EDF1 /* FakeCastleVisitHistoryService.swift */; };
@@ -76,6 +79,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		E4079E622B4EF16C0035578C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4079E572B4EF16C0035578C;
+			remoteInfo = JapanCastleBook;
+		};
+		E427BB512DF336340073E4CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4079E4F2B4EF16C0035578C /* Project object */;
 			proxyType = 1;
@@ -113,6 +123,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E427BB532DF336340073E4CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E427BB502DF336340073E4CB /* JapanCastleBook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4973A5D2B4F5B6300620075 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +244,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B435D82F2A759A00A4CEC6 /* Algorithms in Frameworks */,
+				E427BB4F2DF336340073E4CB /* JapanCastleBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,16 +697,19 @@
 				E47442702D29F1FF0020C4A0 /* Sources */,
 				E47442712D29F1FF0020C4A0 /* Frameworks */,
 				E47442722D29F1FF0020C4A0 /* Resources */,
+				E427BB532DF336340073E4CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E427BB522DF336340073E4CB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				E47442752D29F1FF0020C4A0 /* JapanCastleBookSwiftUI */,
 			);
 			name = JapanCastleBookSwiftUI;
 			packageProductDependencies = (
+				E4B435D72F2A759A00A4CEC6 /* Algorithms */,
 			);
 			productName = JapanCastleBookSwiftUI;
 			productReference = E47442742D29F1FF0020C4A0 /* JapanCastleBookSwiftUI.app */;
@@ -826,6 +852,7 @@
 			packageReferences = (
 				E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				E4267F9E2B52B65700F17B14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E4B435D62F2A759A00A4CEC6 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = E4079E592B4EF16C0035578C /* Products */;
 			projectDirPath = "";
@@ -1010,6 +1037,11 @@
 			isa = PBXTargetDependency;
 			target = E4079E572B4EF16C0035578C /* JapanCastleBook */;
 			targetProxy = E4079E622B4EF16C0035578C /* PBXContainerItemProxy */;
+		};
+		E427BB522DF336340073E4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4079E572B4EF16C0035578C /* JapanCastleBook */;
+			targetProxy = E427BB512DF336340073E4CB /* PBXContainerItemProxy */;
 		};
 		E47442872D29F2000020C4A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1628,6 +1660,14 @@
 				minimumVersion = 5.7.0;
 			};
 		};
+		E4B435D62F2A759A00A4CEC6 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1640,6 +1680,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E4973A362B4F57EB00620075 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		E4B435D72F2A759A00A4CEC6 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4B435D62F2A759A00A4CEC6 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
 
