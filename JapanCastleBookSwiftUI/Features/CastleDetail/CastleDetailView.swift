@@ -39,8 +39,10 @@ struct CastleDetailView: View {
         var date = Date()
         var title = ""
         var content = ""
-        var photo: UIImage?
+        var photos: [UIImage] = []
     }
+
+    private static let maxVisitLogPhotos = 6
 
     @EnvironmentObject private var experienceStore: CastleExperienceStore
 
@@ -59,8 +61,10 @@ struct CastleDetailView: View {
 
     @State private var imageSourcePurpose: PickerPurpose = .quickLog
     @State private var activePicker: ActivePicker?
+    @State private var shouldReopenVisitLogFormAfterPicker = false
 
     @State private var visitLogDraft = VisitLogDraft()
+    @State private var editingVisitLogID: UUID?
     @State private var toastMessage: String?
     @State private var toastID = UUID()
 
@@ -82,7 +86,9 @@ struct CastleDetailView: View {
                     CastleDetailLogView(
                         castle: castle,
                         didTapAddStamp: handleAddStampTapped,
-                        didTapStamp: handleStampTapped
+                        didTapStamp: handleStampTapped,
+                        didTapEditLog: beginEditing(log:),
+                        didTapDeleteLog: delete(log:)
                     )
                 }
             }
@@ -111,6 +117,7 @@ struct CastleDetailView: View {
                     showingStampActions = true
                 }
                 Button(L10n.actionAddVisitLog) {
+                    editingVisitLogID = nil
                     visitLogDraft = VisitLogDraft()
                     showingVisitLogForm = true
                 }
@@ -145,29 +152,46 @@ struct CastleDetailView: View {
         .sheet(item: $activePicker) { picker in
             ImagePicker(sourceType: picker.sourceType) { image in
                 handlePickedImage(image, purpose: picker.purpose)
+            } onCancel: {
+                handlePickerCancelled(purpose: picker.purpose)
             }
         }
         .sheet(isPresented: $showingVisitLogForm) {
             VisitLogFormView(
                 draft: $visitLogDraft,
-                onAttachPhoto: {
-                    imageSourcePurpose = .visitLog
-                    imageSourceDialogAnchor = .root
-                    showingImageSourceActions = true
+                maxPhotos: Self.maxVisitLogPhotos,
+                onSelectPhotoSource: { sourceType in
+                    shouldReopenVisitLogFormAfterPicker = true
+                    showingVisitLogForm = false
+                    DispatchQueue.main.async {
+                        activePicker = ActivePicker(purpose: .visitLog, sourceType: sourceType)
+                    }
                 },
                 onSave: {
                     let title = visitLogDraft.title.trimmingCharacters(in: .whitespacesAndNewlines)
                     let content = visitLogDraft.content.trimmingCharacters(in: .whitespacesAndNewlines)
                     guard !title.isEmpty else { return }
 
-                    experienceStore.addVisitLog(
-                        for: castle.id,
-                        date: visitLogDraft.date,
-                        title: title,
-                        content: content,
-                        photo: visitLogDraft.photo
-                    )
+                    if let editingVisitLogID {
+                        experienceStore.updateVisitLog(
+                            for: castle.id,
+                            logID: editingVisitLogID,
+                            date: visitLogDraft.date,
+                            title: title,
+                            content: content,
+                            photos: visitLogDraft.photos
+                        )
+                    } else {
+                        experienceStore.addVisitLog(
+                            for: castle.id,
+                            date: visitLogDraft.date,
+                            title: title,
+                            content: content,
+                            photos: visitLogDraft.photos
+                        )
+                    }
                     showToast(L10n.toastVisitLogAdded)
+                    editingVisitLogID = nil
                     showingVisitLogForm = false
                     selectedSegment = .visitLog
                 }
@@ -210,7 +234,7 @@ struct CastleDetailView: View {
                 date: Date(),
                 title: L10n.actionTakePhoto,
                 content: "",
-                photo: image
+                photos: [image]
             )
             showToast(L10n.toastPhotoAdded)
             selectedSegment = .visitLog
@@ -218,9 +242,34 @@ struct CastleDetailView: View {
             experienceStore.setStampPhoto(for: castle.id, image: image)
             showToast(L10n.toastStampPhotoAdded)
         case .visitLog:
-            visitLogDraft.photo = image
+            if visitLogDraft.photos.count < Self.maxVisitLogPhotos {
+                visitLogDraft.photos.append(image)
+            }
+            shouldReopenVisitLogFormAfterPicker = false
             showingVisitLogForm = true
         }
+    }
+
+    private func handlePickerCancelled(purpose: PickerPurpose) {
+        if purpose == .visitLog && shouldReopenVisitLogFormAfterPicker {
+            shouldReopenVisitLogFormAfterPicker = false
+            showingVisitLogForm = true
+        }
+    }
+
+    private func beginEditing(log: CastleVisitLogEntry) {
+        editingVisitLogID = log.id
+        visitLogDraft = VisitLogDraft(
+            date: log.date,
+            title: log.title,
+            content: log.content,
+            photos: log.photos
+        )
+        showingVisitLogForm = true
+    }
+
+    private func delete(log: CastleVisitLogEntry) {
+        experienceStore.removeVisitLog(for: castle.id, logID: log.id)
     }
 
     private var showingStampActionsFromComplete: Binding<Bool> {
@@ -434,6 +483,8 @@ private struct CastleDetailLogView: View {
     let castle: Castle
     let didTapAddStamp: () -> Void
     let didTapStamp: () -> Void
+    let didTapEditLog: (CastleVisitLogEntry) -> Void
+    let didTapDeleteLog: (CastleVisitLogEntry) -> Void
 
     private var logs: [CastleVisitLogEntry] {
         experienceStore.visitLogs(for: castle.id)
@@ -444,20 +495,43 @@ private struct CastleDetailLogView: View {
     }
 
     var body: some View {
-        ScrollView {
-            VStack(spacing: 14) {
-                stampCard
+        List {
+            stampCard
+                .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 6, trailing: 16))
+                .listRowSeparator(.hidden)
+                .listRowBackground(Color.clear)
 
-                if logs.isEmpty {
-                    emptyLogsCard
-                } else {
-                    ForEach(logs) { log in
-                        VisitLogPreviewCard(log: log)
-                    }
+            if logs.isEmpty {
+                emptyLogsCard
+                    .listRowInsets(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 16))
+                    .listRowSeparator(.hidden)
+                    .listRowBackground(Color.clear)
+            } else {
+                ForEach(logs) { log in
+                    VisitLogPreviewCard(log: log)
+                        .listRowInsets(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 16))
+                        .listRowSeparator(.hidden)
+                        .listRowBackground(Color.clear)
+                        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                            Button {
+                                didTapEditLog(log)
+                            } label: {
+                                Image(systemName: "pencil")
+                            }
+                            .tint(.mint)
+
+                            Button(role: .destructive) {
+                                didTapDeleteLog(log)
+                            } label: {
+                                Image(systemName: "trash")
+                            }
+                            .tint(.red)
+                        }
                 }
             }
-            .padding()
         }
+        .listStyle(.plain)
+        .scrollContentBackground(.hidden)
     }
 
     private var stampCard: some View {
@@ -501,7 +575,7 @@ private struct CastleDetailLogView: View {
             }
             .buttonStyle(.plain)
         }
-        .padding()
+        .padding(12)
         .background(Color(.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
@@ -515,7 +589,7 @@ private struct CastleDetailLogView: View {
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
         }
-        .padding()
+        .padding(16)
         .frame(maxWidth: .infinity)
         .background(Color(.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 12))
@@ -540,12 +614,18 @@ private struct VisitLogPreviewCard: View {
                     .lineLimit(3)
             }
 
-            if let photo = log.photo {
-                Image(uiImage: photo)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 140)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+            if !log.photos.isEmpty {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(log.photos.indices, id: \.self) { index in
+                            Image(uiImage: log.photos[index])
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 132, height: 96)
+                                .clipShape(RoundedRectangle(cornerRadius: 8))
+                        }
+                    }
+                }
             }
         }
         .padding()
@@ -559,7 +639,8 @@ private struct VisitLogFormView: View {
     @Environment(\.dismiss) private var dismiss
 
     @Binding var draft: CastleDetailView.VisitLogDraft
-    let onAttachPhoto: () -> Void
+    let maxPhotos: Int
+    let onSelectPhotoSource: (UIImagePickerController.SourceType) -> Void
     let onSave: () -> Void
 
     var body: some View {
@@ -569,19 +650,70 @@ private struct VisitLogFormView: View {
 
                 TextField(L10n.logFormVisitTitle, text: $draft.title)
 
-                TextField(L10n.logFormVisitContent, text: $draft.content, axis: .vertical)
-                    .lineLimit(4...8)
-
-                Button(L10n.logFormAttachPhoto) {
-                    onAttachPhoto()
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(L10n.logFormVisitContent)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    TextEditor(text: $draft.content)
+                        .frame(minHeight: 120)
                 }
 
-                if let photo = draft.photo {
-                    Image(uiImage: photo)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(height: 180)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack {
+                        Text(L10n.logFormAttachPhoto)
+                            .font(.subheadline.weight(.semibold))
+                        Spacer()
+                        Text("\(draft.photos.count)/\(maxPhotos)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
+
+                    if !draft.photos.isEmpty {
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 10) {
+                                ForEach(draft.photos.indices, id: \.self) { index in
+                                    ZStack(alignment: .topTrailing) {
+                                        Image(uiImage: draft.photos[index])
+                                            .resizable()
+                                            .scaledToFill()
+                                            .frame(width: 128, height: 96)
+                                            .clipShape(RoundedRectangle(cornerRadius: 10))
+
+                                        Button {
+                                            draft.photos.remove(at: index)
+                                        } label: {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .font(.title3)
+                                                .foregroundStyle(.white, .black.opacity(0.55))
+                                        }
+                                        .padding(6)
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    HStack(spacing: 10) {
+                        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+                            Button {
+                                onSelectPhotoSource(.camera)
+                            } label: {
+                                Label(L10n.sourceCamera, systemImage: "camera")
+                                    .frame(maxWidth: .infinity)
+                            }
+                            .buttonStyle(.bordered)
+                            .disabled(draft.photos.count >= maxPhotos)
+                        }
+
+                        Button {
+                            onSelectPhotoSource(.photoLibrary)
+                        } label: {
+                            Label(L10n.sourceLibrary, systemImage: "photo.on.rectangle")
+                                .frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(.bordered)
+                        .disabled(draft.photos.count >= maxPhotos)
+                    }
                 }
             }
             .navigationTitle(L10n.logFormTitle)

@@ -33,7 +33,7 @@
 
 "castle_detail_source_choose_action" = "Select a source";
 "castle_detail_source_camera" = "Camera";
-"castle_detail_source_library" = "Photo Library";
+"castle_detail_source_library" = "Library";
 
 "castle_log_empty_title" = "No visit logs yet";
 "castle_log_empty_message" = "Add a stamp, photo, or note after visiting this castle.";

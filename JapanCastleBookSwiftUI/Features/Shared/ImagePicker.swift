@@ -4,6 +4,7 @@ import UIKit
 struct ImagePicker: UIViewControllerRepresentable {
     let sourceType: UIImagePickerController.SourceType
     let onPicked: (UIImage) -> Void
+    var onCancel: (() -> Void)? = nil
 
     @Environment(\.dismiss) private var dismiss
 
@@ -15,6 +16,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         }
 
         func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+            parent.onCancel?()
             parent.dismiss()
         }
 
