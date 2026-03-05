@@ -1,6 +1,12 @@
 "tab_castles" = "お城";
 
 "castle_list_title" = "城一覧";
+"castle_list_progress_title" = "達成状況";
+"castle_list_visit_progress" = "訪問済み %d/%d";
+"castle_series_top_100" = "日本100名城";
+"castle_series_sequel_100" = "続日本100名城";
+"castle_series_empty_title" = "城データはまだありません";
+"castle_series_empty_message" = "データ追加後にこの一覧が表示されます。";
 "common_retry" = "再試行";
 "castle_list_error_missing_file" = "ファイルが見つかりません";
 "castle_list_error_invalid_data" = "データが不正です";

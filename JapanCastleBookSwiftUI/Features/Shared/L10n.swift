@@ -4,6 +4,11 @@ enum L10n {
     static let tabCastles = String(localized: "tab_castles")
 
     static let castleListTitle = String(localized: "castle_list_title")
+    static let castleListProgressTitle = String(localized: "castle_list_progress_title")
+    static let castleSeriesTop100 = String(localized: "castle_series_top_100")
+    static let castleSeriesSequel100 = String(localized: "castle_series_sequel_100")
+    static let castleSeriesEmptyTitle = String(localized: "castle_series_empty_title")
+    static let castleSeriesEmptyMessage = String(localized: "castle_series_empty_message")
     static let retry = String(localized: "common_retry")
     static let errorMissingFile = String(localized: "castle_list_error_missing_file")
     static let errorInvalidData = String(localized: "castle_list_error_invalid_data")
@@ -56,4 +61,9 @@ enum L10n {
     static let toastStampPhotoAdded = String(localized: "toast_stamp_photo_added")
     static let toastVisitLogAdded = String(localized: "toast_visit_log_added")
     static let toastPhotoAdded = String(localized: "toast_photo_added")
+
+    static func castleListVisitProgress(_ visited: Int, _ total: Int) -> String {
+        let format = NSLocalizedString("castle_list_visit_progress", comment: "Visited progress summary")
+        return String(format: format, locale: Locale.current, visited, total)
+    }
 }

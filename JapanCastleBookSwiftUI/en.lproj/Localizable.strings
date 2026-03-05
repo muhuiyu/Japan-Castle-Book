@@ -1,6 +1,12 @@
 "tab_castles" = "Castles";
 
 "castle_list_title" = "Castle List";
+"castle_list_progress_title" = "Your Progress";
+"castle_list_visit_progress" = "Visited %d/%d";
+"castle_series_top_100" = "Top 100";
+"castle_series_sequel_100" = "Next 100";
+"castle_series_empty_title" = "No castles loaded yet";
+"castle_series_empty_message" = "This series will appear once its data is added.";
 "common_retry" = "Retry";
 "castle_list_error_missing_file" = "Missing file";
 "castle_list_error_invalid_data" = "Invalid data";
