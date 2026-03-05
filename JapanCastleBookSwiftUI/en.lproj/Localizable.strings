@@ -68,5 +68,7 @@
 "settings_appearance_light" = "Light";
 "settings_appearance_dark" = "Dark";
 "settings_references" = "References";
+"settings_created_by" = "Made by Grace, Mu-Hui Yu";
+"settings_creator_website" = "gracemy.com";
 "references_title" = "References";
 "references_special_thanks" = "Special Thanks";

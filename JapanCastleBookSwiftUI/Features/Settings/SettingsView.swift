@@ -36,11 +36,20 @@ struct SettingsView: View {
                     NavigationLink(L10n.settingsReferences) {
                         ReferencesView()
                     }
+                } footer: {
+                    HStack(spacing: 6) {
+                            Text(L10n.settingsCreatedBy)
+                            Link(L10n.settingsCreatorWebsite, destination: URL(string: "https://gracemy.com")!)
+                                .font(.footnote)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 8)
                 }
             }
-            .listStyle(.insetGrouped)
-            .navigationTitle(L10n.settingsTitle)
         }
+        .listStyle(.insetGrouped)
+        .navigationTitle(L10n.settingsTitle)
     }
 }
 

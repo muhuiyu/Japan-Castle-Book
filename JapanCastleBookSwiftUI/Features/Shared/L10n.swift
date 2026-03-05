@@ -70,6 +70,8 @@ enum L10n {
     static let settingsAppearanceLight = String(localized: "settings_appearance_light")
     static let settingsAppearanceDark = String(localized: "settings_appearance_dark")
     static let settingsReferences = String(localized: "settings_references")
+    static let settingsCreatedBy = String(localized: "settings_created_by")
+    static let settingsCreatorWebsite = String(localized: "settings_creator_website")
     static let referencesTitle = String(localized: "references_title")
     static let referencesSpecialThanks = String(localized: "references_special_thanks")
 

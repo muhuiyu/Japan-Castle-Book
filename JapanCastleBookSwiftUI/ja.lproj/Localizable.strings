@@ -68,5 +68,7 @@
 "settings_appearance_light" = "ライト";
 "settings_appearance_dark" = "ダーク";
 "settings_references" = "参考・クレジット";
+"settings_created_by" = "Made by Grace, Mu-Hui Yu";
+"settings_creator_website" = "gracemy.com";
 "references_title" = "参考・クレジット";
 "references_special_thanks" = "Special Thanks";
