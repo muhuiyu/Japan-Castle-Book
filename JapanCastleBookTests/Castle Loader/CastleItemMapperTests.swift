@@ -45,6 +45,9 @@ extension CastleItemMapperTests {
         accessGuide: String = "any access guide",
         parkingInfo: String = "any parking info",
         stampLocation: String = "any stamp location",
+        stampImageName: String = "stamp-1-nemurohantochashiatogun",
+        gosyuinImageNames: [String] = ["gosyuin-1-nemuro"],
+        googleMapURL: String = "https://maps.google.com/?q=1,2",
         area: CastleArea = .hokkaidoTohoku,
         overview: String = "any overview",
         imageURLs: [URL] = [URL(string: "any image")!]
@@ -60,6 +63,9 @@ extension CastleItemMapperTests {
             accessGuide: accessGuide,
             parkingInfo: parkingInfo,
             stampLocation: stampLocation,
+            stampImageName: stampImageName,
+            gosyuinImageNames: gosyuinImageNames,
+            googleMapURL: URL(string: googleMapURL),
             overview: overview,
             imageURLs: imageURLs
         )
@@ -76,6 +82,9 @@ extension CastleItemMapperTests {
             "access_guide": accessGuide,
             "parking_info": parkingInfo,
             "stamp_location": stampLocation,
+            "stamp_image_name": stampImageName,
+            "gosyuin_image_name": gosyuinImageNames,
+            "google_map_url": googleMapURL,
             "overview": overview,
             "image_urls": imageURLs.map { $0.absoluteString }
         ].compactMapValues { $0 }

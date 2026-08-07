@@ -56,6 +56,9 @@ extension LocalCastleServiceIntegrationTests {
             accessGuide: accessGuide(at: index),
             parkingInfo: parkingInfo(at: index),
             stampLocation: stampLocation(at: index),
+            stampImageName: stampImageName(at: index),
+            gosyuinImageNames: gosyuinImageNames(at: index),
+            googleMapURL: googleMapURL(at: index),
             overview: overview(at: index),
             imageURLs: imageURLs(at: index)
         )
@@ -121,6 +124,27 @@ extension LocalCastleServiceIntegrationTests {
     private func stampLocation(at index: Int) -> String {
         return ["根室市歴史と自然の資料館\n根室市観光インフォメーションセンター（根室駅前）",
                 "箱館奉行所付属建物「板庫（休憩所）」"
+        ][index]
+    }
+
+    private func stampImageName(at index: Int) -> String? {
+        return [
+            "stamp-1-nemurohantochashiatogun",
+            "stamp-2-goryoukaku"
+        ][index]
+    }
+
+    private func gosyuinImageNames(at index: Int) -> [String] {
+        return [
+            [],
+            []
+        ][index]
+    }
+
+    private func googleMapURL(at index: Int) -> URL? {
+        return [
+            nil,
+            nil
         ][index]
     }
     

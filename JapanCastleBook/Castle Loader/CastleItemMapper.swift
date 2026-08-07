@@ -24,6 +24,9 @@ public final class CastleItemMapper {
         let accessGuide: String
         let parkingInfo: String
         let stampLocation: String
+        let stampImageName: String
+        let gosyuinImageNames: [String]
+        let googleMapURL: String
         let overview: String
         let imageURLs: [URL]
         let relatedWebsites: [RemoteRelatedWebsite]
@@ -52,6 +55,9 @@ public final class CastleItemMapper {
             case accessGuide = "access_guide"
             case parkingInfo = "parking_info"
             case stampLocation = "stamp_location"
+            case stampImageName = "stamp_image_name"
+            case gosyuinImageNames = "gosyuin_image_name"
+            case googleMapURL = "google_map_url"
             case overview
             case imageURLs = "image_urls"
             case relatedWebsites = "related_websites"
@@ -69,6 +75,9 @@ public final class CastleItemMapper {
                 accessGuide: accessGuide,
                 parkingInfo: parkingInfo,
                 stampLocation: stampLocation,
+                stampImageName: stampImageName.isEmpty ? nil : stampImageName,
+                gosyuinImageNames: gosyuinImageNames,
+                googleMapURL: googleMapURL.isEmpty ? nil : URL(string: googleMapURL),
                 overview: overview,
                 imageURLs: imageURLs,
                 relatedWebsites: relatedWebsites.map(\.website)

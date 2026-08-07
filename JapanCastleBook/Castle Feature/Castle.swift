@@ -30,6 +30,9 @@ public struct Castle: Equatable {
     public let accessGuide: String
     public let parkingInfo: String
     public let stampLocation: String
+    public let stampImageName: String?
+    public let gosyuinImageNames: [String]
+    public let googleMapURL: URL?
     public let overview: String
     public let imageURLs: [URL]
     public let relatedWebsites: [RelatedWebsite]
@@ -45,6 +48,9 @@ public struct Castle: Equatable {
         accessGuide: String,
         parkingInfo: String,
         stampLocation: String,
+        stampImageName: String? = nil,
+        gosyuinImageNames: [String] = [],
+        googleMapURL: URL? = nil,
         overview: String,
         imageURLs: [URL],
         relatedWebsites: [RelatedWebsite] = []
@@ -59,6 +65,9 @@ public struct Castle: Equatable {
         self.accessGuide = accessGuide
         self.parkingInfo = parkingInfo
         self.stampLocation = stampLocation
+        self.stampImageName = stampImageName
+        self.gosyuinImageNames = gosyuinImageNames
+        self.googleMapURL = googleMapURL
         self.overview = overview
         self.imageURLs = imageURLs
         self.relatedWebsites = relatedWebsites

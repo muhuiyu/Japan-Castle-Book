@@ -36,7 +36,9 @@
     "opening_hours": "【根室半島チャシ跡群】根室市納沙布岬ほか24ヶ所 散策自由\n＜根室市歴史と自然の資料館＞\n開館時間：9:30～16:30\n休館日：月曜日、祝日、12月29日～1月3日\n＜根室市観光インフォメーションセンター（根室駅前）＞\n開館時間：9:00～17:00（6月～9月：8:00～17:00）\n休館日：12月31日～1月5日",
     "longitude": 145.78251534839745,
     "latitude": 43.38885076919545,
-    "name": "根室半島チャシ跡群"
+    "name": "根室半島チャシ跡群",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒040-0001　北海道函館市五稜郭町44",
@@ -75,7 +77,9 @@
     "opening_hours": "10:00～17:00",
     "longitude": 140.7568152241788,
     "latitude": 41.79713355444793,
-    "name": "五稜郭"
+    "name": "五稜郭",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒049-1511　北海道松前郡松前町松城144",
@@ -111,7 +115,9 @@
     "opening_hours": "4月10日～12月10日9時～17時（入館時間は16時30分まで）※休館12月11日～4月9日",
     "longitude": 140.1080592960212,
     "latitude": 41.42986102402665,
-    "name": "松前城"
+    "name": "松前城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒036-8356　青森県弘前市下白銀町1",
@@ -147,7 +153,11 @@
     "opening_hours": "＜弘前城本丸・北の郭 有料区域入園料金＞\n営業時間：\n・（4月1日～11月23日）9:00～17:00\n・（さくらまつり期間）7:00～21:00\n休館：11月24日～3月31日 ※弘前城本丸・北の郭は11月24日～3月31日の期間は入園無料",
     "longitude": 140.46423164991182,
     "latitude": 40.60790382672425,
-    "name": "弘前城"
+    "name": "弘前城",
+    "gosyuin_image_name": [
+      "gosyuin-4-hirosaki"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒039-1166　青森県八戸市根城字根城47",
@@ -185,7 +195,11 @@
     "opening_hours": "【根城の広場＆八戸市博物館開館時間】\n・9時～17時（入館は16時30分まで）\n【休館日】※館内整理のため月末休館の場合があり \n・ 月曜日（ただし第一月曜日および祝日の時は開館）\n・ 祝日の翌日（土・日曜日の時は開館）\n・ 年末年始（12月27日～1月4日）",
     "longitude": 141.46052352595385,
     "latitude": 40.50624260679839,
-    "name": "根城"
+    "name": "根城",
+    "gosyuin_image_name": [
+      "gosyuin-5-ne"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒020-0023　岩手県盛岡市内丸",
@@ -225,7 +239,9 @@
     "opening_hours": "盛岡城跡公園（岩手公園）：散策自由",
     "longitude": 141.1513484259264,
     "latitude": 39.70072729179711,
-    "name": "盛岡城"
+    "name": "盛岡城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒985-0864　宮城県多賀城市市川字城前ほか",
@@ -262,7 +278,9 @@
     "opening_hours": "見学：散策自由\n＜多賀城跡管理事務所＞時間：9:00～16:00（押印は管理事務所の閉所時も可能）",
     "longitude": 140.9883970370035,
     "latitude": 38.307130218002094,
-    "name": "多賀城"
+    "name": "多賀城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒980-0862　宮城県仙台市青葉区川内",
@@ -298,7 +316,9 @@
     "opening_hours": "【見学】散策自由\n・仙台城見聞館 9時～17時",
     "longitude": 140.85587383757468,
     "latitude": 38.25221827864975,
-    "name": "仙台城（青葉城）"
+    "name": "仙台城（青葉城）",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒010-0876　秋田県秋田市千秋公園1-39",
@@ -335,7 +355,9 @@
     "opening_hours": "千秋公園（久保田城跡）は散策自由\n久保田城御隅櫓開館時間：9:00～16:30",
     "longitude": 140.12360666641058,
     "latitude": 39.72197941440015,
-    "name": "久保田城"
+    "name": "久保田城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒990-0826　山形県山形市霞城町3",
@@ -375,7 +397,9 @@
     "opening_hours": "【霞城公園（山形城跡）】 ・随時入園可能無休（開門時間：5:00～22:00、11～3月は5:30～）\n＜山形市郷土館＞\n開館時間：9:00～16:30\n休館日：年末年始 \n＜最上義光歴史館＞n開館時間：9:00～16:30\n休館日：月曜日、年末年始",
     "longitude": 0,
     "latitude": 0,
-    "name": "山形城"
+    "name": "山形城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒964-0904　福島県二本松市郭内3丁目、4丁目",
@@ -413,7 +437,9 @@
     "opening_hours": "＜にほんまつ城報館（1F二本松歴史館）＞\n開館時間：9:00～17:00\n休館日：月曜日（祝日の場合は翌日）、年末年始（12月29日～1月3日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "二本松城"
+    "name": "二本松城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒965-0873　福島県会津若松市追手町1-1",
@@ -448,7 +474,11 @@
     "opening_hours": "8:30～17:00（最終入館16:30） 休館日：無休",
     "longitude": 0,
     "latitude": 0,
-    "name": "会津若松城"
+    "name": "会津若松城",
+    "gosyuin_image_name": [
+      "gosyuin-12-aizuwakamatu"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒961-0074　福島県白河市郭内",
@@ -484,7 +514,11 @@
     "opening_hours": "見学時間：9:30～17:00（4月～10月）、9:30～16:00（11月～3月）\n定休日：年末年始",
     "longitude": 0,
     "latitude": 0,
-    "name": "白河小峰城"
+    "name": "白河小峰城",
+    "gosyuin_image_name": [
+      "gosyuin-13-sirakawakomine"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒310-0011　茨城県水戸市三の丸",
@@ -521,7 +555,9 @@
     "opening_hours": "＜弘道館＞\n開館時間：9:00～17:00（2月20日～9月30日）、9:～16:30（10月1日～2月19日）\n休館日：12月29日～12月31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "水戸城"
+    "name": "水戸城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒326-0803　栃木県足利市家富町2220",
@@ -559,7 +595,11 @@
     "opening_hours": "見学自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "足利氏館（鑁阿寺）"
+    "name": "足利氏館（鑁阿寺）",
+    "gosyuin_image_name": [
+      "gosyuin-15-asikaga"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒370-3105　群馬県高崎市箕郷町西明屋ほか",
@@ -597,7 +637,9 @@
     "opening_hours": "＜高崎市箕郷支所＞\n住所：高崎市箕郷町西明屋702-4\n時間：8:30～17:15\n＜高崎市箕郷公民館＞\n住所：高崎市箕郷町西明屋421-3\n時間：9:00～17:00\n休館日：祝日、年末年始（12月29日～1月3日）、施設点検等による臨時休館あり",
     "longitude": 0,
     "latitude": 0,
-    "name": "箕輪城"
+    "name": "箕輪城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒373-0027　群馬県太田市金山町40-98ほか",
@@ -635,7 +677,9 @@
     "opening_hours": "散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "金山城"
+    "name": "金山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒369-1224　埼玉県大里郡寄居町鉢形2496-2",
@@ -673,7 +717,9 @@
     "opening_hours": "鉢形城公園利用時間：散策自由\n＜鉢形城歴史館＞\n開館時間：9:30～16:30（入館は16時まで）\n休館日：月曜日（祝日の場合は翌日）、祝日の翌日、年末年始\n駐車場：開館日の9:00～17:00 ",
     "longitude": 0,
     "latitude": 0,
-    "name": "鉢形城"
+    "name": "鉢形城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒350-0053　埼玉県川越市郭町2-13-1",
@@ -719,7 +765,9 @@
     "opening_hours": "＜本丸御殿＞\n開館時間：9:00～17:00（入館は16:30まで） ",
     "longitude": 0,
     "latitude": 0,
-    "name": "川越城"
+    "name": "川越城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒285-0017　千葉県佐倉市城内町官有無番地",
@@ -760,7 +808,9 @@
     "opening_hours": "＜佐倉城址公園＞：散策自由\n＜佐倉城址公園管理センター＞\n開館時間：（4～10月）9:00～17:00、（11～3月）9:00～16:30\n休館日：1月1日～3日",
     "longitude": 0,
     "latitude": 0,
-    "name": "佐倉城"
+    "name": "佐倉城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒100-0001　東京都千代田区千代田",
@@ -802,7 +852,9 @@
     "opening_hours": "＜皇居東御苑＞\n公開期間：（3月1日～4月14日）9:00～17:00（入園は16:30まで）\n（4月15日～8月31日）9:00～18:00（入園は17:30まで） （9月1日～9月30日）9:00～17:00（入園は16:30まで）\n（10月1日～10月31日）9:00～16:30（入園は16:00まで）\n（11月1日～2月末日）9:00～16:00（入園は15:30まで）\n休園日：月曜日、金曜日、年末年始（12月28日～1月3日）、行事実施日、他",
     "longitude": 0,
     "latitude": 0,
-    "name": "江戸城"
+    "name": "江戸城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒193-0826　東京都八王子市元八王子町・下恩方町・西寺方町",
@@ -840,7 +892,9 @@
     "opening_hours": "散策自由\n＜八王子城跡ガイダンス施設＞ 開館時間：9:00～17:00 休館日：年末年始（12月29日～1月3日）、臨時休館あり",
     "longitude": 0,
     "latitude": 0,
-    "name": "八王子城"
+    "name": "八王子城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒250-0014　神奈川県小田原市城内6-1",
@@ -878,7 +932,9 @@
     "opening_hours": "＜天守閣＞ 開館時間：9:00～17:00（16:30入館締切）\n休館日：12月第2水曜日、12月31日～1月1日",
     "longitude": 0,
     "latitude": 0,
-    "name": "小田原城"
+    "name": "小田原城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒400-0014　山梨県甲府市古府中町2611",
@@ -916,7 +972,9 @@
     "opening_hours": "散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "武田氏館"
+    "name": "武田氏館",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒400-0031　山梨県甲府市丸の内1-5-4",
@@ -954,7 +1012,9 @@
     "opening_hours": "＜舞鶴城公園 稲荷櫓＞開館時間：9:00～16:30（入館は16:00まで）\n休館日：月曜日（祝日の場合は翌日）、年末年始（12月29日～1月3日\n※公園は常時開放",
     "longitude": 0,
     "latitude": 0,
-    "name": "甲府城"
+    "name": "甲府城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒381-1231　長野県長野市松代町松代44",
@@ -996,7 +1056,9 @@
     "opening_hours": "＜真田邸＞\n住所：〒381-1231 長野県長野市松代町松代1\n開館時間：9:00～17:00（4月～10月 入場16:30まで）、9:00～16:30（11月～3月入場16:00まで）",
     "longitude": 0,
     "latitude": 0,
-    "name": "松代城"
+    "name": "松代城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒386-0026　長野県上田市二の丸",
@@ -1042,7 +1104,9 @@
     "opening_hours": "＜上田城跡公園＞\n散策自由\n＜上田市立博物館＞\n開館時間：9:00～17:00（入館は16:30まで）\n休館日：水曜日、祝日の翌日（水曜にあたる場合は翌日）、年末年始（12月29日～1月3日）、上田城櫓は冬期（11月中旬～翌3月）休館\n＜上田市観光会館＞\n住所：上田市大手2-8-4\n営業時間：1階売店\n9:30～18:00、2階観光案内所\n平日8:30～18:00、土日祝9:00～18:00",
     "longitude": 0,
     "latitude": 0,
-    "name": "上田城"
+    "name": "上田城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒384-0804　長野県小諸市丁311",
@@ -1084,7 +1148,9 @@
     "opening_hours": "＜小諸城址懐古園＞\n入園時間：9:00～17:00 休園日：11月30日まで無休、12月～3月中旬は毎週水曜日休園、年末年始（12月29日～1月3日）は休園",
     "longitude": 0,
     "latitude": 0,
-    "name": "小諸城"
+    "name": "小諸城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒390-0873　長野県松本市丸の内4-1",
@@ -1122,7 +1188,9 @@
     "opening_hours": "開城時間：8:30～17:00（最終入場16:30）、ゴールデンウィーク・夏季期間中は8:00～18:00（最終入場17:30）、正月三が日は10:00～15:30（最終入城15:00）\n 休日：年末（12月29日～31日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "松本城"
+    "name": "松本城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒396-0213　長野県伊那市高遠町東高遠城跡",
@@ -1164,7 +1232,9 @@
     "opening_hours": "＜高遠城址公園＞見学：散策自由\n＜伊那市立高遠町歴史博物館＞\n開館時間：9:00～17:00（最終入館16:30）\n休館日：月曜日（祝日の場合は翌日）、12月28日～1月3日、展示替え・資料整理の日",
     "longitude": 0,
     "latitude": 0,
-    "name": "高遠城"
+    "name": "高遠城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒957-0052　新潟県新発田市大手町6",
@@ -1202,7 +1272,9 @@
     "opening_hours": "開門時間：9:00～17:00（11月のみ16:30閉門）\n開門期間：4月～11月（12月～3月は冬季閉鎖。外観は観覧可） ",
     "longitude": 0,
     "latitude": 0,
-    "name": "新発田城"
+    "name": "新発田城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒943-0819　新潟県上越市中屋敷字春日山ほか",
@@ -1240,7 +1312,9 @@
     "opening_hours": "＜春日山城史跡広場＞散策自由\n＜春日山城跡ものがたり館＞\n開館時間：9:00～16:30\n休館日：月曜日（祝日の場合は翌日）、冬季期間（12月1日～2月末日）、観桜会・ゴールデンウィーク・観蓮会期間中は無休",
     "longitude": 0,
     "latitude": 0,
-    "name": "春日山城"
+    "name": "春日山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒933-0044　富山県高岡市古城",
@@ -1280,7 +1354,9 @@
     "opening_hours": "高岡古城公園：散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "高岡城"
+    "name": "高岡城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒926-0024　石川県七尾市古屋敷町タ8-1",
@@ -1322,7 +1398,9 @@
     "opening_hours": "＜七尾城史資料館＞\n開館時間：9:00～17:00（入館は16:30まで）\n休館日：月曜日（祝日の場合は翌日）、祝日の翌日、冬期（12月11日～3月10日）\n＜七尾市役所本庁＞\n利用時間：8:30～17:15",
     "longitude": 0,
     "latitude": 0,
-    "name": "七尾城"
+    "name": "七尾城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒920-0937　石川県金沢市丸の内",
@@ -1360,7 +1438,9 @@
     "opening_hours": "開園時間：（3月1日～10月15日）7:00～18:00、（10月16日～2月末日）8:00～17:00\n園内施設営業時間： ・菱櫓、五十間長屋、橋爪門続櫓、橋爪門　9:00～16:30 （最終入館16:00）\n・河北門、鼠多門 （無料）　9:00～16:30 （最終入館16:00）\n・玉泉庵　9:00～16:30 （最終入館16:00\n※ 12月29日～1月3日は休み",
     "longitude": 0,
     "latitude": 0,
-    "name": "金沢城"
+    "name": "金沢城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒910-0231　福井県坂井市丸岡町霞1-59",
@@ -1397,7 +1477,9 @@
     "opening_hours": "開城時間：08:30～17:00（最終入場は16:30）霞ヶ城公園内は散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "丸岡城"
+    "name": "丸岡城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒910-2153　福井県福井市城戸ノ内町ほか",
@@ -1439,7 +1521,9 @@
     "opening_hours": "＜福原町並み入口＞\n開館：9:00～17:00（入館は16:30まで\n休館：年末年始\n＜朝倉氏遺跡資料館＞開館：9:00～17:00（入館は16:30まで）\n休館：年末年始（臨時休業あり）",
     "longitude": 0,
     "latitude": 0,
-    "name": "一乗谷城"
+    "name": "一乗谷城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒509-7403 岐阜県恵那市岩村町字城山",
@@ -1482,7 +1566,9 @@
     "opening_hours": "＜岩村歴史資料館＞\n利用時間：（4月～11月）9:00～17:00、（12月～3月）9:30～16:00\n休館日：月曜日（祝日の場合は翌日）、年末年始（12月28日～1月4日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "岩村城"
+    "name": "岩村城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒500-0000 岐阜県岐阜市金華山天守閣18",
@@ -1522,7 +1608,9 @@
     "opening_hours": "天守閣開館時間：\n（3月16日～5月11日）9:30～17:30\n（5月12日～10月16日）9:30～17:30\n（10月17日～3月15日\n9:30～16:30\n※元旦のみ6:30～16:30",
     "longitude": 0,
     "latitude": 0,
-    "name": "岐阜城"
+    "name": "岐阜城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒411-0011 静岡県三島市山中新田字下ノ沢ほか",
@@ -1560,7 +1648,9 @@
     "opening_hours": "散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "山中城"
+    "name": "山中城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒424-0855 静岡県静岡市葵区駿府城公園1-1",
@@ -1600,7 +1690,9 @@
     "opening_hours": "・東御門・巽櫓、紅葉山庭園 9:00～16:30（入館は4:00まで）\n※休み：月曜（祝日の場合は開園）",
     "longitude": 0,
     "latitude": 0,
-    "name": "駿府城"
+    "name": "駿府城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒436-8650 静岡県掛川市掛川1138-24",
@@ -1640,7 +1732,9 @@
     "opening_hours": "開館所間：9:00～17:00（入館は16:30まで）",
     "longitude": 0,
     "latitude": 0,
-    "name": "掛川城"
+    "name": "掛川城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒484-0082 愛知県犬山市犬山字北古券65-2",
@@ -1677,7 +1771,9 @@
     "opening_hours": "営業時間：9:00～18:00（入場は17:30まで）\n定休日：12月29日～12月31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "犬山城"
+    "name": "犬山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒460-0031 愛知県名古屋市中区本丸1-1",
@@ -1715,7 +1811,9 @@
     "opening_hours": "開園時間：9:00～16:30（天守閣・本丸御殿への入場は16:00まで）\n休園日：12月29日～12月31日、1月1日\n※催事等による変更あり",
     "longitude": 0,
     "latitude": 0,
-    "name": "名古屋城"
+    "name": "名古屋城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒444-0053 愛知県岡崎市康生町561 岡崎公園内",
@@ -1751,7 +1849,9 @@
     "opening_hours": "岡崎城公園：散策自由\n開館時間：9:00～17:00（入館は16:30まで）\n休館日：12月29日～12月31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "岡崎城"
+    "name": "岡崎城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒441-1634 愛知県新城市長篠字市場22-1",
@@ -1787,7 +1887,9 @@
     "opening_hours": "城跡内散策自由\n＜長篠城址史跡保存館＞\n開館時間：9:00～17:00（入館は16:30まで）\n休館日：火曜日（休日の場合は次の平日が休館）",
     "longitude": 0,
     "latitude": 0,
-    "name": "長篠城"
+    "name": "長篠城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒518-0873　三重県伊賀市上野丸之内106",
@@ -1825,7 +1927,9 @@
     "opening_hours": "開館時間：9:00～17:00（入館は16:45まで） 休館日：12月29日～31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "伊賀上野城"
+    "name": "伊賀上野城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒515-8515 三重県松阪市殿町",
@@ -1871,7 +1975,9 @@
     "opening_hours": "＜歴史民俗資料館＞\n開館時間：（4月～9月）9:00～16:30、（10月～3月）9:00～16:00\n休館日：月曜日（祝日の場合は翌日）、年末年始（12月29日～1月3日）\n＜本居宣長記念館＞\n開館時間：9:00∼17:00（最終入館時間は16:30）\n休館日：月曜日（祝日の場合は翌日）、年末年始",
     "longitude": 0,
     "latitude": 0,
-    "name": "松阪城"
+    "name": "松阪城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒529-0312 滋賀県長浜市湖北町郡上",
@@ -1913,7 +2019,9 @@
     "opening_hours": "観覧：散策自由\n＜小谷城戦国歴史資料館＞\n住所：〒529-0312 滋賀県長浜市小谷郡上町139番地\nアクセス：JR北陸線河毛駅から、徒歩約30分 開館時間：9:00～17:00（入館は16:30まで）\n休館日：火曜日（祝日の場合は翌日）、年末年始（12月28日～1月4日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "小谷城"
+    "name": "小谷城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒522-0061 滋賀県彦根市金亀町1-1",
@@ -1955,7 +2063,11 @@
     "opening_hours": "＜彦根城＞8:30～17:00 年中無休\n＜開国記念館＞\n休館日：12月25日～12月31日\n営業時間：8:30～17:00（入館は16:45まで）",
     "longitude": 0,
     "latitude": 0,
-    "name": "彦根城"
+    "name": "彦根城",
+    "gosyuin_image_name": [
+      "gosyuin-50-hikone"
+    ],
+    "google_map_url": ""
   },
   {
     "address": "〒521-1341 滋賀県近江八幡市安土町下豊浦",
@@ -2001,7 +2113,9 @@
     "opening_hours": "入山：無休（見学自由）※天候により変更あり\n＜安土城天主信長の館＞\n住所：〒521-1321 滋賀県近江八幡市安土町桑実寺800\n営業期間：9:00～17:00（最終入館16:30）\n休館日：月曜（祝日除く）、祝日の翌日、年末年始（12月28日～1月4日）、その他の臨時休業日\n＜安土城郭資料館＞\n所在地：〒521-1343 滋賀県近江八幡市安土町小中700\n営業期間：9:00～17:00\n休館日：月曜、祝日の翌日（土・日は除く）、年末年始（12月28日～1月4日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "安土城"
+    "name": "安土城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒521-1341 滋賀県近江八幡市安土町石寺ほか",
@@ -2042,7 +2156,9 @@
     "opening_hours": "＜安土城郭資料館＞\n住所：近江八幡市安土町小中700\n営業時間：9:00～17:00（受付16:30まで）\n休館日：月曜、年末年始\n＜桑實寺＞ 住所：近江八幡市安土町桑実寺675\n営業時間：9:00～17:00",
     "longitude": 0,
     "latitude": 0,
-    "name": "観音寺城"
+    "name": "観音寺城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒604-8301 京都府京都市中京区二条通堀川西入二条城町541",
@@ -2079,7 +2195,9 @@
     "opening_hours": "営業時間：8:45～17:00（入場は16:00まで） 休城日：年末（12月29日～31日）\n二の丸御殿観覧休止日：1・7・8・12月の火曜、12月26日～28日、1月1日～3日　※休日の場合は翌日",
     "longitude": 0,
     "latitude": 0,
-    "name": "二条城"
+    "name": "二条城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒540-0002 大阪府大阪市中央区大阪城1-1",
@@ -2117,7 +2235,9 @@
     "opening_hours": "開館時間：9:00～17:00（入館は16:30まで）\n※桜シーズン、ゴールデンウィーク、夏休みは閉館時間を延長\n休館日：12月28日～1月1日",
     "longitude": 0,
     "latitude": 0,
-    "name": "大阪城"
+    "name": "大阪城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒585-0051 大阪府南河内郡千早赤阪村千早",
@@ -2163,7 +2283,9 @@
     "opening_hours": "入山時間：自由\n＜金剛山 山の豆腐＞\n住所：大阪府南河内郡千早赤阪村千早950\n営業案内：9:00～17:00",
     "longitude": 0,
     "latitude": 0,
-    "name": "千早城"
+    "name": "千早城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒669-5252 兵庫県朝来市和田山町竹田字古城山169",
@@ -2201,7 +2323,9 @@
     "opening_hours": "・3月20日から9月20日まで：午前9時から午後4時まで ・9月21日から12月10日まで：午前3時から午後4時まで\n※入場制限がかかる場合があるのでホームページのチェック必要。",
     "longitude": 0,
     "latitude": 0,
-    "name": "竹田城"
+    "name": "竹田城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒669-2332 兵庫県篠山市北新町2-3",
@@ -2239,7 +2363,9 @@
     "opening_hours": "【開館時間】\n・9:00～17:00（受付16:30まで） ※休館日 毎週月曜日（祝祭日は開館、翌日休館）* 年末年始（12月25日～翌年1月1日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "篠山城"
+    "name": "篠山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒673-0847 兵庫県明石市明石公園1-27",
@@ -2276,7 +2402,9 @@
     "opening_hours": "散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "明石城"
+    "name": "明石城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒670-0012 兵庫県姫路市本町68",
@@ -2312,7 +2440,9 @@
     "opening_hours": "・通常期9時～16時（閉城17時） ※夏季は17時(閉城18時）まで\n休城日12月29日～30日",
     "longitude": 0,
     "latitude": 0,
-    "name": "姫路城"
+    "name": "姫路城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒678-0235 兵庫県赤穂市上仮屋",
@@ -2349,7 +2479,9 @@
     "opening_hours": "【開園時間】・本丸以外は無休 本丸は9時～16時30分(入園は16時まで) \n【休園日】本丸以外は無休 本丸は年末年始12月28日～1月4日",
     "longitude": 0,
     "latitude": 0,
-    "name": "赤穂城"
+    "name": "赤穂城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒635-0101 奈良県高市郡高取町高取",
@@ -2387,7 +2519,9 @@
     "opening_hours": "＜高取城＞見学自由（随時）\n〈高取町観光案内所「夢創舘」〉営業時間:9:30～16:30 ・定休日:月曜日.月曜日が祝日の場合は翌日,年末年始",
     "longitude": 0,
     "latitude": 0,
-    "name": "高取城"
+    "name": "高取城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒640-8146 和歌山県和歌山市一番丁3",
@@ -2425,7 +2559,9 @@
     "opening_hours": "9：00〜17：30（入館は17：00まで）\n休城日：毎年12月29日～31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "和歌山城"
+    "name": "和歌山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒680-0011 鳥取県鳥取市東町",
@@ -2463,7 +2599,9 @@
     "opening_hours": "見学自由（随時）\n〈鳥取城跡内「仁風閣」〉・開館時間:9時～17時(入館は16時30分まで) ・休館日:毎週月曜日(但し祝日の場合は開館)\n祝日の翌日\n年末年始",
     "longitude": 0,
     "latitude": 0,
-    "name": "鳥取城"
+    "name": "鳥取城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒690-0887 島根県松江市殿町1-5",
@@ -2501,7 +2639,9 @@
     "opening_hours": "・天守閣:4月～9月/8時30分～18時30分 10月～3月/8時30分～17時(受付は閉館30分前まで)\n・公園(本丸):4月～9月/7時～19時30分 10月～3月/8時30分～17時",
     "longitude": 0,
     "latitude": 0,
-    "name": "松江城"
+    "name": "松江城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒692-0403 島根県安来市広瀬町富田2188",
@@ -2538,7 +2678,9 @@
     "opening_hours": "【月山富田城】随時見学可\n〈安来市立歴史資料館〉・営業時間:9:30～17:00　定休日毎週水曜日、12月29日～1月3日",
     "longitude": 0,
     "latitude": 0,
-    "name": "月山富田城"
+    "name": "月山富田城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒699-5605 島根県鹿足郡津和野町後田",
@@ -2576,7 +2718,9 @@
     "opening_hours": "・津和野城跡観光リフト:9時～16時30分（往復450円）　定休日12月1日～2月末　但し土日祝を除く、臨時休業あり",
     "longitude": 0,
     "latitude": 0,
-    "name": "津和野城"
+    "name": "津和野城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒708-0022 岡山県津山市山下135",
@@ -2614,7 +2758,9 @@
     "opening_hours": " 【開園時間】 ・4月～9月：8時40分～19時 ・10月～3月：8時40分～17時\n※無休（12月29日～31日除く）",
     "longitude": 0,
     "latitude": 0,
-    "name": "津山城"
+    "name": "津山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒716-0004岡山県高梁市内山下1",
@@ -2651,7 +2797,9 @@
     "opening_hours": "・4月～9月:9時～17時30分 ・10月～3月:9時～16時30分 ※休日:12月28日～1月4日 ",
     "longitude": 0,
     "latitude": 0,
-    "name": "備中松山城"
+    "name": "備中松山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒719-1101 岡山県総社市奥坂、黒尾",
@@ -2688,7 +2836,9 @@
     "opening_hours": "鬼ノ城は見学自由\n＜鬼城山ビジターセンター＞\n【開館時間】\n・月曜日以外の9時から17時まで（入館は16時30分まで）\n【休館日】\n・月曜日と年末年始（12月29日から翌年1月3日まで）\n・月曜日が祝日の場合は翌日\n・連休に月曜日を含む場合は、連休明けの平日が休館",
     "longitude": 0,
     "latitude": 0,
-    "name": "鬼ノ城"
+    "name": "鬼ノ城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒700-0823 岡山県岡山市丸の内2-3-1",
@@ -2726,7 +2876,9 @@
     "opening_hours": "・9時～17時30分（受付は17時迄）\n休館日：12月29日～31日",
     "longitude": 0,
     "latitude": 0,
-    "name": "岡山城"
+    "name": "岡山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒720-0061 広島県福山市丸之内1-8",
@@ -2764,7 +2916,9 @@
     "opening_hours": "＜福山城博物館＞ 開館時間：9:00～17:00 休館日：月曜日 （祝日の場合は翌日）、年末（12月28日～12月31日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "福山城"
+    "name": "福山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒731-0501 広島県安芸高田市吉田町吉田字郡山",
@@ -2802,7 +2956,9 @@
     "opening_hours": "大通院谷公園P→郡山城跡　随時\n＜安芸高田市歴史民俗博物館＞ ・営業時間：9時〜17時\n・休館日：毎週火曜日（火曜が祝日の場合は翌日）、祝休日の翌日、12月29日〜1月3日 ※臨時休館中を除き土日祝日は通常開館 ",
     "longitude": 0,
     "latitude": 0,
-    "name": "郡山城"
+    "name": "郡山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒730-0011 広島県広島市中区基町21-1",
@@ -2840,7 +2996,9 @@
     "opening_hours": "〈二の丸〉・4月1日～9月30日 9時～17時30分（入場は17時迄） ・10月1日～3月31日 9時～16時30分（入場は17時迄） ※休館日：年末年始（12月29日～1月2日）\n〈天守閣〉・通常開館時間　9時～18時（入館は17時30分迄）※12月1日～2月28日は9時～17時（入館は16時30分迄）",
     "longitude": 0,
     "latitude": 0,
-    "name": "広島城"
+    "name": "広島城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒741-0081 山口県岩国市横山3",
@@ -2878,7 +3036,9 @@
     "opening_hours": "ロープウエー点検日は休館\n・9時～16時45分(入館16時30分まで）",
     "longitude": 0,
     "latitude": 0,
-    "name": "岩国城"
+    "name": "岩国城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒758-0057 山口県萩市堀内字旧城1-1",
@@ -2916,7 +3076,9 @@
     "opening_hours": "・年中無休　（夜は天守閣跡の石垣などがライトアップ・点灯時間／日没～22：00（通年）\n・開園時間　4月～10月/8:00～18:30、11月～2月/8:30～16:30、3月/8:30～18:00",
     "longitude": 0,
     "latitude": 0,
-    "name": "萩城"
+    "name": "萩城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒770-0851 徳島県徳島市徳島町城内1ほか",
@@ -2954,7 +3116,9 @@
     "opening_hours": "【徳島中央公園(徳島城跡）】 散策自由 〈徳島市立徳島城博物館受付カウンター〉 　・開館時間:9時30分～17時(入場時間は16時30分まで) 　・休館日:月曜日(祝日の場合は開館),祝日の翌日,日祝日の場合は開館,年末年始(12/28～1/4)",
     "longitude": 0,
     "latitude": 0,
-    "name": "徳島城"
+    "name": "徳島城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒760-0030 香川県高松市玉藻町2-1",
@@ -2992,7 +3156,9 @@
     "opening_hours": "【開園時間】 ・東門 　4月～9月:7時～18時　10月～3月:8時30分～17時 ・西門(日の出～日没) 　4月～9月:5時30分開門 10月:6時開門 11月&3月:6時30分開門 12月～2月:7時開門",
     "longitude": 0,
     "latitude": 0,
-    "name": "高松城"
+    "name": "高松城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒763-0025 香川県丸亀市一番丁",
@@ -3030,7 +3196,9 @@
     "opening_hours": "・天守:9時～16時30分(入館は午後4時まで) ・大手一の門:10時～15時30分",
     "longitude": 0,
     "latitude": 0,
-    "name": "丸亀城"
+    "name": "丸亀城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒794-0036 愛媛県今治市通町3-1-3",
@@ -3068,7 +3236,9 @@
     "opening_hours": "9時～17時\n【休館日】・12月29日～12月31日(その他展示替など、運営上必要なとき) ",
     "longitude": 0,
     "latitude": 0,
-    "name": "今治城"
+    "name": "今治城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒790-0857 愛媛県松山市道後公園",
@@ -3106,7 +3276,9 @@
     "opening_hours": "公園：常時開園（入園無料） ・展示施設：9時～17時（入館無料）／休館日：月曜（月曜が祝日の場合は翌日）、12月29日～1月3日",
     "longitude": 0,
     "latitude": 0,
-    "name": "湯築城"
+    "name": "湯築城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒790-0008 愛媛県松山市丸之内1",
@@ -3144,7 +3316,9 @@
     "opening_hours": "【本丸広場】 散策自由(無料） 5:00～21:00（11月〜3月 5:30〜21:00） 【天守開城時間】 2月～7月:9:00～17:00 8月:9:00～17:30 9月～11月:9:00～17:00 12月～1月:9:00～16:30 ※12月第3水曜日は大掃除のため休み ※入場は終了時間の30分前まで ",
     "longitude": 0,
     "latitude": 0,
-    "name": "松山城"
+    "name": "松山城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒795-0012 愛媛県大洲市大洲903",
@@ -3182,7 +3356,9 @@
     "opening_hours": "【観覧時間】 ・9時～17時(札止め16時30分） 【定休日】 ・無休",
     "longitude": 0,
     "latitude": 0,
-    "name": "大洲城"
+    "name": "大洲城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒798-0060 愛媛県宇和島市丸之内1",
@@ -3220,7 +3396,9 @@
     "opening_hours": "・10月～3月:6時～17時 ・4月～9月:6時～18時30分 ※天守は9時～17時/郷士館は9時～16時 【休館日】 ・天守:無休/郷士館:月曜日",
     "longitude": 0,
     "latitude": 0,
-    "name": "宇和島城"
+    "name": "宇和島城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒780-0850 高知県高知市丸の内1-2-1",
@@ -3258,7 +3436,9 @@
     "opening_hours": "【高知公園】\n散策自由\n【高知城天守・懐徳館等の開館時間】\n・9時～17時(最終入館16時30分)\n※ゴールデンウィークやよさこい祭期間中などは時間延長あり\n【休館日】 ・12月26日～1月1日",
     "longitude": 0,
     "latitude": 0,
-    "name": "高知城"
+    "name": "高知城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒810-0043 福岡県福岡市中央区城内",
@@ -3296,7 +3476,9 @@
     "opening_hours": "〈城内・鴻臚館（こうろかん）跡展示館〉・9時～17時（入場は16時30分まで）年末年始休館 ",
     "longitude": 0,
     "latitude": 0,
-    "name": "福岡城"
+    "name": "福岡城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒811-2105 福岡県糟屋郡宇美町四王寺字猫坂207ほか",
@@ -3334,7 +3516,9 @@
     "opening_hours": "散策自由",
     "longitude": 0,
     "latitude": 0,
-    "name": "大野城"
+    "name": "大野城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒847-0401 佐賀県唐津市鎮西町名護屋",
@@ -3372,7 +3556,9 @@
     "opening_hours": "・年中無休散策自由\n〈佐賀県立名護屋城博物館〉\n・開館時間:9時～17時\n・定休日:毎週月曜日（休日の場合は翌日）、年末(12月29日～31日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "名護屋城"
+    "name": "名護屋城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒842-0035 佐賀県神埼郡吉野ヶ里町田手1843",
@@ -3410,7 +3596,9 @@
     "opening_hours": "【開園時間】\n・4月1日～5月31日/9月1日～3月31日 9時～17時\n・6月1日～8月31日　9時～18時\n【休園日】\n・12月31日、1月の第3月曜日とその翌日",
     "longitude": 0,
     "latitude": 0,
-    "name": "吉野ヶ里遺跡"
+    "name": "吉野ヶ里遺跡",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒840-0041 佐賀県佐賀市城内2-18-1",
@@ -3448,7 +3636,9 @@
     "opening_hours": "〈佐賀県立佐賀城本丸歴史館〉開館時間:9時30分～18時 ・休館日:12/29～31日（臨時休館 4月21日～5月10日、そのた臨時休館日あり）",
     "longitude": 0,
     "latitude": 0,
-    "name": "佐賀城"
+    "name": "佐賀城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒859-5121 長崎県平戸市岩の上町1458",
@@ -3486,7 +3676,9 @@
     "opening_hours": "8時30分～17時30分(休館日12/29～31)",
     "longitude": 0,
     "latitude": 0,
-    "name": "平戸城"
+    "name": "平戸城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒855-0036 長崎県島原市城内1-1183-1",
@@ -3524,7 +3716,9 @@
     "opening_hours": "",
     "longitude": 0,
     "latitude": 0,
-    "name": "島原城"
+    "name": "島原城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒860-0002 熊本県熊本市本丸1-1",
@@ -3562,7 +3756,9 @@
     "opening_hours": "開園時間：9:00～17:00（最終入園/天守閣の入場16:30まで） 休園日：年末（12月29日～12月31日） 入園料：大人800円、小・中学生300円",
     "longitude": 0,
     "latitude": 0,
-    "name": "熊本城"
+    "name": "熊本城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒868-0051 熊本県人吉市麓町",
@@ -3600,7 +3796,9 @@
     "opening_hours": "＜人吉城歴史館＞9:00〜17:00（最終入館は16:30）毎月第2月曜日（月曜日が祝日の場合はその翌日）年末年始（12月29日～1月3日）",
     "longitude": 0,
     "latitude": 0,
-    "name": "人吉城"
+    "name": "人吉城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒870-0046　大分県大分市荷揚町73-75",
@@ -3638,7 +3836,9 @@
     "opening_hours": " 【城址公園】・公園内随時散策自由\n＜大分城址公園内、文化会館北西側の事務所2階出入り口＞8時～18時",
     "longitude": 0,
     "latitude": 0,
-    "name": "大分府内城"
+    "name": "大分府内城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒878-0013　大分県竹田市竹田2889",
@@ -3676,7 +3876,9 @@
     "opening_hours": "・9時～17時",
     "longitude": 0,
     "latitude": 0,
-    "name": "岡城"
+    "name": "岡城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒889-2535　宮崎県日南市飫肥10-1-2",
@@ -3718,7 +3920,9 @@
     "opening_hours": "＜飫肥城歴史資料館＞9:30～17:00(入館は16:30まで)\n休館日12/29～12/31",
     "longitude": 0,
     "latitude": 0,
-    "name": "飫肥城"
+    "name": "飫肥城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒892-0853　鹿児島県鹿児島市城山町7-2",
@@ -3756,7 +3960,9 @@
     "opening_hours": "9:00-18:00(入館は17:30まで)",
     "longitude": 0,
     "latitude": 0,
-    "name": "鹿児島城"
+    "name": "鹿児島城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒905-0428　沖縄県国頭郡今帰仁村今泊4874",
@@ -3794,7 +4000,9 @@
     "opening_hours": "【開園時間】(年中無休） 　・午前8時～午後6時（最終入場時間） ※城跡は季節により開園前、閉園後の開園時間の延長あり ",
     "longitude": 0,
     "latitude": 0,
-    "name": "今帰仁城"
+    "name": "今帰仁城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒901-2402　沖縄県中頭郡中城村字泊1258",
@@ -3832,7 +4040,9 @@
     "opening_hours": "（年中無休） 　・8時30分～17時（5月～9月は18時まで）",
     "longitude": 0,
     "latitude": 0,
-    "name": "中城城"
+    "name": "中城城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "address": "〒903-0812　沖縄県那覇市首里当蔵町3",
@@ -3870,7 +4080,9 @@
     "opening_hours": "開園・開場時間： ・城郭内無料区域（歓会門、木曳門、久慶門） 　8:00～19:30（4月～6月、10月～11月） 　8:00～20:30（7月～9月） 　8:00～18:30（12月～3月） ・城郭内有料区域（奉神門・世誇殿・東のアザナ） 　8:30～19:00（4月～6月、10月～11月） 　8:30～20:00（7月～9月） 　8:00～18:00（12月～3月） ※入場締切は終了の30分前 休場日：7月の第1水曜日とその翌日",
     "longitude": 0,
     "latitude": 0,
-    "name": "首里城"
+    "name": "首里城",
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -3900,9 +4112,11 @@
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-101-shinoridate",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -3928,7 +4142,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -3945,7 +4161,7 @@
     "stamp_location": "青森市中世の館",
     "overview": "浪岡城は、青森県青森市浪岡（旧南津軽郡浪岡町）にあった日本の城（平山城）。1460年代に浪岡北畠氏によって築城され、1578年に大浦為信に攻められ落城した。 1940年（昭和15年）2月10日に青森県内で初めて国の史跡に指定された。 現在は跡地の北側を青森県道27号青森浪岡線が通る。北東へと続く丘陵の南端に位置し、城の南側の急峻な崖下には浪岡川と正平津川が流れていて天然の堀と水源を兼ねていた。",
     "image_urls": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Namioka_Castle_site.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Namioka_Castle_site.jpg"
     ],
     "source_url": "https://www.100finecastles.com/castles2nd/namiokajo/",
     "related_websites": [],
@@ -3954,9 +4170,13 @@
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "無料",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-103-namiokajo",
     "longitude": 140.60448080185378,
-    "latitude": 40.71829006765777
+    "latitude": 40.71829006765777,
+    "gosyuin_image_name": [
+      "gosyuin-103-namiokajo"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -3980,9 +4200,13 @@
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-104-kunohejo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [
+      "gosyuin-104-kunohejo"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -3999,19 +4223,19 @@
     "stamp_location": "白石城天守閣",
     "overview": "白石城（続日本100名城）",
     "image_urls": [
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo1.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo2.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo3.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo4.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo5.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo6.jpg"
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo1.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo2.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo3.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo4.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo5.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/shiroishijo6.jpg"
     ],
     "source_url": "https://www.100finecastles.com/castles2nd/shiroishijo/",
     "related_websites": [
-        {
-          "name": "白石城・歴史探訪ミュージアム・武家屋敷",
-          "url": "https://www.shiro-f.jp/shiroishijo"
-        }
+      {
+        "name": "白石城・歴史探訪ミュージアム・武家屋敷",
+        "url": "https://www.shiro-f.jp/shiroishijo"
+      }
     ],
     "built_years": "",
     "built_by": "",
@@ -4020,7 +4244,9 @@
     "ticket_price": "",
     "stamp_image_name": "stamp-105-shiroishi",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4037,22 +4263,22 @@
     "stamp_location": "史跡脇本城跡案内所（登城口から徒歩5分）\n※冬季期間は積雪のため「道の駅おが・オガーレ」にスタンプを設置",
     "overview": "脇本城は、秋田県男鹿市脇本脇本にあった中世の日本の城。国の史跡。中世に安東氏の居城となった。",
     "image_urls": [
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto1.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto2.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto3.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto4.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto5.jpg"
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto1.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto2.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto3.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto4.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/wakimoto5.jpg"
     ],
     "source_url": "https://www.100finecastles.com/castles2nd/wakimotojo/",
     "related_websites": [
-        {
-            "name": "男鹿市役所サイト",
-            "url": "https://www.city.oga.akita.jp/soshik/bunkasportska/bunkazai/2/1514.html"
-        },
-        {
-            "name": "秋田県男鹿市・脇本城跡(Wakimoto castle ruins)",
-            "url": "https://www.youtube.com/watch?v=DV2_SKS_Lew"
-        }
+      {
+        "name": "男鹿市役所サイト",
+        "url": "https://www.city.oga.akita.jp/soshik/bunkasportska/bunkazai/2/1514.html"
+      },
+      {
+        "name": "秋田県男鹿市・脇本城跡(Wakimoto castle ruins)",
+        "url": "https://www.youtube.com/watch?v=DV2_SKS_Lew"
+      }
     ],
     "built_years": "",
     "built_by": "",
@@ -4061,7 +4287,9 @@
     "ticket_price": "",
     "stamp_image_name": "stamp-106-wakimoto",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4078,11 +4306,11 @@
     "stamp_location": "・秋田市立秋田城跡歴史資料館\n・史跡公園管理棟（無料で押印可）",
     "overview": "奈良時代（天平5年 733年）から平安時代（10世紀中頃）にかけてこの地に置かれた律令国家の地方官庁の遺跡。蝦夷の人々の支配や統括を目的に設置され、政治・軍事・文化の中心地となっていた。\n東北各地に同じように設置された遺跡は「城柵官衙遺跡（じょうさくかんがいせばき）」と呼ばれ、秋田城はそのなかで最北に位置している。当初は「出羽柵（いではのき）」と呼ばれていたが、天平宝字4年（760年）頃に「秋田城」と改称された。\n現在の中国東北部にあった渤海国（ぼっかいこく 698年～926年）との交流の窓口になったと考えれている。",
     "image_urls": [
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo1.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo2.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo3.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo4.jpg",
-        "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo5.jpg"
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo1.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo2.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo3.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo4.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/akitajo5.jpg"
     ],
     "source_url": "https://www.100finecastles.com/castles2nd/akitajo/",
     "related_websites": [],
@@ -4091,156 +4319,209 @@
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "castle-107-akita",
+    "stamp_image_name": "stamp-107-akitajo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 108
     },
     "name": "鶴ヶ丘城",
-    "reading": "鶴ヶ丘城",
+    "reading": "つるがおかじょう",
     "area": 0,
-    "address": "鶴岡市馬場町",
-    "phone_number": "",
+    "address": "〒997-0035 山形県鶴岡市馬場町４",
+    "phone_number": "0235-22-8100（荘内神社）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・JR羽越本線「鶴岡」駅から「湯野浜温泉」行きで約10分、「市役所前」下車徒歩約2分。\n・鶴岡ICより車で10分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "荘内神社（鶴ケ岡城址、鶴岡公園内）",
     "overview": "鶴ヶ丘城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/tsurugaokajo/",
+    "related_websites": [
+      {
+        "name": "荘内神社",
+        "url": "https://jinjahan.com/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-108-tsurugaokajo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 109
     },
     "name": "米沢城",
-    "reading": "米沢城",
+    "reading": "よねざわじょう",
     "area": 0,
-    "address": "米沢市丸の内1-4-13",
-    "phone_number": "",
+    "address": "〒992-0052 山形県米沢市丸の内１丁目４",
+    "phone_number": "0238-26-8001（米沢市上杉博物館）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "JR奥羽本線「米沢」駅からバスで約10分「上杉神社前」バス停下車、徒歩約3分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "米沢観光コンベンション協会観光案内所",
     "overview": "米沢城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/yonezawajo/",
+    "related_websites": [
+      {
+        "name": "米沢観光ナビ（米沢市観光キャンペーン推進協議会）",
+        "url": "https://www.yonezawa-kankou-navi.com/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-109-yonezawajo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [
+      "gosyuin-109-yonezawajo"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 110
     },
     "name": "三春城",
-    "reading": "三春城",
+    "reading": "みはるじょう",
     "area": 0,
-    "address": "田村郡三春町字大町",
-    "phone_number": "",
+    "address": "〒963-7759 福島県田村郡三春町大町",
+    "phone_number": "0247-62-5263（三春町歴史民俗資料館）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・JR磐越東線「三春」駅から徒歩約30分\n・JR磐越東線「三春」駅から町営バスで約10分「保健センター」バス停下車、徒歩すぐ",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "・本丸（24時間可）\n・三春町歴史民俗資料館",
     "overview": "三春城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/miharujyo/",
+    "related_websites": [
+      {
+        "name": "三春町役場",
+        "url": "https://www.town.miharu.fukushima.jp/site/rekishi/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-110-miharujyo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [
+      "gosyuin-110-miharujyo"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 111
     },
     "name": "向羽黒山城",
-    "reading": "向羽黒山城",
+    "reading": "むかいはぐろやまじょう",
     "area": 0,
-    "address": "大沼郡会津美里町船場",
-    "phone_number": "",
+    "address": "〒969-6133 福島県大沼郡会津美里町船場甲",
+    "phone_number": "0242-56-4882（会津美里町観光協会）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・JR只見線「会津本郷」駅から徒歩約30分\n・磐越自動車道会津若松ICから車で約25分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "向羽黒山城整備資料室（向羽黒ギャラリー入口）",
     "overview": "向羽黒山城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/mukaihaguroyamajo/",
+    "related_websites": [
+      {
+        "name": "会津美里町役場",
+        "url": "https://www.town.aizumisato.fukushima.jp/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-111-mukaihaguroyamajo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [
+      "gosyuin-111-mukaihaguroyamajo"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 112
     },
     "name": "笠間城",
-    "reading": "笠間城",
+    "reading": "かさまじょう",
     "area": 1,
-    "address": "笠間市笠間3616ほか",
+    "address": "〒309-1611 茨城県笠間市笠間３６１３",
     "phone_number": "",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・JR笠間駅から徒歩約1時間\n・北関東自動車道友部ICから国道355号経由で約20分",
     "parking_info": "",
-    "stamp_location": "",
-    "overview": "笠間城（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
+    "stamp_location": "かさま歴史交流館井筒屋（1階中路地）",
+    "overview": "鎌倉時代の承久元年（1219）に築城とされる山城。笠間氏が約370年にわたって本拠とした。天正18年（1590）に笠間氏が没落し、宇都宮氏家臣の玉生氏が城主となった。慶長3年（1598）には蒲生郷成（がもうさとなり）が城主となり、郷成により、土造りの山城だった笠間城は近世城郭に改修されたと考えられている。",
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/122kazama-jo-IMG_6004-scaled-e1615882684735.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/122kazama-jo-IMG_6003-scaled-e1615882698445.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/122kazama-jo-IMG_6018-scaled-e1615882670257.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/122kazama-jo-IMG_6032-scaled-e1615882659629.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/122kazama-jo-IMG_6037-scaled-e1615882644994.jpg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/kasamajo/",
     "related_websites": [],
     "built_years": "",
     "built_by": "",
     "used_by": "",
     "years_in_use": "",
     "ticket_price": "",
-    "stamp_image_name": "",
+    "stamp_image_name": "stamp-112-kasamajo",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [
+      "gosyuin-112-kasamajo-1",
+      "gosyuin-112-kasamajo-2"
+    ],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 113
     },
     "name": "土浦城",
-    "reading": "土浦城",
+    "reading": "つちうらじょう",
     "area": 1,
-    "address": "土浦市中央1",
-    "phone_number": "",
+    "address": "〒300-0043 茨城県土浦市中央１丁目１３",
+    "phone_number": "029-824-2928（土浦市立博物館）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・JR常磐線「土浦」駅南口から徒歩約15分（亀城公園）\n・JR常磐線「土浦」駅から関東鉄道バスで約3分「亀城公園前」下車すぐ",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "土浦市立博物館（休館日は土浦まちかど蔵「大徳」で押印可）",
     "overview": "土浦城（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/112Tutiura-jo-IMG_5959-scaled-e1615882077116.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/112Tutiura-jo-IMG_5964-scaled-e1615882015671.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/112Tutiura-jo-IMG_5981-scaled-e1615882043878.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/112Tutiura-joIMG_5977-1-scaled-e1615882057359.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/03/112Tutiura-jo-IMG_5982-scaled-e1615882028801.jpg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/tsuchiurajo/",
     "related_websites": [],
     "built_years": "",
     "built_by": "",
@@ -4249,25 +4530,32 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 114
     },
     "name": "唐沢山城",
-    "reading": "唐沢山城",
+    "reading": "からさわやまじょう",
     "area": 1,
-    "address": "佐野市富士町1409",
+    "address": "〒327-0801 栃木県佐野市富士町１４０９",
     "phone_number": "",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・東武佐野線「田沼」駅から本丸まで徒歩約45分\n・北関東自動車道 佐野藤岡ICから車で約20分\n・東北自動車道 佐野田沼IC車で約10分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "唐澤山神社社務所（唐沢山城本丸跡）",
     "overview": "唐沢山城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/karasawayamajo/",
+    "related_websites": [
+      {
+        "name": "唐澤山神社",
+        "url": "http://karasawayama.com/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4275,25 +4563,32 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 115
     },
     "name": "名胡桃城",
-    "reading": "名胡桃城",
+    "reading": "なぐるみじょう",
     "area": 1,
-    "address": "利根郡みなかみ町下津",
-    "phone_number": "",
-    "opening_hours": "",
-    "access_guide": "",
+    "address": "〒379-1314 群馬県利根郡みなかみ町下津3462ｰ2",
+    "phone_number": "0278-62-0793（名胡桃城址案内所）",
+    "opening_hours": "9:00~16:00",
+    "access_guide": "＜電車＞\n・JR上越線「後閑駅」から徒歩約50分\n・JR上越新幹線「上毛高原」駅から徒歩約50分\n＜車＞\n・関越自動車道「月夜野」ICから約5分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "名胡桃城址案内所",
     "overview": "名胡桃城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "source_url": "https://www.100finecastles.com/castles2nd/nagurumijo/",
+    "related_websites": [
+      {
+        "name": "みなかみ町観光協会",
+        "url": "http://www.enjoy-minakami.jp/place.php?itemid=519"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4301,24 +4596,26 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 116
     },
     "name": "沼田城",
-    "reading": "沼田城",
+    "reading": "ぬまたじょう",
     "area": 1,
-    "address": "沼田市西倉内町594",
-    "phone_number": "",
+    "address": "〒378-0042 群馬県沼田市西倉内町５９４",
+    "phone_number": "0278-25-8555（沼田市観光案内所）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "＜電車＞\n・上越線「沼田」駅から徒歩で約18分\n・上越線「沼田」駅からバスで約6分「沼田局前」下車、徒歩約10分\n＜車＞\n・関越自動車道「沼田」ICから10分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "沼田市観光案内所",
     "overview": "沼田城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
+    "source_url": "https://www.100finecastles.com/castles2nd/numatajo/",
     "related_websites": [],
     "built_years": "",
     "built_by": "",
@@ -4327,24 +4624,26 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 117
     },
     "name": "岩櫃城",
-    "reading": "岩櫃城",
+    "reading": "いわびつじょう",
     "area": 1,
-    "address": "吾妻郡東吾妻町大字原町1708-3ほか",
-    "phone_number": "",
+    "address": "〒377-0801 群馬県吾妻郡東吾妻町原町",
+    "phone_number": "0279-70-2110（東吾妻町観光協会）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "JR吾妻線「群馬原町」駅から徒歩で30分（登山口まで）",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "・平沢登山口観光案内所\n・東吾妻町観光協会\n※年末年始の休業期間は押印不可",
     "overview": "岩櫃城（続日本100名城）",
     "image_urls": [],
-    "source_url": "",
+    "source_url": "https://www.100finecastles.com/castles2nd/iwabitsujo/",
     "related_websites": [],
     "built_years": "",
     "built_by": "",
@@ -4353,25 +4652,38 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 118
     },
     "name": "忍城",
-    "reading": "忍城",
+    "reading": "おしじょう",
     "area": 1,
-    "address": "行田市本丸17−23",
+    "address": "〒361-0052 埼玉県行田市本丸１７−２３",
     "phone_number": "",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・秩父鉄道行田市駅（南口）から徒歩15分\n・JR吹上駅（北口）から朝日バス「行田折返し場・行田市駅・総合教育センター」行（前谷経由）約15分「忍城」下車すぐ。",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "行田市郷土博物館",
     "overview": "忍城（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/87a552616714d84d67fb97159b258ee1-scaled-e1611584286533.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/2fa812578fb95e2403a0168f24c58d6a-scaled-e1611584322170.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/a9633269cb474eb2644c064af12a5e31-scaled-e1611584444592.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/ef24af97b7c56ae3ce6d908fd0e2c3b6-scaled-e1611584356872.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/5c67f419e8a5860993a241a43407ae2d-scaled-e1611623321530.jpg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/oshijo/",
+    "related_websites": [
+      {
+        "name": "行田市郷土博物館",
+        "url": "https://www.city.gyoda.lg.jp/soshiki/kyouikubu/kyodohakubutsukan/index.html"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4379,25 +4691,38 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 119
     },
     "name": "杉山城",
-    "reading": "杉山城",
+    "reading": "すぎやまじょう",
     "area": 1,
-    "address": "比企郡嵐山町大杉山",
-    "phone_number": "",
+    "address": "〒355-0211 埼玉県比企郡嵐山町杉山６１４",
+    "phone_number": "0493-62-2150（代表）嵐山町役場",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "＜電車＞\n東武東上線「武蔵嵐山」駅から徒歩約40分\n＜車＞\n関越自動車道・嵐山小川ICから約2.6km",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "埼玉県比企郡嵐山町役場庁舎 玄関ホール",
     "overview": "杉山城（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/0c1e30c26ba6031cfd5b346cb05d3b71-scaled.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/53a5bec8520ac05f3cf6104ac61dfca5-scaled-e1611630242159.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/d9d8089edd76bb2fdfc87fe3cebaa79a-scaled-e1611630208728.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/a198b5a1b56712607f19b20256ae2e47-scaled-e1611630136269.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/271ce3f7b5cb156d8c034568ad3fe2ca-scaled-e1611630167470.jpg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/sugiyamajo/",
+    "related_websites": [
+      {
+        "name": "杉山城跡公式サイト",
+        "url": "http://ranzan-sugiyama.jp/"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4405,25 +4730,42 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 120
     },
     "name": "菅谷館",
-    "reading": "菅谷館",
+    "reading": "すがややかた",
     "area": 1,
-    "address": "比企郡嵐山町菅谷757",
-    "phone_number": "",
+    "address": "〒355-0221 埼玉県比企郡嵐山町菅谷757",
+    "phone_number": "0493-62-5896(埼玉県立嵐山史跡の博物館）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "東武東上線「武蔵嵐山」駅下車、徒歩約15分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "埼玉県立嵐山史跡の博物館展示室受付",
     "overview": "菅谷館（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/ef0931488fbe2686ceed0399694b8d46-scaled-e1611806277708.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/cd09f9b2ac57b7309f1a733692a243e3-scaled-e1611806139814.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/f955d03fd245a84789087523f8f4c1c9-scaled-e1611806240728.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/2635bc4bb7033967540b9f74a810af24-scaled-e1611806095736.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/ba99941882501ba1b0e69540534c2572-scaled-e1611806201932.jpg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/sugayayakat/",
+    "related_websites": [
+      {
+        "name": "埼玉県立嵐山史跡の博物館",
+        "url": "https://ranzan-shiseki.spec.ed.jp/"
+      },
+      {
+        "name": "埼玉県嵐山町役場",
+        "url": "http://www.town.ranzan.saitama.jp/0000003373.html"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4431,25 +4773,41 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
       "value": 121
     },
     "name": "本佐倉城",
-    "reading": "本佐倉城",
+    "reading": "もとさくらじょう",
     "area": 1,
     "address": "印旛郡酒々井町本佐倉字城ノ内、佐倉市大佐倉",
-    "phone_number": "",
+    "phone_number": "043-496-4541（酒々井町役場）",
     "opening_hours": "",
-    "access_guide": "",
+    "access_guide": "・京成電鉄「京成酒々井駅」から徒歩20分\n・京成電鉄「京成大佐倉駅」から徒歩10分\n・JR「酒々井駅」から徒歩25分",
     "parking_info": "",
-    "stamp_location": "",
+    "stamp_location": "・京成大佐倉駅（改札外）\n・酒々井町中央公民館\n・国史跡本佐倉城跡案内所",
     "overview": "本佐倉城（続日本100名城）",
-    "image_urls": [],
-    "source_url": "",
-    "related_websites": [],
+    "image_urls": [
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/motosakurajo1.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/motosakurajo2.jpg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/motosakurajo3.jpeg",
+      "https://www.100finecastles.com/wordpress/wp-content/uploads/2021/01/motosakurajo4.jpeg"
+    ],
+    "source_url": "https://www.100finecastles.com/castles2nd/motosakurajo/",
+    "related_websites": [
+      {
+        "name": "酒々井町役場",
+        "url": "http://www.town.shisui.chiba.jp/docs/2014021803982/"
+      },
+      {
+        "name": "本佐倉城跡（佐倉市公式サイト）",
+        "url": "https://www.city.sakura.lg.jp/soshiki/bunkaka/bunkazai/5542.html"
+      }
+    ],
     "built_years": "",
     "built_by": "",
     "used_by": "",
@@ -4457,7 +4815,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4483,7 +4843,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4509,7 +4871,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4535,7 +4899,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4561,7 +4927,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4587,7 +4955,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4613,7 +4983,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4639,7 +5011,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4665,7 +5039,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4691,7 +5067,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4717,7 +5095,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4743,7 +5123,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4769,7 +5151,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4795,7 +5179,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4821,7 +5207,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4847,7 +5235,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4873,7 +5263,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4899,7 +5291,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4925,7 +5319,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4951,7 +5347,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -4977,7 +5375,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5003,7 +5403,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5029,7 +5431,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5055,7 +5459,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5081,7 +5487,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5107,7 +5515,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5133,7 +5543,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5159,7 +5571,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5185,7 +5599,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5211,7 +5627,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5237,7 +5655,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5263,7 +5683,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5289,7 +5711,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5315,7 +5739,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5341,7 +5767,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5367,7 +5795,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5393,7 +5823,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5419,7 +5851,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5445,7 +5879,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5471,7 +5907,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5497,7 +5935,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5523,7 +5963,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5549,7 +5991,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5575,7 +6019,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5601,7 +6047,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5627,7 +6075,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5653,7 +6103,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5679,7 +6131,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5705,7 +6159,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5731,7 +6187,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5757,7 +6215,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5783,7 +6243,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5809,7 +6271,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5835,7 +6299,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5861,7 +6327,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5887,7 +6355,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5913,7 +6383,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5939,7 +6411,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5965,7 +6439,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -5991,7 +6467,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6017,7 +6495,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6043,7 +6523,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6069,7 +6551,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6095,7 +6579,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6121,7 +6607,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6147,7 +6635,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6173,7 +6663,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6199,7 +6691,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6225,7 +6719,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6251,7 +6747,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6277,7 +6775,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6303,7 +6803,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6329,7 +6831,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6355,7 +6859,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6381,7 +6887,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6407,7 +6915,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6433,7 +6943,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6459,7 +6971,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6485,7 +6999,9 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   },
   {
     "id": {
@@ -6511,6 +7027,8 @@
     "ticket_price": "",
     "stamp_image_name": "",
     "longitude": 0,
-    "latitude": 0
+    "latitude": 0,
+    "gosyuin_image_name": [],
+    "google_map_url": ""
   }
 ]
