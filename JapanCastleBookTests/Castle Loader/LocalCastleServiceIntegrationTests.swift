@@ -25,7 +25,7 @@ final class LocalCastleServiceIntegrationTests: XCTestCase {
                 }
             } receiveValue: { [weak self] items in
                 guard let self else { return }
-                XCTAssertEqual(items.count, 100)
+                XCTAssertEqual(items.count, 200)
                 XCTAssertEqual(items[0], expectedItem(at: 0))
                 XCTAssertEqual(items[1], expectedItem(at: 1))
                 
@@ -60,7 +60,8 @@ extension LocalCastleServiceIntegrationTests {
             gosyuinImageNames: gosyuinImageNames(at: index),
             googleMapURL: googleMapURL(at: index),
             overview: overview(at: index),
-            imageURLs: imageURLs(at: index)
+            imageURLs: imageURLs(at: index),
+            relatedWebsites: relatedWebsites(at: index)
         )
     }
     
@@ -147,7 +148,19 @@ extension LocalCastleServiceIntegrationTests {
             nil
         ][index]
     }
-    
+
+    private func relatedWebsites(at index: Int) -> [Castle.RelatedWebsite] {
+        return [
+            [
+                Castle.RelatedWebsite(name: "根室市観光協会", url: URL(string: "https://www.nemuro-kankou.com/")!)
+            ],
+            [
+                Castle.RelatedWebsite(name: "函館市（特別史跡五稜郭跡）", url: URL(string: "http://www.city.hakodate.hokkaido.jp/docs/2014011601161/")!)
+            ]
+        ][index]
+    }
+
+
     private func overview(at index: Int) -> String {
         return [
             "根室半島には一帯にわたり、チャシ跡が存在する。そのほとんどは海抜約５ｍから５０ｍの海岸断崖上の台地の平坦部にあり、海岸台地上に半円形又は四角形の壕を巡らせている。根室市内には30ヵ所※のチャシ跡の存在が確認されているが、保存状態が良好で、他地域と比較すると分布密度も濃いことで知られている。（※このうち24ヵ所が国指定史跡。チャシは一般的には「砦」と考えられているが、見張場や聖地、談判の場として多目的に使われたとされる。）",

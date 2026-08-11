@@ -30,7 +30,6 @@ struct CastleListView: View {
 
     @EnvironmentObject private var experienceStore: CastleExperienceStore
     @StateObject var viewModel: CastleListViewModel
-    let stampAssetService: CastleStampAssetService
     @State private var route: CastleRoute?
     @State private var selectedSeries: CastleSeries = .top100
 
@@ -50,7 +49,6 @@ struct CastleListView: View {
                 CastleDetailView(castle: route.castle)
             }
         }
-        .environment(\.castleStampAssetService, stampAssetService)
         .task {
             guard viewModel.castles.isEmpty else { return }
             viewModel.loadCastles()
@@ -182,8 +180,7 @@ private struct CastleRoute: Identifiable, Hashable {
 
 #Preview {
     CastleListView(
-        viewModel: CastleListViewModel(castleService: CastleAppEnvironment.live.castleService),
-        stampAssetService: CastleAppEnvironment.live.castleStampAssetService
+        viewModel: CastleListViewModel(castleService: CastleAppEnvironment.live.castleService)
     )
     .environmentObject(CastleExperienceStore())
 }

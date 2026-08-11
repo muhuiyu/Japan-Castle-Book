@@ -34,8 +34,6 @@ struct CastleListCellRowView: View {
 }
 
 struct CastleListCellView: View {
-    @Environment(\.castleStampAssetService) private var stampAssetService
-
     let castle: Castle
     let hasVisited: Bool
 
@@ -56,7 +54,7 @@ struct CastleListCellView: View {
                     .padding(14)
 
                 if hasVisited {
-                    Image(stampAssetService.stampAssetName(for: castle.id) ?? AssetImage.doneStamp)
+                    Image(castle.stampImageName ?? AssetImage.doneStamp)
                         .resizable()
                         .scaledToFit()
                         .padding(8)

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1620"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E47442732D29F1FF0020C4A0"
+               BuildableName = "JapanCastleBookSwiftUI.app"
+               BlueprintName = "JapanCastleBookSwiftUI"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E4079E5F2B4EF16C0035578C"
+               BuildableName = "JapanCastleBookTests.xctest"
+               BlueprintName = "JapanCastleBookTests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E47442842D29F2000020C4A0"
+               BuildableName = "JapanCastleBookSwiftUITests.xctest"
+               BlueprintName = "JapanCastleBookSwiftUITests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E474428E2D29F2000020C4A0"
+               BuildableName = "JapanCastleBookSwiftUIUITests.xctest"
+               BlueprintName = "JapanCastleBookSwiftUIUITests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E4079E5F2B4EF16C0035578C"
+               BuildableName = "JapanCastleBookTests.xctest"
+               BlueprintName = "JapanCastleBookTests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E47442842D29F2000020C4A0"
+               BuildableName = "JapanCastleBookSwiftUITests.xctest"
+               BlueprintName = "JapanCastleBookSwiftUITests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E474428E2D29F2000020C4A0"
+               BuildableName = "JapanCastleBookSwiftUIUITests.xctest"
+               BlueprintName = "JapanCastleBookSwiftUIUITests"
+               ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E47442732D29F1FF0020C4A0"
+            BuildableName = "JapanCastleBookSwiftUI.app"
+            BlueprintName = "JapanCastleBookSwiftUI"
+            ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E47442732D29F1FF0020C4A0"
+            BuildableName = "JapanCastleBookSwiftUI.app"
+            BlueprintName = "JapanCastleBookSwiftUI"
+            ReferencedContainer = "container:JapanCastleBook.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

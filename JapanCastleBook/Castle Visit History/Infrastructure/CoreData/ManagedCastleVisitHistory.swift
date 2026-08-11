@@ -30,4 +30,12 @@ extension ManagedCastleVisitHistory {
     static func deleteCache(in context: NSManagedObjectContext) throws {
         _ = try find(in: context).map(context.delete).map(context.save)
     }
+
+    static func find(id: UUID, in context: NSManagedObjectContext) throws -> ManagedCastleVisitHistory? {
+        let request = NSFetchRequest<ManagedCastleVisitHistory>(entityName: entity().name!)
+        request.predicate = NSPredicate(format: "id == %@", id as CVarArg)
+        request.fetchLimit = 1
+        request.returnsObjectsAsFaults = false
+        return try context.fetch(request).first
+    }
 }

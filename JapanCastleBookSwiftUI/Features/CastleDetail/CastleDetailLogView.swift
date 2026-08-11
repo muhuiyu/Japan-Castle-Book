@@ -10,7 +10,6 @@ struct CastleDetailLogView: View {
     }
 
     @EnvironmentObject private var experienceStore: CastleExperienceStore
-    @Environment(\.castleStampAssetService) private var stampAssetService
 
     let castle: Castle
     let didTapAddStamp: () -> Void
@@ -24,7 +23,7 @@ struct CastleDetailLogView: View {
     }
 
     private var castleStampAssetName: String {
-        stampAssetService.stampAssetName(for: castle.id) ?? AssetImage.doneStamp
+        castle.stampImageName ?? AssetImage.doneStamp
     }
 
     var body: some View {

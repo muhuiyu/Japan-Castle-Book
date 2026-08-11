@@ -47,15 +47,47 @@ public class CoreDataCastleVisitHistoryStore: CastleVisitHistoryStore {
     }
     
     public func insert(_ visitHistory: CastleVisitHistory) -> InsertionResult {
-        return Future { $0(.success(())) }.eraseToAnyPublisher()
+        return Future { [context] promise in
+            context.perform {
+                do {
+                    if let existing = try ManagedCastleVisitHistory.find(id: visitHistory.id, in: context) {
+                        context.delete(existing)
+                    }
+
+                    let managed = ManagedCastleVisitHistory(context: context)
+                    managed.id = visitHistory.id
+                    managed.date = visitHistory.date
+                    managed.title = visitHistory.title
+                    managed.content = visitHistory.content
+                    managed.photoURLs = visitHistory.photoURLs
+
+                    try context.save()
+                    promise(.success(()))
+                } catch {
+                    promise(.failure(error))
+                }
+            }
+        }.eraseToAnyPublisher()
     }
-    
+
     public func retrieve() -> RetrievalResult {
         return fetchCastleVisitHistory().eraseToAnyPublisher()
     }
-    
+
     public func delete(_ visitHistoryID: UUID) -> DeletionResult {
-        fatalError("Not implemented")
+        return Future { [context] promise in
+            context.perform {
+                do {
+                    if let existing = try ManagedCastleVisitHistory.find(id: visitHistoryID, in: context) {
+                        context.delete(existing)
+                        try context.save()
+                    }
+                    promise(.success(()))
+                } catch {
+                    promise(.failure(error))
+                }
+            }
+        }.eraseToAnyPublisher()
     }
     
     public func deleteAllVisitHistories() -> DeletionResult {

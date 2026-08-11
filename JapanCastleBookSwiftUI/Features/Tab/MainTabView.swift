@@ -7,8 +7,7 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             CastleListView(
-                viewModel: CastleListViewModel(castleService: environment.castleService),
-                stampAssetService: environment.castleStampAssetService
+                viewModel: CastleListViewModel(castleService: environment.castleService)
             )
             .tabItem {
                 Label(L10n.tabCastles, systemImage: "rectangle.grid.2x2.fill")

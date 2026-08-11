@@ -28,8 +28,16 @@ final class CastleItemMapperTests: XCTestCase {
         let item1 = makeItem(id: 1, name: "name 1", address: "address 1", overview: "overview 1", imageURLs: [URL(string: "http://url-1.com")!])
         let item2 = makeItem(id: 2, name: "name 2", address: "address 2", overview: "overview 2", imageURLs: [URL(string: "http://url-2.com")!])
         let json = makeItemsJSON([item1.json, item2.json])
-        
+
         XCTAssertEqual(try CastleItemMapper.map(json), [item1.model, item2.model])
+    }
+
+    func test_map_throwsErrorWhenARequiredFieldIsMissing() {
+        var incompleteItemJSON = makeItem(id: 1).json
+        incompleteItemJSON.removeValue(forKey: "related_websites")
+        let json = makeItemsJSON([incompleteItemJSON])
+
+        XCTAssertThrowsError(try CastleItemMapper.map(json))
     }
 }
 
@@ -50,7 +58,8 @@ extension CastleItemMapperTests {
         googleMapURL: String = "https://maps.google.com/?q=1,2",
         area: CastleArea = .hokkaidoTohoku,
         overview: String = "any overview",
-        imageURLs: [URL] = [URL(string: "any image")!]
+        imageURLs: [URL] = [URL(string: "any image")!],
+        relatedWebsites: [Castle.RelatedWebsite] = [Castle.RelatedWebsite(name: "any website", url: URL(string: "https://any-website.com")!)]
     ) -> (model: Castle, json: [String: Any]) {
         let model = Castle(
             id: id,
@@ -67,7 +76,8 @@ extension CastleItemMapperTests {
             gosyuinImageNames: gosyuinImageNames,
             googleMapURL: URL(string: googleMapURL),
             overview: overview,
-            imageURLs: imageURLs
+            imageURLs: imageURLs,
+            relatedWebsites: relatedWebsites
         )
         let json = [
             "id": [
@@ -86,9 +96,10 @@ extension CastleItemMapperTests {
             "gosyuin_image_name": gosyuinImageNames,
             "google_map_url": googleMapURL,
             "overview": overview,
-            "image_urls": imageURLs.map { $0.absoluteString }
+            "image_urls": imageURLs.map { $0.absoluteString },
+            "related_websites": relatedWebsites.map { ["name": $0.name, "url": $0.url.absoluteString] }
         ].compactMapValues { $0 }
-        
+
         return (model, json)
     }
     

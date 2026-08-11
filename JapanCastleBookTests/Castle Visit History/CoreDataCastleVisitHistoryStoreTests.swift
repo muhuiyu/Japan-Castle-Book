@@ -30,11 +30,45 @@ final class CoreDataCastleVisitHistoryStoreTests: XCTestCase {
     
     func test_retrieve_deliversUniqueCachedCastleVisitHistoryAfterInserting() {
         let sut = makeSUT()
-        
+
         let item1 = makeItem(title: "any title", content: "any content", photoURLs: [])
         _ = sut.insert(item1)
         _ = sut.insert(item1)
-        
+
+        expect(sut, toRetrieve: [item1], withError: nil)
+    }
+
+    func test_insert_overwritesPreviouslyInsertedItemWithSameID() {
+        let sut = makeSUT()
+        let id = UUID()
+        let original = CastleVisitHistory(id: id, date: Date(), title: "original title", content: "original content", photoURLs: [])
+        let updated = CastleVisitHistory(id: id, date: Date(), title: "updated title", content: "updated content", photoURLs: [])
+
+        _ = sut.insert(original)
+        _ = sut.insert(updated)
+
+        expect(sut, toRetrieve: [updated], withError: nil)
+    }
+
+    func test_delete_removesMatchingCastleVisitHistory() {
+        let sut = makeSUT()
+        let item1 = makeItem(title: "keep", content: "any content", photoURLs: [])
+        let item2 = makeItem(title: "remove", content: "any content", photoURLs: [])
+        _ = sut.insert(item1)
+        _ = sut.insert(item2)
+
+        _ = sut.delete(item2.id)
+
+        expect(sut, toRetrieve: [item1], withError: nil)
+    }
+
+    func test_delete_doesNothingForUnknownID() {
+        let sut = makeSUT()
+        let item1 = makeItem(title: "any title", content: "any content", photoURLs: [])
+        _ = sut.insert(item1)
+
+        _ = sut.delete(UUID())
+
         expect(sut, toRetrieve: [item1], withError: nil)
     }
 }
