@@ -2,9 +2,6 @@ import SwiftUI
 import JapanCastleBook
 
 struct CastleListView: View {
-    // Keep sequel data hidden until content QA/enrichment is complete.
-    private let sequelSeriesEnabled = false
-
     private enum CastleSeries: String, CaseIterable {
         case top100
         case sequel100
@@ -57,15 +54,17 @@ struct CastleListView: View {
 
     private var listContent: some View {
         List {
-            Section {
-                Picker("Castle Series", selection: $selectedSeries) {
-                    ForEach(CastleSeries.allCases, id: \.self) { series in
-                        Text(series.title).tag(series)
+            if FeatureFlags.nextHundredCastles {
+                Section {
+                    Picker("Castle Series", selection: $selectedSeries) {
+                        ForEach(CastleSeries.allCases, id: \.self) { series in
+                            Text(series.title).tag(series)
+                        }
                     }
+                    .pickerStyle(.segmented)
+                    .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
+                    .listRowSeparator(.hidden)
                 }
-                .pickerStyle(.segmented)
-                .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
-                .listRowSeparator(.hidden)
             }
 
             Section {
@@ -141,10 +140,8 @@ struct CastleListView: View {
     }
 
     private var filteredCastles: [Castle] {
-        if selectedSeries == .sequel100 && !sequelSeriesEnabled {
-            return []
-        }
-        return viewModel.castles.filter { selectedSeries.idRange.contains($0.id) }
+        let series = FeatureFlags.nextHundredCastles ? selectedSeries : .top100
+        return viewModel.castles.filter { series.idRange.contains($0.id) }
     }
 
     private var filteredSections: [CastleListViewModel.Section] {
