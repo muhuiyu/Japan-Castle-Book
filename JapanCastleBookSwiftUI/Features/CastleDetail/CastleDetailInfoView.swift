@@ -5,17 +5,22 @@ struct CastleDetailInfoView: View {
     @EnvironmentObject private var experienceStore: CastleExperienceStore
 
     let castle: Castle
+    let didTapAddStamp: () -> Void
+    let didTapStamp: () -> Void
 
     private var metadataRows: [(icon: String, value: String)] {
         [
             ("phone", castle.phoneNumber),
             ("clock", castle.openingHours),
-            ("mappin", castle.address),
-            ("star", "[\(L10n.detailStampLocation)]\n\(castle.stampLocation)")
+            ("mappin", castle.address)
         ]
     }
 
     private var imageURLs: [URL] { castle.imageURLs }
+
+    private var castleStampAssetName: String {
+        castle.stampImageName ?? AssetImage.doneStamp
+    }
 
     var body: some View {
         ScrollView {
@@ -105,6 +110,9 @@ struct CastleDetailInfoView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 12))
                 .padding(.horizontal)
 
+                stampSection
+
+                detailBlock(title: L10n.detailStampLocation, value: castle.stampLocation)
                 detailBlock(title: L10n.detailAccessGuide, value: castle.accessGuide)
                 detailBlock(title: L10n.detailOverview, value: castle.overview)
 
@@ -115,6 +123,62 @@ struct CastleDetailInfoView: View {
             .padding(.bottom, 12)
         }
         .scrollIndicators(.hidden)
+    }
+
+    private var stampSection: some View {
+        VStack(spacing: 8) {
+            Text(L10n.logStampCardTitle)
+                .font(.headline)
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            Button {
+                if experienceStore.hasStamp(castle.id) {
+                    didTapStamp()
+                } else {
+                    didTapAddStamp()
+                }
+            } label: {
+                ZStack(alignment: .bottomTrailing) {
+                    Group {
+                        if let stamp = experienceStore.stampPhoto(for: castle.id) {
+                            Image(uiImage: stamp)
+                                .resizable()
+                                .scaledToFill()
+                        } else if experienceStore.hasStamp(castle.id) {
+                            Image(castleStampAssetName)
+                                .resizable()
+                                .scaledToFit()
+                        } else {
+                            Image(systemName: "plus.circle")
+                                .font(.system(size: 44, weight: .medium))
+                                .foregroundStyle(.mint)
+                        }
+                    }
+                    .frame(width: 130, height: 130)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+
+                    if experienceStore.hasStamp(castle.id) {
+                        Image(systemName: "pencil.circle.fill")
+                            .font(.system(size: 22))
+                            .symbolRenderingMode(.palette)
+                            .foregroundStyle(.mint, Color(.systemBackground))
+                            .offset(x: 4, y: 4)
+                    }
+                }
+            }
+            .buttonStyle(.plain)
+
+            if !experienceStore.hasStamp(castle.id) {
+                Text(L10n.logAddStampButton)
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.mint)
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .padding()
+        .background(Color(.secondarySystemBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding(.horizontal)
     }
 
     private func detailBlock(title: String, value: String) -> some View {

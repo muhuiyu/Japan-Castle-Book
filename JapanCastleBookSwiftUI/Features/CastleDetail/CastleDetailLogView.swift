@@ -12,8 +12,6 @@ struct CastleDetailLogView: View {
     @EnvironmentObject private var experienceStore: CastleExperienceStore
 
     let castle: Castle
-    let didTapAddStamp: () -> Void
-    let didTapStamp: () -> Void
     let didTapEditLog: (CastleVisitLogEntry) -> Void
     let didTapDeleteLog: (CastleVisitLogEntry) -> Void
     @State private var activePhotoViewer: PhotoViewerPayload?
@@ -22,17 +20,8 @@ struct CastleDetailLogView: View {
         experienceStore.visitLogs(for: castle.id)
     }
 
-    private var castleStampAssetName: String {
-        castle.stampImageName ?? AssetImage.doneStamp
-    }
-
     var body: some View {
         List {
-            stampCard
-                .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 6, trailing: 16))
-                .listRowSeparator(.hidden)
-                .listRowBackground(Color.clear)
-
             if logs.isEmpty {
                 emptyLogsCard
                     .listRowInsets(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 16))
@@ -73,52 +62,6 @@ struct CastleDetailLogView: View {
         .fullScreenCover(item: $activePhotoViewer) { payload in
             CastlePhotoViewer(photos: payload.photos, initialIndex: payload.initialIndex)
         }
-    }
-
-    private var stampCard: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text(L10n.logStampCardTitle)
-                .font(.headline)
-
-            Button {
-                if experienceStore.hasStamp(castle.id) {
-                    didTapStamp()
-                } else {
-                    didTapAddStamp()
-                }
-            } label: {
-                HStack(spacing: 12) {
-                    if let stamp = experienceStore.stampPhoto(for: castle.id) {
-                        Image(uiImage: stamp)
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 72, height: 72)
-                            .clipShape(RoundedRectangle(cornerRadius: 8))
-                    } else if experienceStore.hasStamp(castle.id) {
-                        Image(castleStampAssetName)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 72, height: 72)
-                    } else {
-                        Image(systemName: "plus.circle")
-                            .font(.system(size: 38, weight: .medium))
-                            .frame(width: 72, height: 72)
-                            .foregroundStyle(.mint)
-                    }
-
-                    Text(experienceStore.hasStamp(castle.id) ? L10n.stampEdit : L10n.logAddStampButton)
-                        .font(.subheadline.weight(.semibold))
-                    Spacer()
-                }
-                .padding(12)
-                .background(Color(.tertiarySystemBackground))
-                .clipShape(RoundedRectangle(cornerRadius: 12))
-            }
-            .buttonStyle(.plain)
-        }
-        .padding(12)
-        .background(Color(.secondarySystemBackground))
-        .clipShape(RoundedRectangle(cornerRadius: 12))
     }
 
     private var emptyLogsCard: some View {

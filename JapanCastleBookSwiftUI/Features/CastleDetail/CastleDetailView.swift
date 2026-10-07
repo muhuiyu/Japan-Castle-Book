@@ -56,7 +56,6 @@ struct CastleDetailView: View {
     @State private var showingImageSourceActions = false
     @State private var showingVisitLogForm = false
 
-    @State private var stampDialogAnchor: DialogAnchor = .root
     @State private var imageSourceDialogAnchor: DialogAnchor = .root
 
     @State private var imageSourcePurpose: PickerPurpose = .quickLog
@@ -81,12 +80,14 @@ struct CastleDetailView: View {
             Group {
                 switch selectedSegment {
                 case .info:
-                    CastleDetailInfoView(castle: castle)
+                    CastleDetailInfoView(
+                        castle: castle,
+                        didTapAddStamp: handleAddStampTapped,
+                        didTapStamp: handleStampTapped
+                    )
                 case .visitLog:
                     CastleDetailLogView(
                         castle: castle,
-                        didTapAddStamp: handleAddStampTapped,
-                        didTapStamp: handleStampTapped,
                         didTapEditLog: beginEditing(log:),
                         didTapDeleteLog: delete(log:)
                     )
@@ -112,10 +113,6 @@ struct CastleDetailView: View {
                     imageSourceDialogAnchor = .completeButton
                     showingImageSourceActions = true
                 }
-                Button(L10n.actionAddStamp) {
-                    stampDialogAnchor = .completeButton
-                    showingStampActions = true
-                }
                 Button(L10n.actionAddVisitLog) {
                     editingVisitLogID = nil
                     visitLogDraft = VisitLogDraft()
@@ -123,16 +120,13 @@ struct CastleDetailView: View {
                 }
                 Button(L10n.cancel, role: .cancel) {}
             }
-            .confirmationDialog(L10n.stampChooseAction, isPresented: showingStampActionsFromComplete) {
-                stampActionsButtons
-            }
             .confirmationDialog(L10n.sourceChooseAction, isPresented: showingImageSourceActionsFromComplete) {
                 imageSourceButtons
             }
         }
         .navigationTitle(castle.name)
         .navigationBarTitleDisplayMode(.inline)
-        .confirmationDialog(L10n.stampChooseAction, isPresented: showingStampActionsFromRoot) {
+        .confirmationDialog(L10n.stampChooseAction, isPresented: $showingStampActions) {
             stampActionsButtons
         }
         .confirmationDialog(L10n.stampEdit, isPresented: $showingStampEditActions) {
@@ -216,7 +210,6 @@ struct CastleDetailView: View {
         if experienceStore.hasStamp(castle.id) {
             showingStampEditActions = true
         } else {
-            stampDialogAnchor = .root
             showingStampActions = true
         }
     }
@@ -272,28 +265,6 @@ struct CastleDetailView: View {
         experienceStore.removeVisitLog(for: castle.id, logID: log.id)
     }
 
-    private var showingStampActionsFromComplete: Binding<Bool> {
-        Binding(
-            get: { showingStampActions && stampDialogAnchor == .completeButton },
-            set: { isPresented in
-                if !isPresented && stampDialogAnchor == .completeButton {
-                    showingStampActions = false
-                }
-            }
-        )
-    }
-
-    private var showingStampActionsFromRoot: Binding<Bool> {
-        Binding(
-            get: { showingStampActions && stampDialogAnchor == .root },
-            set: { isPresented in
-                if !isPresented && stampDialogAnchor == .root {
-                    showingStampActions = false
-                }
-            }
-        )
-    }
-
     private var showingImageSourceActionsFromComplete: Binding<Bool> {
         Binding(
             get: { showingImageSourceActions && imageSourceDialogAnchor == .completeButton },
@@ -324,7 +295,7 @@ struct CastleDetailView: View {
         }
         Button(L10n.stampTakePhoto) {
             imageSourcePurpose = .stamp
-            imageSourceDialogAnchor = stampDialogAnchor
+            imageSourceDialogAnchor = .root
             showingImageSourceActions = true
         }
         Button(L10n.cancel, role: .cancel) {}
