@@ -124,7 +124,7 @@ struct CastleDetailView: View {
                 imageSourceButtons
             }
         }
-        .navigationTitle(castle.name)
+        .navigationTitle(castle.displayName)
         .navigationBarTitleDisplayMode(.inline)
         .confirmationDialog(L10n.stampChooseAction, isPresented: $showingStampActions) {
             stampActionsButtons

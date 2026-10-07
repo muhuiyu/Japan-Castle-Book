@@ -12,6 +12,7 @@ ASSETS = os.path.join(ROOT, "JapanCastleBookSwiftUI/Assets.xcassets")
 
 # Fields the app displays (see CastleItemMapper), in priority order.
 APP_FIELDS = [
+    ("name_en", "English name"),
     ("stamp_location", "stamp location"),
     ("access_guide", "access"),
     ("opening_hours", "hours"),

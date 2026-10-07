@@ -1,1 +1,3 @@
 "CFBundleDisplayName" = "JP Castle Book";
+"NSCameraUsageDescription" = "Use the camera to capture castle stamps and visit log photos.";
+"NSPhotoLibraryUsageDescription" = "Use your photo library to attach stamp and visit log photos.";

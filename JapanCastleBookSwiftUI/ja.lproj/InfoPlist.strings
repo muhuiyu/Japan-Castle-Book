@@ -1,1 +1,3 @@
 "CFBundleDisplayName" = "お城ブック";
+"NSCameraUsageDescription" = "城のスタンプや訪問記録の写真を撮影するためにカメラを使用します。";
+"NSPhotoLibraryUsageDescription" = "スタンプや訪問記録に写真を添付するためにフォトライブラリを使用します。";

@@ -63,8 +63,8 @@ struct CastleListCellView: View {
             }
             .frame(height: 84)
 
-            Text("\(castle.id). \(castle.name)")
-                .font(castle.name.count > 10 ? .caption2 : .caption)
+            Text("\(castle.id). \(castle.displayName)")
+                .font(castle.displayName.count > 10 ? .caption2 : .caption)
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.primary)
                 .lineLimit(3)

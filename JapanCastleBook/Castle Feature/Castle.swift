@@ -22,6 +22,7 @@ public struct Castle: Equatable {
 
     public let id: Int
     public let name: String
+    public let nameEN: String?
     public let reading: String
     public let area: CastleArea
     public let address: String
@@ -40,6 +41,7 @@ public struct Castle: Equatable {
     public init(
         id: Int,
         name: String,
+        nameEN: String? = nil,
         reading: String,
         area: CastleArea,
         address: String,
@@ -57,6 +59,7 @@ public struct Castle: Equatable {
     ) {
         self.id = id
         self.name = name
+        self.nameEN = nameEN
         self.reading = reading
         self.area = area
         self.address = address

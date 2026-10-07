@@ -32,6 +32,22 @@ final class CastleItemMapperTests: XCTestCase {
         XCTAssertEqual(try CastleItemMapper.map(json), [item1.model, item2.model])
     }
 
+    func test_map_deliversEnglishNameWhenPresent() {
+        let item = makeItem(id: 1, name: "松本城", nameEN: "Matsumoto Castle")
+        let json = makeItemsJSON([item.json])
+
+        XCTAssertEqual(try CastleItemMapper.map(json).first?.nameEN, "Matsumoto Castle")
+    }
+
+    func test_map_deliversNilEnglishNameWhenMissingOrEmpty() {
+        let missing = makeItem(id: 1).json
+        var empty = makeItem(id: 2).json
+        empty["name_en"] = ""
+        let json = makeItemsJSON([missing, empty])
+
+        XCTAssertEqual(try CastleItemMapper.map(json).map(\.nameEN), [nil, nil])
+    }
+
     func test_map_throwsErrorWhenARequiredFieldIsMissing() {
         var incompleteItemJSON = makeItem(id: 1).json
         incompleteItemJSON.removeValue(forKey: "related_websites")
@@ -46,6 +62,7 @@ extension CastleItemMapperTests {
     private func makeItem(
         id: Int = 0,
         name: String = "any name",
+        nameEN: String? = nil,
         reading: String = "any reading",
         address: String = "any address",
         phoneNumber: String = "12345678",
@@ -64,6 +81,7 @@ extension CastleItemMapperTests {
         let model = Castle(
             id: id,
             name: name,
+            nameEN: nameEN,
             reading: reading,
             area: area,
             address: address,
@@ -79,7 +97,7 @@ extension CastleItemMapperTests {
             imageURLs: imageURLs,
             relatedWebsites: relatedWebsites
         )
-        let json = [
+        var json = [
             "id": [
                 "value": id
             ],
@@ -99,6 +117,9 @@ extension CastleItemMapperTests {
             "image_urls": imageURLs.map { $0.absoluteString },
             "related_websites": relatedWebsites.map { ["name": $0.name, "url": $0.url.absoluteString] }
         ].compactMapValues { $0 }
+        if let nameEN {
+            json["name_en"] = nameEN
+        }
 
         return (model, json)
     }

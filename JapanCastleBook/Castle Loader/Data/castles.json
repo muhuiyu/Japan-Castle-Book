@@ -37,6 +37,7 @@
     "longitude": 145.78251534839745,
     "latitude": 43.38885076919545,
     "name": "根室半島チャシ跡群",
+    "name_en": "Nemuro Peninsula Chashi Sites",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -78,6 +79,7 @@
     "longitude": 140.7568152241788,
     "latitude": 41.79713355444793,
     "name": "五稜郭",
+    "name_en": "Goryokaku",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -116,6 +118,7 @@
     "longitude": 140.1080592960212,
     "latitude": 41.42986102402665,
     "name": "松前城",
+    "name_en": "Matsumae Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -154,6 +157,7 @@
     "longitude": 140.46423164991182,
     "latitude": 40.60790382672425,
     "name": "弘前城",
+    "name_en": "Hirosaki Castle",
     "gosyuin_image_name": [
       "gosyuin-4-hirosaki"
     ],
@@ -196,6 +200,7 @@
     "longitude": 141.46052352595385,
     "latitude": 40.50624260679839,
     "name": "根城",
+    "name_en": "Ne Castle",
     "gosyuin_image_name": [
       "gosyuin-5-ne"
     ],
@@ -240,6 +245,7 @@
     "longitude": 141.1513484259264,
     "latitude": 39.70072729179711,
     "name": "盛岡城",
+    "name_en": "Morioka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -279,6 +285,7 @@
     "longitude": 140.9883970370035,
     "latitude": 38.307130218002094,
     "name": "多賀城",
+    "name_en": "Tagajo",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -317,6 +324,7 @@
     "longitude": 140.85587383757468,
     "latitude": 38.25221827864975,
     "name": "仙台城（青葉城）",
+    "name_en": "Sendai Castle (Aoba Castle)",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -356,6 +364,7 @@
     "longitude": 140.12360666641058,
     "latitude": 39.72197941440015,
     "name": "久保田城",
+    "name_en": "Kubota Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -398,6 +407,7 @@
     "longitude": 140.3281142,
     "latitude": 38.2554748,
     "name": "山形城",
+    "name_en": "Yamagata Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -438,6 +448,7 @@
     "longitude": 140.4283114,
     "latitude": 37.599767,
     "name": "二本松城",
+    "name_en": "Nihonmatsu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -475,6 +486,7 @@
     "longitude": 139.9297661,
     "latitude": 37.4877353,
     "name": "会津若松城",
+    "name_en": "Aizu-Wakamatsu Castle",
     "gosyuin_image_name": [
       "gosyuin-12-aizuwakamatu"
     ],
@@ -515,6 +527,7 @@
     "longitude": 140.2138267,
     "latitude": 37.1327408,
     "name": "白河小峰城",
+    "name_en": "Shirakawa-Komine Castle",
     "gosyuin_image_name": [
       "gosyuin-13-sirakawakomine"
     ],
@@ -556,6 +569,7 @@
     "longitude": 140.4827879,
     "latitude": 36.3730791,
     "name": "水戸城",
+    "name_en": "Mito Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -596,6 +610,7 @@
     "longitude": 139.452088,
     "latitude": 36.3374074,
     "name": "足利氏館（鑁阿寺）",
+    "name_en": "Ashikaga Clan Residence (Bannaji)",
     "gosyuin_image_name": [
       "gosyuin-15-asikaga"
     ],
@@ -638,6 +653,7 @@
     "longitude": 138.9519198,
     "latitude": 36.404128,
     "name": "箕輪城",
+    "name_en": "Minowa Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -678,6 +694,7 @@
     "longitude": 139.3774735,
     "latitude": 36.3169179,
     "name": "金山城",
+    "name_en": "Kanayama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -718,6 +735,7 @@
     "longitude": 139.1959612,
     "latitude": 36.1092846,
     "name": "鉢形城",
+    "name_en": "Hachigata Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -766,6 +784,7 @@
     "longitude": 139.4914459,
     "latitude": 35.9242515,
     "name": "川越城",
+    "name_en": "Kawagoe Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -809,6 +828,7 @@
     "longitude": 140.2158745,
     "latitude": 35.7220927,
     "name": "佐倉城",
+    "name_en": "Sakura Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -853,6 +873,7 @@
     "longitude": 139.754407,
     "latitude": 35.6883735,
     "name": "江戸城",
+    "name_en": "Edo Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -893,6 +914,7 @@
     "longitude": 139.2521542,
     "latitude": 35.6528939,
     "name": "八王子城",
+    "name_en": "Hachioji Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -933,6 +955,7 @@
     "longitude": 139.1534249,
     "latitude": 35.2510547,
     "name": "小田原城",
+    "name_en": "Odawara Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -973,6 +996,7 @@
     "longitude": 138.5771355,
     "latitude": 35.6852534,
     "name": "武田氏館",
+    "name_en": "Takeda Clan Residence",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1013,6 +1037,7 @@
     "longitude": 138.5666157,
     "latitude": 35.6066855,
     "name": "甲府城",
+    "name_en": "Kofu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1057,6 +1082,7 @@
     "longitude": 138.196048,
     "latitude": 36.5659201,
     "name": "松代城",
+    "name_en": "Matsushiro Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1105,6 +1131,7 @@
     "longitude": 138.2526238,
     "latitude": 36.4152869,
     "name": "上田城",
+    "name_en": "Ueda Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1149,6 +1176,7 @@
     "longitude": 138.4174412,
     "latitude": 36.3271237,
     "name": "小諸城",
+    "name_en": "Komoro Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1189,6 +1217,7 @@
     "longitude": 137.9688709,
     "latitude": 36.2386353,
     "name": "松本城",
+    "name_en": "Matsumoto Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1233,6 +1262,7 @@
     "longitude": 138.0628243,
     "latitude": 35.832734,
     "name": "高遠城",
+    "name_en": "Takato Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1273,6 +1303,7 @@
     "longitude": 139.3255546,
     "latitude": 37.9548019,
     "name": "新発田城",
+    "name_en": "Shibata Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1313,6 +1344,7 @@
     "longitude": 138.2057715,
     "latitude": 37.1468193,
     "name": "春日山城",
+    "name_en": "Kasugayama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1355,6 +1387,7 @@
     "longitude": 137.0207927,
     "latitude": 36.7492108,
     "name": "高岡城",
+    "name_en": "Takaoka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1399,6 +1432,7 @@
     "longitude": 136.9915,
     "latitude": 37.0222406,
     "name": "七尾城",
+    "name_en": "Nanao Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1439,6 +1473,7 @@
     "longitude": 136.6595753,
     "latitude": 36.5656005,
     "name": "金沢城",
+    "name_en": "Kanazawa Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1478,6 +1513,7 @@
     "longitude": 136.2721252,
     "latitude": 36.1523586,
     "name": "丸岡城",
+    "name_en": "Maruoka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1522,6 +1558,7 @@
     "longitude": 136.2953037,
     "latitude": 35.998997,
     "name": "一乗谷城",
+    "name_en": "Ichijodani Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1567,6 +1604,7 @@
     "longitude": 137.4512955,
     "latitude": 35.359713,
     "name": "岩村城",
+    "name_en": "Iwamura Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1609,6 +1647,7 @@
     "longitude": 136.782051,
     "latitude": 35.4339171,
     "name": "岐阜城",
+    "name_en": "Gifu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1649,6 +1688,7 @@
     "longitude": 138.9924006,
     "latitude": 35.1564091,
     "name": "山中城",
+    "name_en": "Yamanaka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1691,6 +1731,7 @@
     "longitude": 138.3852717,
     "latitude": 34.9776719,
     "name": "駿府城",
+    "name_en": "Sunpu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1733,6 +1774,7 @@
     "longitude": 138.018694,
     "latitude": 34.7814028,
     "name": "掛川城",
+    "name_en": "Kakegawa Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1772,6 +1814,7 @@
     "longitude": 136.9392776,
     "latitude": 35.3883304,
     "name": "犬山城",
+    "name_en": "Inuyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1812,6 +1855,7 @@
     "longitude": 136.9000992,
     "latitude": 35.184396,
     "name": "名古屋城",
+    "name_en": "Nagoya Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1850,6 +1894,7 @@
     "longitude": 137.158807,
     "latitude": 34.9563236,
     "name": "岡崎城",
+    "name_en": "Okazaki Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1888,6 +1933,7 @@
     "longitude": 137.565176,
     "latitude": 34.926122,
     "name": "長篠城",
+    "name_en": "Nagashino Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1928,6 +1974,7 @@
     "longitude": 136.1271284,
     "latitude": 34.7701912,
     "name": "伊賀上野城",
+    "name_en": "Iga-Ueno Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -1976,6 +2023,7 @@
     "longitude": 136.5259586,
     "latitude": 34.5760635,
     "name": "松阪城",
+    "name_en": "Matsusaka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2020,6 +2068,7 @@
     "longitude": 136.2689973,
     "latitude": 35.4503881,
     "name": "小谷城",
+    "name_en": "Odani Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2064,6 +2113,7 @@
     "longitude": 136.2517174,
     "latitude": 35.2771014,
     "name": "彦根城",
+    "name_en": "Hikone Castle",
     "gosyuin_image_name": [
       "gosyuin-50-hikone"
     ],
@@ -2114,6 +2164,7 @@
     "longitude": 136.1391968,
     "latitude": 35.1544337,
     "name": "安土城",
+    "name_en": "Azuchi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2157,6 +2208,7 @@
     "longitude": 136.1580706,
     "latitude": 35.1460799,
     "name": "観音寺城",
+    "name_en": "Kannonji Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2196,6 +2248,7 @@
     "longitude": 135.7485369,
     "latitude": 35.0140076,
     "name": "二条城",
+    "name_en": "Nijo Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2236,6 +2289,7 @@
     "longitude": 135.5258555,
     "latitude": 34.6873735,
     "name": "大阪城",
+    "name_en": "Osaka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2284,6 +2338,7 @@
     "longitude": 135.6514958,
     "latitude": 34.4169535,
     "name": "千早城",
+    "name_en": "Chihaya Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2324,6 +2379,7 @@
     "longitude": 134.8292851,
     "latitude": 35.3003145,
     "name": "竹田城",
+    "name_en": "Takeda Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2364,6 +2420,7 @@
     "longitude": 135.2176318,
     "latitude": 35.0733868,
     "name": "篠山城",
+    "name_en": "Sasayama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2403,6 +2460,7 @@
     "longitude": 134.9910964,
     "latitude": 34.6525687,
     "name": "明石城",
+    "name_en": "Akashi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2441,6 +2499,7 @@
     "longitude": 134.69402,
     "latitude": 34.8393313,
     "name": "姫路城",
+    "name_en": "Himeji Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2480,6 +2539,7 @@
     "longitude": 134.3892778,
     "latitude": 34.7458099,
     "name": "赤穂城",
+    "name_en": "Ako Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2520,6 +2580,7 @@
     "longitude": 135.8269612,
     "latitude": 34.4295163,
     "name": "高取城",
+    "name_en": "Takatori Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2560,6 +2621,7 @@
     "longitude": 135.1715062,
     "latitude": 34.2276472,
     "name": "和歌山城",
+    "name_en": "Wakayama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2600,6 +2662,7 @@
     "longitude": 134.2411743,
     "latitude": 35.5100121,
     "name": "鳥取城",
+    "name_en": "Tottori Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2640,6 +2703,7 @@
     "longitude": 133.0507625,
     "latitude": 35.4751405,
     "name": "松江城",
+    "name_en": "Matsue Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2679,6 +2743,7 @@
     "longitude": 133.1852653,
     "latitude": 35.3608474,
     "name": "月山富田城",
+    "name_en": "Gassan-Toda Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2719,6 +2784,7 @@
     "longitude": 131.7641695,
     "latitude": 34.4600199,
     "name": "津和野城",
+    "name_en": "Tsuwano Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2759,6 +2825,7 @@
     "longitude": 134.0048125,
     "latitude": 35.0627653,
     "name": "津山城",
+    "name_en": "Tsuyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2798,6 +2865,7 @@
     "longitude": 133.6221468,
     "latitude": 34.8087058,
     "name": "備中松山城",
+    "name_en": "Bitchu-Matsuyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2837,6 +2905,7 @@
     "longitude": 133.7690373,
     "latitude": 34.6618923,
     "name": "鬼ノ城",
+    "name_en": "Kinojo",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2877,6 +2946,7 @@
     "longitude": 133.9360446,
     "latitude": 34.6651763,
     "name": "岡山城",
+    "name_en": "Okayama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2917,6 +2987,7 @@
     "longitude": 133.3611464,
     "latitude": 34.4909956,
     "name": "福山城",
+    "name_en": "Fukuyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2957,6 +3028,7 @@
     "longitude": 132.7095652,
     "latitude": 34.6736204,
     "name": "郡山城",
+    "name_en": "Koriyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -2997,6 +3069,7 @@
     "longitude": 132.4595399,
     "latitude": 34.4021463,
     "name": "広島城",
+    "name_en": "Hiroshima Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3037,6 +3110,7 @@
     "longitude": 132.17427,
     "latitude": 34.175249,
     "name": "岩国城",
+    "name_en": "Iwakuni Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3077,6 +3151,7 @@
     "longitude": 131.3837761,
     "latitude": 34.4175201,
     "name": "萩城",
+    "name_en": "Hagi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3117,6 +3192,7 @@
     "longitude": 134.5545709,
     "latitude": 34.0750636,
     "name": "徳島城",
+    "name_en": "Tokushima Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3157,6 +3233,7 @@
     "longitude": 134.050386,
     "latitude": 34.350028,
     "name": "高松城",
+    "name_en": "Takamatsu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3197,6 +3274,7 @@
     "longitude": 133.8001009,
     "latitude": 34.2860216,
     "name": "丸亀城",
+    "name_en": "Marugame Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3237,6 +3315,7 @@
     "longitude": 133.0068513,
     "latitude": 34.0633765,
     "name": "今治城",
+    "name_en": "Imabari Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3277,6 +3356,7 @@
     "longitude": 132.7867746,
     "latitude": 33.8480881,
     "name": "湯築城",
+    "name_en": "Yuzuki Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3317,6 +3397,7 @@
     "longitude": 132.7657463,
     "latitude": 33.845651,
     "name": "松山城",
+    "name_en": "Matsuyama Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3357,6 +3438,7 @@
     "longitude": 132.5411347,
     "latitude": 33.509548,
     "name": "大洲城",
+    "name_en": "Ozu Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3397,6 +3479,7 @@
     "longitude": 132.5647329,
     "latitude": 33.2198186,
     "name": "宇和島城",
+    "name_en": "Uwajima Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3437,6 +3520,7 @@
     "longitude": 133.5314588,
     "latitude": 33.560691,
     "name": "高知城",
+    "name_en": "Kochi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3477,6 +3561,7 @@
     "longitude": 130.3572719,
     "latitude": 33.4940457,
     "name": "福岡城",
+    "name_en": "Fukuoka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3517,6 +3602,7 @@
     "longitude": 130.5266182,
     "latitude": 33.5737443,
     "name": "大野城",
+    "name_en": "Ono Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3557,6 +3643,7 @@
     "longitude": 129.8759583,
     "latitude": 33.5270662,
     "name": "名護屋城",
+    "name_en": "Hizen Nagoya Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3597,6 +3684,7 @@
     "longitude": 130.3843811,
     "latitude": 33.3254209,
     "name": "吉野ヶ里遺跡",
+    "name_en": "Yoshinogari Site",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3637,6 +3725,7 @@
     "longitude": 130.3028388,
     "latitude": 33.2453451,
     "name": "佐賀城",
+    "name_en": "Saga Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3677,6 +3766,7 @@
     "longitude": 129.5575485,
     "latitude": 33.3685904,
     "name": "平戸城",
+    "name_en": "Hirado Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3717,6 +3807,7 @@
     "longitude": 130.3672597,
     "latitude": 32.7892195,
     "name": "島原城",
+    "name_en": "Shimabara Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3757,6 +3848,7 @@
     "longitude": 130.7054642,
     "latitude": 32.8052691,
     "name": "熊本城",
+    "name_en": "Kumamoto Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3797,6 +3889,7 @@
     "longitude": 130.7665614,
     "latitude": 32.2111204,
     "name": "人吉城",
+    "name_en": "Hitoyoshi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3837,6 +3930,7 @@
     "longitude": 131.6114128,
     "latitude": 33.2403564,
     "name": "大分府内城",
+    "name_en": "Oita Funai Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3877,6 +3971,7 @@
     "longitude": 131.4078196,
     "latitude": 32.9692029,
     "name": "岡城",
+    "name_en": "Oka Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3921,6 +4016,7 @@
     "longitude": 131.3503762,
     "latitude": 31.6290146,
     "name": "飫肥城",
+    "name_en": "Obi Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -3961,6 +4057,7 @@
     "longitude": 130.5551261,
     "latitude": 31.5988311,
     "name": "鹿児島城",
+    "name_en": "Kagoshima Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -4001,6 +4098,7 @@
     "longitude": 127.9297334,
     "latitude": 26.6908894,
     "name": "今帰仁城",
+    "name_en": "Nakijin Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -4041,6 +4139,7 @@
     "longitude": 127.803301,
     "latitude": 26.2856398,
     "name": "中城城",
+    "name_en": "Nakagusuku Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -4081,6 +4180,7 @@
     "longitude": 127.7193727,
     "latitude": 26.2170014,
     "name": "首里城",
+    "name_en": "Shuri Castle",
     "gosyuin_image_name": [],
     "google_map_url": ""
   },
@@ -4089,6 +4189,7 @@
       "value": 101
     },
     "name": "志苔館",
+    "name_en": "",
     "reading": "しのりだて",
     "area": 0,
     "address": "〒042-0923 北海道函館市志海苔町",
@@ -4123,6 +4224,7 @@
       "value": 102
     },
     "name": "上ノ国勝山館",
+    "name_en": "",
     "reading": "かみのくにかつやまだて",
     "area": 0,
     "address": "檜山郡上ノ国町字勝山",
@@ -4151,6 +4253,7 @@
       "value": 103
     },
     "name": "浪岡城",
+    "name_en": "",
     "reading": "なみおかじょう",
     "area": 0,
     "address": "〒038-1311 青森県青森市浪岡大字浪岡五所１４−１",
@@ -4183,6 +4286,7 @@
       "value": 104
     },
     "name": "九戸城",
+    "name_en": "",
     "reading": "九戸城",
     "area": 0,
     "address": "二戸市福岡城ノ内、松ノ丸",
@@ -4213,6 +4317,7 @@
       "value": 105
     },
     "name": "白石城",
+    "name_en": "",
     "reading": "しろいしじょう",
     "area": 0,
     "address": "〒989-0251 宮城県白石市益岡町１−１６",
@@ -4253,6 +4358,7 @@
       "value": 106
     },
     "name": "脇本城",
+    "name_en": "",
     "reading": "わきもとじょう",
     "area": 0,
     "address": "〒010-0342 秋田県男鹿市脇本脇本七沢外",
@@ -4296,6 +4402,7 @@
       "value": 107
     },
     "name": "秋田城",
+    "name_en": "",
     "reading": "あきたじょう",
     "area": 0,
     "address": "〒011-0939 秋田県秋田市寺内大畑５",
@@ -4330,6 +4437,7 @@
       "value": 108
     },
     "name": "鶴ヶ丘城",
+    "name_en": "",
     "reading": "つるがおかじょう",
     "area": 0,
     "address": "〒997-0035 山形県鶴岡市馬場町４",
@@ -4363,6 +4471,7 @@
       "value": 109
     },
     "name": "米沢城",
+    "name_en": "",
     "reading": "よねざわじょう",
     "area": 0,
     "address": "〒992-0052 山形県米沢市丸の内１丁目４",
@@ -4398,6 +4507,7 @@
       "value": 110
     },
     "name": "三春城",
+    "name_en": "",
     "reading": "みはるじょう",
     "area": 0,
     "address": "〒963-7759 福島県田村郡三春町大町",
@@ -4433,6 +4543,7 @@
       "value": 111
     },
     "name": "向羽黒山城",
+    "name_en": "",
     "reading": "むかいはぐろやまじょう",
     "area": 0,
     "address": "〒969-6133 福島県大沼郡会津美里町船場甲",
@@ -4468,6 +4579,7 @@
       "value": 112
     },
     "name": "笠間城",
+    "name_en": "",
     "reading": "かさまじょう",
     "area": 1,
     "address": "〒309-1611 茨城県笠間市笠間３６１３",
@@ -4505,6 +4617,7 @@
       "value": 113
     },
     "name": "土浦城",
+    "name_en": "",
     "reading": "つちうらじょう",
     "area": 1,
     "address": "〒300-0043 茨城県土浦市中央１丁目１３",
@@ -4539,6 +4652,7 @@
       "value": 114
     },
     "name": "唐沢山城",
+    "name_en": "",
     "reading": "からさわやまじょう",
     "area": 1,
     "address": "〒327-0801 栃木県佐野市富士町１４０９",
@@ -4572,6 +4686,7 @@
       "value": 115
     },
     "name": "名胡桃城",
+    "name_en": "",
     "reading": "なぐるみじょう",
     "area": 1,
     "address": "〒379-1314 群馬県利根郡みなかみ町下津3462ｰ2",
@@ -4605,6 +4720,7 @@
       "value": 116
     },
     "name": "沼田城",
+    "name_en": "",
     "reading": "ぬまたじょう",
     "area": 1,
     "address": "〒378-0042 群馬県沼田市西倉内町５９４",
@@ -4633,6 +4749,7 @@
       "value": 117
     },
     "name": "岩櫃城",
+    "name_en": "",
     "reading": "いわびつじょう",
     "area": 1,
     "address": "〒377-0801 群馬県吾妻郡東吾妻町原町",
@@ -4661,6 +4778,7 @@
       "value": 118
     },
     "name": "忍城",
+    "name_en": "",
     "reading": "おしじょう",
     "area": 1,
     "address": "〒361-0052 埼玉県行田市本丸１７−２３",
@@ -4700,6 +4818,7 @@
       "value": 119
     },
     "name": "杉山城",
+    "name_en": "",
     "reading": "すぎやまじょう",
     "area": 1,
     "address": "〒355-0211 埼玉県比企郡嵐山町杉山６１４",
@@ -4739,6 +4858,7 @@
       "value": 120
     },
     "name": "菅谷館",
+    "name_en": "",
     "reading": "すがややかた",
     "area": 1,
     "address": "〒355-0221 埼玉県比企郡嵐山町菅谷757",
@@ -4782,6 +4902,7 @@
       "value": 121
     },
     "name": "本佐倉城",
+    "name_en": "",
     "reading": "もとさくらじょう",
     "area": 1,
     "address": "印旛郡酒々井町本佐倉字城ノ内、佐倉市大佐倉",
@@ -4824,6 +4945,7 @@
       "value": 122
     },
     "name": "大多喜城",
+    "name_en": "",
     "reading": "大多喜城",
     "area": 1,
     "address": "夷隅郡大多喜町大多喜481",
@@ -4852,6 +4974,7 @@
       "value": 123
     },
     "name": "滝山城",
+    "name_en": "",
     "reading": "滝山城",
     "area": 1,
     "address": "八王子市高月町",
@@ -4880,6 +5003,7 @@
       "value": 124
     },
     "name": "品川台場",
+    "name_en": "",
     "reading": "品川台場",
     "area": 1,
     "address": "港区台場1",
@@ -4908,6 +5032,7 @@
       "value": 125
     },
     "name": "小机城",
+    "name_en": "",
     "reading": "小机城",
     "area": 1,
     "address": "横浜市港北区小机町",
@@ -4936,6 +5061,7 @@
       "value": 126
     },
     "name": "石垣山城",
+    "name_en": "",
     "reading": "石垣山城",
     "area": 1,
     "address": "小田原市早川1383-12",
@@ -4964,6 +5090,7 @@
       "value": 127
     },
     "name": "新府城",
+    "name_en": "",
     "reading": "新府城",
     "area": 1,
     "address": "韮崎市中田町中条字城山",
@@ -4992,6 +5119,7 @@
       "value": 128
     },
     "name": "要害山城",
+    "name_en": "",
     "reading": "要害山城",
     "area": 1,
     "address": "甲府市上積翠寺町",
@@ -5020,6 +5148,7 @@
       "value": 129
     },
     "name": "龍岡城",
+    "name_en": "",
     "reading": "龍岡城",
     "area": 1,
     "address": "佐久市田口下町3000-1",
@@ -5048,6 +5177,7 @@
       "value": 130
     },
     "name": "高島城",
+    "name_en": "",
     "reading": "高島城",
     "area": 1,
     "address": "諏訪市高島1-20-15",
@@ -5076,6 +5206,7 @@
       "value": 131
     },
     "name": "村上城",
+    "name_en": "",
     "reading": "村上城",
     "area": 1,
     "address": "村上市二之町",
@@ -5104,6 +5235,7 @@
       "value": 132
     },
     "name": "高田城",
+    "name_en": "",
     "reading": "高田城",
     "area": 1,
     "address": "上越市本城町7-7ほか",
@@ -5132,6 +5264,7 @@
       "value": 133
     },
     "name": "鮫ヶ尾城",
+    "name_en": "",
     "reading": "鮫ヶ尾城",
     "area": 1,
     "address": "妙高市大字宮内",
@@ -5160,6 +5293,7 @@
       "value": 134
     },
     "name": "富山城",
+    "name_en": "",
     "reading": "富山城",
     "area": 2,
     "address": "富山市本丸",
@@ -5188,6 +5322,7 @@
       "value": 135
     },
     "name": "増山城",
+    "name_en": "",
     "reading": "増山城",
     "area": 2,
     "address": "砺波市増山",
@@ -5216,6 +5351,7 @@
       "value": 136
     },
     "name": "鳥越城",
+    "name_en": "",
     "reading": "鳥越城",
     "area": 2,
     "address": "白山市杉森町1",
@@ -5244,6 +5380,7 @@
       "value": 137
     },
     "name": "福井城",
+    "name_en": "",
     "reading": "福井城",
     "area": 2,
     "address": "福井市大手3-17-1",
@@ -5272,6 +5409,7 @@
       "value": 138
     },
     "name": "越前大野城",
+    "name_en": "",
     "reading": "越前大野城",
     "area": 2,
     "address": "大野市城町3-109",
@@ -5300,6 +5438,7 @@
       "value": 139
     },
     "name": "佐柿国吉城",
+    "name_en": "",
     "reading": "佐柿国吉城",
     "area": 2,
     "address": "三方郡美浜町佐柿",
@@ -5328,6 +5467,7 @@
       "value": 140
     },
     "name": "玄蕃尾城",
+    "name_en": "",
     "reading": "玄蕃尾城",
     "area": 2,
     "address": "敦賀市刀根ほか",
@@ -5356,6 +5496,7 @@
       "value": 141
     },
     "name": "郡上八幡城",
+    "name_en": "",
     "reading": "郡上八幡城",
     "area": 2,
     "address": "郡上市八幡町柳町一の平659",
@@ -5384,6 +5525,7 @@
       "value": 142
     },
     "name": "苗木城",
+    "name_en": "",
     "reading": "苗木城",
     "area": 2,
     "address": "中津川市苗木",
@@ -5412,6 +5554,7 @@
       "value": 143
     },
     "name": "美濃金山城",
+    "name_en": "",
     "reading": "美濃金山城",
     "area": 2,
     "address": "可児市兼山",
@@ -5440,6 +5583,7 @@
       "value": 144
     },
     "name": "大垣城",
+    "name_en": "",
     "reading": "大垣城",
     "area": 2,
     "address": "大垣市郭町2-52",
@@ -5468,6 +5612,7 @@
       "value": 145
     },
     "name": "興国寺城",
+    "name_en": "",
     "reading": "興国寺城",
     "area": 2,
     "address": "沼津市根古屋428",
@@ -5496,6 +5641,7 @@
       "value": 146
     },
     "name": "諏訪原城",
+    "name_en": "",
     "reading": "諏訪原城",
     "area": 2,
     "address": "島田市菊川",
@@ -5524,6 +5670,7 @@
       "value": 147
     },
     "name": "高天神城",
+    "name_en": "",
     "reading": "高天神城",
     "area": 2,
     "address": "掛川市上土方嶺向",
@@ -5552,6 +5699,7 @@
       "value": 148
     },
     "name": "浜松城",
+    "name_en": "",
     "reading": "浜松城",
     "area": 2,
     "address": "浜松市中区元城町100-2",
@@ -5580,6 +5728,7 @@
       "value": 149
     },
     "name": "小牧山城",
+    "name_en": "",
     "reading": "小牧山城",
     "area": 2,
     "address": "小牧市堀の内1-1",
@@ -5608,6 +5757,7 @@
       "value": 150
     },
     "name": "古宮城",
+    "name_en": "",
     "reading": "古宮城",
     "area": 2,
     "address": "新城市作手清岳宮山",
@@ -5636,6 +5786,7 @@
       "value": 151
     },
     "name": "吉田城",
+    "name_en": "",
     "reading": "吉田城",
     "area": 2,
     "address": "豊橋市今橋町3-1",
@@ -5664,6 +5815,7 @@
       "value": 152
     },
     "name": "津城",
+    "name_en": "",
     "reading": "津城",
     "area": 2,
     "address": "津市丸之内5-1",
@@ -5692,6 +5844,7 @@
       "value": 153
     },
     "name": "北畠氏館",
+    "name_en": "",
     "reading": "北畠氏館",
     "area": 2,
     "address": "津市美杉町上多気1148ほか",
@@ -5720,6 +5873,7 @@
       "value": 154
     },
     "name": "田丸城",
+    "name_en": "",
     "reading": "田丸城",
     "area": 2,
     "address": "度会郡玉城町田丸",
@@ -5748,6 +5902,7 @@
       "value": 155
     },
     "name": "赤木城",
+    "name_en": "",
     "reading": "赤木城",
     "area": 2,
     "address": "熊野市紀和町赤木",
@@ -5776,6 +5931,7 @@
       "value": 156
     },
     "name": "鎌刃城",
+    "name_en": "",
     "reading": "鎌刃城",
     "area": 3,
     "address": "米原市番場",
@@ -5804,6 +5960,7 @@
       "value": 157
     },
     "name": "八幡山城",
+    "name_en": "",
     "reading": "八幡山城",
     "area": 3,
     "address": "近江八幡市宮内町",
@@ -5832,6 +5989,7 @@
       "value": 158
     },
     "name": "福知山城",
+    "name_en": "",
     "reading": "福知山城",
     "area": 3,
     "address": "福知山市字内記5",
@@ -5860,6 +6018,7 @@
       "value": 159
     },
     "name": "芥川山城",
+    "name_en": "",
     "reading": "芥川山城",
     "area": 3,
     "address": "高槻市大字原",
@@ -5888,6 +6047,7 @@
       "value": 160
     },
     "name": "飯盛城",
+    "name_en": "",
     "reading": "飯盛城",
     "area": 3,
     "address": "大東市大字北条ほか",
@@ -5916,6 +6076,7 @@
       "value": 161
     },
     "name": "岸和田城",
+    "name_en": "",
     "reading": "岸和田城",
     "area": 3,
     "address": "岸和田市岸城町9-1",
@@ -5944,6 +6105,7 @@
       "value": 162
     },
     "name": "出石城・有子山城",
+    "name_en": "",
     "reading": "出石城・有子山城",
     "area": 3,
     "address": "豊岡市出石町内町ほか",
@@ -5972,6 +6134,7 @@
       "value": 163
     },
     "name": "黒井城",
+    "name_en": "",
     "reading": "黒井城",
     "area": 3,
     "address": "丹波市春日町黒井",
@@ -6000,6 +6163,7 @@
       "value": 164
     },
     "name": "洲本城",
+    "name_en": "",
     "reading": "洲本城",
     "area": 3,
     "address": "洲本市小路谷1272-2",
@@ -6028,6 +6192,7 @@
       "value": 165
     },
     "name": "大和郡山城",
+    "name_en": "",
     "reading": "大和郡山城",
     "area": 3,
     "address": "大和郡山市城内町2",
@@ -6056,6 +6221,7 @@
       "value": 166
     },
     "name": "宇陀松山城",
+    "name_en": "",
     "reading": "宇陀松山城",
     "area": 3,
     "address": "宇陀市大宇陀春日・拾生・岩清水",
@@ -6084,6 +6250,7 @@
       "value": 167
     },
     "name": "新宮城",
+    "name_en": "",
     "reading": "新宮城",
     "area": 3,
     "address": "新宮市新宮7691-1",
@@ -6112,6 +6279,7 @@
       "value": 168
     },
     "name": "若桜鬼ヶ城",
+    "name_en": "",
     "reading": "若桜鬼ヶ城",
     "area": 4,
     "address": "八頭郡若桜町若桜など",
@@ -6140,6 +6308,7 @@
       "value": 169
     },
     "name": "米子城",
+    "name_en": "",
     "reading": "米子城",
     "area": 4,
     "address": "米子市久米町",
@@ -6168,6 +6337,7 @@
       "value": 170
     },
     "name": "浜田城",
+    "name_en": "",
     "reading": "浜田城",
     "area": 4,
     "address": "浜田市殿町",
@@ -6196,6 +6366,7 @@
       "value": 171
     },
     "name": "備中高松城",
+    "name_en": "",
     "reading": "備中高松城",
     "area": 4,
     "address": "岡山市北区高松558-2",
@@ -6224,6 +6395,7 @@
       "value": 172
     },
     "name": "三原城",
+    "name_en": "",
     "reading": "三原城",
     "area": 4,
     "address": "三原市城町",
@@ -6252,6 +6424,7 @@
       "value": 173
     },
     "name": "新高山城",
+    "name_en": "",
     "reading": "にいたかやまじょう",
     "area": 4,
     "address": "〒729-0412 広島県三原市本郷町本郷",
@@ -6293,6 +6466,7 @@
       "value": 174
     },
     "name": "大内氏館・高嶺城",
+    "name_en": "",
     "reading": "大内氏館・高嶺城",
     "area": 4,
     "address": "山口市大殿大路",
@@ -6321,6 +6495,7 @@
       "value": 175
     },
     "name": "勝瑞城",
+    "name_en": "",
     "reading": "勝瑞城",
     "area": 4,
     "address": "板野郡藍住町勝瑞東勝地",
@@ -6349,6 +6524,7 @@
       "value": 176
     },
     "name": "一宮城",
+    "name_en": "",
     "reading": "一宮城",
     "area": 4,
     "address": "徳島市一宮町西丁ほか",
@@ -6377,6 +6553,7 @@
       "value": 177
     },
     "name": "引田城",
+    "name_en": "",
     "reading": "引田城",
     "area": 4,
     "address": "東かがわ市引田城山",
@@ -6405,6 +6582,7 @@
       "value": 178
     },
     "name": "能島城",
+    "name_en": "",
     "reading": "能島城",
     "area": 4,
     "address": "今治市宮窪町徳島",
@@ -6433,6 +6611,7 @@
       "value": 179
     },
     "name": "河後森城",
+    "name_en": "",
     "reading": "河後森城",
     "area": 4,
     "address": "松野町松丸ほか",
@@ -6461,6 +6640,7 @@
       "value": 180
     },
     "name": "岡豊城",
+    "name_en": "",
     "reading": "岡豊城",
     "area": 4,
     "address": "南国市岡豊町八幡字岡豊山",
@@ -6489,6 +6669,7 @@
       "value": 181
     },
     "name": "小倉城",
+    "name_en": "",
     "reading": "こくらじょう",
     "area": 5,
     "address": "北九州市小倉北区城内2-1",
@@ -6519,6 +6700,7 @@
       "value": 182
     },
     "name": "水城",
+    "name_en": "",
     "reading": "水城",
     "area": 5,
     "address": "大野城市下大利水域1（東門付近）",
@@ -6547,6 +6729,7 @@
       "value": 183
     },
     "name": "久留米城",
+    "name_en": "",
     "reading": "久留米城",
     "area": 5,
     "address": "久留米市篠山町444",
@@ -6575,6 +6758,7 @@
       "value": 184
     },
     "name": "基肄城",
+    "name_en": "",
     "reading": "基肄城",
     "area": 5,
     "address": "三養基郡基山町大字小倉ほか",
@@ -6603,6 +6787,7 @@
       "value": 185
     },
     "name": "唐津城",
+    "name_en": "",
     "reading": "唐津城",
     "area": 5,
     "address": "唐津市東城内8-1",
@@ -6631,6 +6816,7 @@
       "value": 186
     },
     "name": "金田城",
+    "name_en": "",
     "reading": "金田城",
     "area": 5,
     "address": "対馬市美津島町黒瀬ほか",
@@ -6659,6 +6845,7 @@
       "value": 187
     },
     "name": "福江城",
+    "name_en": "",
     "reading": "福江城",
     "area": 5,
     "address": "五島市池田町1-1",
@@ -6687,6 +6874,7 @@
       "value": 188
     },
     "name": "原城",
+    "name_en": "",
     "reading": "原城",
     "area": 5,
     "address": "南島原市南有馬町",
@@ -6715,6 +6903,7 @@
       "value": 189
     },
     "name": "鞠智城",
+    "name_en": "",
     "reading": "鞠智城",
     "area": 5,
     "address": "山鹿市菊鹿町米原443-1ほか",
@@ -6743,6 +6932,7 @@
       "value": 190
     },
     "name": "八代城",
+    "name_en": "",
     "reading": "八代城",
     "area": 5,
     "address": "八代市松江城町7-34",
@@ -6771,6 +6961,7 @@
       "value": 191
     },
     "name": "中津城",
+    "name_en": "",
     "reading": "中津城",
     "area": 5,
     "address": "中津市ニノ丁本丸",
@@ -6799,6 +6990,7 @@
       "value": 192
     },
     "name": "角牟礼城",
+    "name_en": "",
     "reading": "角牟礼城",
     "area": 5,
     "address": "玖珠郡玖珠町大字森",
@@ -6827,6 +7019,7 @@
       "value": 193
     },
     "name": "臼杵城",
+    "name_en": "",
     "reading": "臼杵城",
     "area": 5,
     "address": "臼杵市臼杵丹生島",
@@ -6855,6 +7048,7 @@
       "value": 194
     },
     "name": "佐伯城",
+    "name_en": "",
     "reading": "佐伯城",
     "area": 5,
     "address": "佐伯市大手町など",
@@ -6883,6 +7077,7 @@
       "value": 195
     },
     "name": "延岡城",
+    "name_en": "",
     "reading": "延岡城",
     "area": 5,
     "address": "延岡市東本小路",
@@ -6911,6 +7106,7 @@
       "value": 196
     },
     "name": "佐土原城",
+    "name_en": "",
     "reading": "佐土原城",
     "area": 5,
     "address": "宮崎市佐土原町上田島追手ほか",
@@ -6939,6 +7135,7 @@
       "value": 197
     },
     "name": "志布志城",
+    "name_en": "",
     "reading": "志布志城",
     "area": 5,
     "address": "志布志市志布志町帖6380",
@@ -6967,6 +7164,7 @@
       "value": 198
     },
     "name": "知覧城",
+    "name_en": "",
     "reading": "知覧城",
     "area": 5,
     "address": "南九州市知覧町永里",
@@ -6995,6 +7193,7 @@
       "value": 199
     },
     "name": "座喜味城",
+    "name_en": "",
     "reading": "座喜味城",
     "area": 5,
     "address": "中頭郡読谷村座喜味708-6",
@@ -7023,6 +7222,7 @@
       "value": 200
     },
     "name": "勝連城",
+    "name_en": "",
     "reading": "勝連城",
     "area": 5,
     "address": "うるま市勝連南風原3908",

@@ -48,6 +48,7 @@ extension LocalCastleServiceIntegrationTests {
         return Castle(
             id: id(at: index),
             name: name(at: index),
+            nameEN: nameEN(at: index),
             reading: reading(at: index),
             area: area(at: index),
             address: address(at: index),
@@ -73,6 +74,13 @@ extension LocalCastleServiceIntegrationTests {
         return [
             "根室半島チャシ跡群",
             "五稜郭"
+        ][index]
+    }
+    
+    private func nameEN(at index: Int) -> String {
+        return [
+            "Nemuro Peninsula Chashi Sites",
+            "Goryokaku"
         ][index]
     }
     

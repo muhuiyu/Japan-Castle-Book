@@ -16,6 +16,7 @@ public final class CastleItemMapper {
     private struct RemoteCastleItem: Decodable {
         let id: RemoteCastleItemID
         let name: String
+        let nameEN: String?
         let reading: String
         let areaCode: Int
         let address: String
@@ -47,6 +48,7 @@ public final class CastleItemMapper {
         enum CodingKeys: String, CodingKey {
             case id
             case name
+            case nameEN = "name_en"
             case reading
             case areaCode = "area"
             case address
@@ -67,6 +69,7 @@ public final class CastleItemMapper {
             Castle(
                 id: id.value,
                 name: name,
+                nameEN: nameEN?.isEmpty == false ? nameEN : nil,
                 reading: reading,
                 area: area,
                 address: address,

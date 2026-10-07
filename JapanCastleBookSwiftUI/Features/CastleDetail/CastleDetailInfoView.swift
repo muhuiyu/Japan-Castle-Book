@@ -81,12 +81,12 @@ struct CastleDetailInfoView: View {
                             .frame(width: 28, height: 28)
                             .overlay(Circle().strokeBorder(.primary, lineWidth: 1.5))
 
-                        Text(castle.name)
+                        Text(castle.displayName)
                             .font(.system(size: 28, weight: .bold))
                             .lineLimit(2)
                     }
 
-                    Text(castle.reading)
+                    Text(castle.displaySubtitle)
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
